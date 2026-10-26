@@ -3,22 +3,18 @@
 const path = require('path');
 const shows = require(path.join(__dirname, '..', 'shows'));
 const movies = require(path.join(__dirname, '..', 'movies'));
-const {
-  catalogs,
-  KNOWN_TAGS,
-  SORT_MODES,
-  MEDIA_TYPES,
-  MATCH_MODES,
-} = require(path.join(__dirname, '..', 'catalogs'));
+const { catalogs, KNOWN_TAGS, MEDIA_TYPES } = require(path.join(__dirname, '..', 'catalogs'));
+const { selectCatalogItems } = require(path.join(__dirname, '..', 'catalog-query'));
 const manifest = require(path.join(__dirname, '..', 'manifest'));
 
 const errors = [];
 const knownTags = new Set(KNOWN_TAGS);
+const datasetsByType = { series: shows, movie: movies };
 
 function normalizeTitle(value) {
   return String(value || '')
     .normalize('NFKD')
-    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[̀-ͯ]/g, '')
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, ' ')
     .trim();
@@ -61,6 +57,10 @@ function validateDataset(items, expectedType, label) {
       errors.push(`${where} has invalid startYear.`);
     }
 
+    if (!Number.isInteger(item.featuredRank)) {
+      errors.push(`${where} has invalid featuredRank.`);
+    }
+
     if (!Array.isArray(item.tags)) {
       errors.push(`${where} has no tags array.`);
     } else {
@@ -70,10 +70,6 @@ function validateDataset(items, expectedType, label) {
           errors.push(`${where} repeats tag: ${tag}`);
         }
         seenTags.add(tag);
-
-        if (tag.startsWith('catalog-')) {
-          errors.push(`${where} still contains synthetic tag: ${tag}`);
-        }
 
         if (!knownTags.has(tag)) {
           errors.push(`${where} uses unknown tag: ${tag}`);
@@ -96,21 +92,62 @@ function validateDataset(items, expectedType, label) {
   }
 }
 
-function hasAnyTag(item, tags) {
-  return Array.isArray(tags) && tags.some((tag) => item.tags.includes(tag));
+function validateTags(owner, tags) {
+  for (const tag of tags || []) {
+    if (!knownTags.has(tag)) {
+      errors.push(`${owner} references unknown tag: ${tag}`);
+    }
+  }
 }
 
-function matchesCatalog(item, catalog) {
-  if (item.enabled !== true || item.type !== catalog.type || !Array.isArray(item.tags)) {
-    return false;
+function validateCatalog(catalog) {
+  if (!MEDIA_TYPES.includes(catalog.type)) {
+    errors.push(`${catalog.id} has invalid media type: ${catalog.type}`);
+    return;
   }
 
-  let included = false;
-  if (catalog.match === 'all') included = true;
-  if (catalog.match === 'tag') included = item.tags.includes(catalog.tag);
-  if (catalog.match === 'tags-any') included = hasAnyTag(item, catalog.tags);
+  validateTags(catalog.id, catalog.tags);
 
-  return included && !hasAnyTag(item, catalog.excludeTags);
+  const filterNames = new Set();
+  for (const filter of catalog.filters || []) {
+    if (filterNames.has(filter.name)) {
+      errors.push(`${catalog.id} repeats filter: ${filter.name}`);
+    }
+    filterNames.add(filter.name);
+
+    const owner = `${catalog.id} filter "${filter.name}"`;
+    if (Array.isArray(filter.tags) === Array.isArray(filter.years)) {
+      errors.push(`${owner} must define exactly one of tags or years.`);
+    } else if (filter.years && !(filter.years.length === 2 && filter.years[0] <= filter.years[1])) {
+      errors.push(`${owner} has an invalid years range.`);
+    }
+    validateTags(owner, filter.tags);
+  }
+
+  if (catalog.enabled !== true) {
+    return;
+  }
+
+  const dataset = datasetsByType[catalog.type];
+  if (selectCatalogItems(dataset, catalog).length === 0) {
+    errors.push(`${catalog.id} is enabled but matches zero records.`);
+  }
+  for (const filter of catalog.filters || []) {
+    if (selectCatalogItems(dataset, catalog, filter.name).length === 0) {
+      errors.push(`${catalog.id} filter "${filter.name}" matches zero records.`);
+    }
+  }
+}
+
+function catalogSummary(catalog) {
+  const dataset = datasetsByType[catalog.type];
+  const lines = [`${catalog.name}: ${selectCatalogItems(dataset, catalog).length}`];
+
+  for (const filter of catalog.filters || []) {
+    lines.push(`  ${filter.name}: ${selectCatalogItems(dataset, catalog, filter.name).length}`);
+  }
+
+  return lines;
 }
 
 validateDataset(shows, 'series', 'shows');
@@ -125,47 +162,14 @@ for (const catalog of catalogs) {
   }
   catalogKeys.add(key);
 
-  if (!MEDIA_TYPES.includes(catalog.type)) {
-    errors.push(`${catalog.id} has invalid media type: ${catalog.type}`);
-  }
-
-  if (!MATCH_MODES.includes(catalog.match)) {
-    errors.push(`${catalog.id} has invalid match mode: ${catalog.match}`);
-  }
-
-  if (!SORT_MODES.includes(catalog.sort)) {
-    errors.push(`${catalog.id} has invalid sort mode: ${catalog.sort}`);
-  }
-
-  const configuredTags = [
-    ...(catalog.tag ? [catalog.tag] : []),
-    ...(Array.isArray(catalog.tags) ? catalog.tags : []),
-    ...(Array.isArray(catalog.excludeTags) ? catalog.excludeTags : []),
-  ];
-
-  for (const tag of configuredTags) {
-    if (!knownTags.has(tag)) {
-      errors.push(`${catalog.id} references unknown tag: ${tag}`);
-    }
-  }
-
-  if (catalog.enabled === true) {
-    const dataset = catalog.type === 'series' ? shows : movies;
-    const count = dataset.filter((item) => matchesCatalog(item, catalog)).length;
-    if (count === 0) {
-      errors.push(`${catalog.id} is enabled but matches zero records.`);
-    }
-  }
+  validateCatalog(catalog);
 }
 
 if (manifest.id !== 'community.nostalgiarewind.catalogs') {
   errors.push(`Unexpected manifest ID: ${manifest.id}`);
 }
-if (manifest.name !== 'Nostalgia Rewind') {
-  errors.push(`Unexpected manifest name: ${manifest.name}`);
-}
-if (manifest.version !== '1.0.0') {
-  errors.push(`Unexpected manifest version: ${manifest.version}`);
+if (!/^\d+\.\d+\.\d+$/.test(manifest.version)) {
+  errors.push(`Manifest version is not semver: ${manifest.version}`);
 }
 
 if (errors.length > 0) {
@@ -178,7 +182,5 @@ if (errors.length > 0) {
 
 console.log(`Validation passed: ${shows.length} shows, ${movies.length} movies, ${catalogs.length} catalogs.`);
 for (const catalog of catalogs.filter((item) => item.enabled === true)) {
-  const dataset = catalog.type === 'series' ? shows : movies;
-  const count = dataset.filter((item) => matchesCatalog(item, catalog)).length;
-  console.log(`${catalog.name}: ${count}`);
+  console.log(catalogSummary(catalog).join('\n'));
 }

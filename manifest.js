@@ -2,26 +2,35 @@
 
 const { catalogs } = require('./catalogs');
 
+function catalogExtras(catalog) {
+  const extras = [{ name: 'skip', isRequired: false }];
+
+  if (catalog.filters) {
+    extras.push({
+      name: 'genre',
+      isRequired: false,
+      options: catalog.filters.map((filter) => filter.name),
+    });
+  }
+
+  return extras;
+}
+
 const enabledCatalogs = catalogs
   .filter((catalog) => catalog.enabled === true)
   .map((catalog) => ({
     type: catalog.type,
     id: catalog.id,
     name: catalog.name,
-    extra: [
-      {
-        name: 'skip',
-        isRequired: false,
-      },
-    ],
+    extra: catalogExtras(catalog),
   }));
 
 module.exports = {
   id: 'community.nostalgiarewind.catalogs',
-  version: '1.0.1',
+  version: '1.1.0',
   name: 'Nostalgia Rewind',
   description:
-    'A curated nostalgia collection of TV series and movies from the 1990s and early 2000s.',
+    'A definitive nostalgia channel: the cartoons, anime, kids TV, sitcoms and movies a generation grew up with, best-loved first.',
   logo: 'https://2f680d7c8e22-nostalgia-rewind.baby-beamup.club/public/Nostalgia-Rewind.png',
   resources: [
     {

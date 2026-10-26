@@ -8,7 +8,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies",
       "fantasy-adventure-movies"
@@ -23,7 +22,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies",
       "fantasy-adventure-movies"
@@ -38,7 +36,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "teen-movies",
       "comedy-movies"
     ],
@@ -52,7 +49,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "teen-movies",
       "comedy-movies",
       "fantasy-adventure-movies"
@@ -67,7 +63,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "disney-movies",
       "comedy-movies"
@@ -83,7 +78,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -99,7 +93,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -116,7 +109,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "teen-movies",
       "comedy-movies",
@@ -132,7 +124,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -144,50 +135,16 @@ module.exports = [
     "franchise": "Goofy"
   },
   {
-    "id": "tt0113538",
-    "name": "A Kid in King Arthur's Court",
+    "id": "tt0113670",
+    "name": "A Little Princess",
     "startYear": 1995,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
-      "family-movies",
-      "comedy-movies",
-      "fantasy-adventure-movies"
+      "family-movies"
     ],
     "enabled": true,
-    "featuredRank": 76
-  },
-  {
-    "id": "tt0282123",
-    "name": "A Ring of Endless Light",
-    "startYear": 2002,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "2000s",
-      "family-movies",
-      "disney-channel-movies",
-      "teen-movies",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 78
-  },
-  {
-    "id": "tt0108395",
-    "name": "A Troll in Central Park",
-    "startYear": 1994,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "90s",
-      "animated-movies",
-      "family-movies",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 72
+    "featuredRank": 80
   },
   {
     "id": "tt0281358",
@@ -196,7 +153,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "teen-movies"
     ],
     "enabled": true,
@@ -209,7 +165,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "comedy-movies"
     ],
     "enabled": true,
@@ -222,7 +177,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies",
       "spooky-movies"
@@ -232,13 +186,25 @@ module.exports = [
     "franchise": "The Addams Family"
   },
   {
+    "id": "tt0092513",
+    "name": "Adventures in Babysitting",
+    "startYear": 1987,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "teen-movies",
+      "comedy-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 82
+  },
+  {
     "id": "tt0313911",
     "name": "Agent Cody Banks",
     "startYear": 2003,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "teen-movies",
       "family-movies",
       "comedy-movies",
@@ -254,7 +220,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "teen-movies",
       "family-movies",
       "comedy-movies",
@@ -270,7 +235,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies"
     ],
@@ -299,7 +263,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -316,7 +279,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -326,35 +288,44 @@ module.exports = [
     "featuredRank": 86
   },
   {
-    "id": "tt0115509",
-    "name": "All Dogs Go to Heaven 2",
-    "startYear": 1996,
+    "id": "tt0096787",
+    "name": "All Dogs Go to Heaven",
+    "startYear": 1989,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
-      "animated-movies",
       "family-movies",
-      "fantasy-adventure-movies"
+      "animated-movies"
     ],
     "enabled": true,
-    "featuredRank": 76
+    "featuredRank": 85
   },
   {
-    "id": "tt0217990",
-    "name": "Alley Cats Strike",
-    "startYear": 2000,
+    "id": "tt0163651",
+    "name": "American Pie",
+    "startYear": 1999,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
-      "family-movies",
-      "disney-channel-movies",
-      "disney-movies",
+      "teen-movies",
       "comedy-movies"
     ],
     "enabled": true,
-    "featuredRank": 78
+    "featuredRank": 85
+  },
+  {
+    "id": "tt0090633",
+    "name": "An American Tail",
+    "startYear": 1986,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "animated-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 88,
+    "franchise": "An American Tail"
   },
   {
     "id": "tt0101329",
@@ -363,7 +334,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "comedy-movies",
@@ -380,7 +350,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -396,7 +365,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "fantasy-adventure-movies"
@@ -411,7 +379,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "disney-movies",
       "comedy-movies",
@@ -427,7 +394,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "animated-movies",
       "family-movies",
       "comedy-movies",
@@ -443,7 +409,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "teen-movies",
       "comedy-movies",
@@ -459,12 +424,23 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "comedy-movies"
     ],
     "enabled": true,
     "featuredRank": 84
+  },
+  {
+    "id": "tt0120591",
+    "name": "Armageddon",
+    "startYear": 1998,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "fantasy-adventure-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 85
   },
   {
     "id": "tt0230011",
@@ -473,7 +449,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -489,7 +464,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "comedy-movies"
     ],
     "enabled": true,
@@ -502,7 +476,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "comedy-movies"
     ],
     "enabled": true,
@@ -515,7 +488,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "comedy-movies"
     ],
     "enabled": true,
@@ -528,7 +500,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies",
       "fantasy-adventure-movies"
@@ -544,7 +515,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies",
       "fantasy-adventure-movies"
@@ -560,12 +530,56 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies"
     ],
     "enabled": true,
     "featuredRank": 80
+  },
+  {
+    "id": "tt0088763",
+    "name": "Back to the Future",
+    "startYear": 1985,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "fantasy-adventure-movies",
+      "comedy-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 100,
+    "franchise": "Back to the Future"
+  },
+  {
+    "id": "tt0096874",
+    "name": "Back to the Future Part II",
+    "startYear": 1989,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "fantasy-adventure-movies",
+      "comedy-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 92,
+    "franchise": "Back to the Future"
+  },
+  {
+    "id": "tt0099088",
+    "name": "Back to the Future Part III",
+    "startYear": 1990,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "fantasy-adventure-movies",
+      "comedy-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 88,
+    "franchise": "Back to the Future"
   },
   {
     "id": "tt0112453",
@@ -574,7 +588,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "fantasy-adventure-movies"
@@ -589,7 +602,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -599,13 +611,26 @@ module.exports = [
     "featuredRank": 76
   },
   {
+    "id": "tt0096895",
+    "name": "Batman",
+    "startYear": 1989,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "superhero-movies",
+      "fantasy-adventure-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 95,
+    "franchise": "Batman"
+  },
+  {
     "id": "tt0143127",
     "name": "Batman & Mr. Freeze: SubZero",
     "startYear": 1998,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "animated-movies",
       "superhero-movies",
       "dc",
@@ -622,7 +647,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "superhero-movies",
       "comedy-movies"
     ],
@@ -637,7 +661,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "superhero-movies",
       "fantasy-adventure-movies"
     ],
@@ -652,7 +675,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "animated-movies",
       "superhero-movies",
       "dc",
@@ -669,7 +691,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "superhero-movies",
       "dc"
     ],
@@ -683,7 +704,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "superhero-movies",
       "fantasy-adventure-movies",
       "spooky-movies"
@@ -699,7 +719,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "animated-movies",
       "superhero-movies",
       "dc",
@@ -716,7 +735,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "animated-movies",
       "superhero-movies",
       "dc",
@@ -733,7 +751,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -749,7 +766,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -765,7 +781,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "comedy-movies"
     ],
@@ -779,7 +794,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "comedy-movies",
@@ -795,7 +809,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies"
     ],
@@ -809,12 +822,51 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies"
     ],
     "enabled": true,
     "featuredRank": 88
+  },
+  {
+    "id": "tt0094721",
+    "name": "Beetlejuice",
+    "startYear": 1988,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "comedy-movies",
+      "fantasy-adventure-movies",
+      "spooky-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 92
+  },
+  {
+    "id": "tt0094737",
+    "name": "Big",
+    "startYear": 1988,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "comedy-movies",
+      "fantasy-adventure-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 88
+  },
+  {
+    "id": "tt0142342",
+    "name": "Big Daddy",
+    "startYear": 1999,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "comedy-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 85
   },
   {
     "id": "tt0265298",
@@ -823,7 +875,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "nickelodeon-movies",
       "comedy-movies",
@@ -833,13 +884,50 @@ module.exports = [
     "featuredRank": 90
   },
   {
+    "id": "tt0096928",
+    "name": "Bill & Ted's Excellent Adventure",
+    "startYear": 1989,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "teen-movies",
+      "comedy-movies",
+      "fantasy-adventure-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 88
+  },
+  {
+    "id": "tt0112508",
+    "name": "Billy Madison",
+    "startYear": 1995,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "comedy-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 90
+  },
+  {
+    "id": "tt0109279",
+    "name": "Black Beauty",
+    "startYear": 1994,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 75
+  },
+  {
     "id": "tt0120611",
     "name": "Blade",
     "startYear": 1998,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "superhero-movies",
       "marvel",
       "spooky-movies"
@@ -854,7 +942,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "superhero-movies",
       "marvel",
       "spooky-movies"
@@ -869,7 +956,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "disney-movies",
       "comedy-movies"
@@ -878,13 +964,24 @@ module.exports = [
     "featuredRank": 85
   },
   {
+    "id": "tt0300532",
+    "name": "Blue Crush",
+    "startYear": 2002,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "teen-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 72
+  },
+  {
     "id": "tt0398808",
     "name": "Bridge to Terabithia",
     "startYear": 2007,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "fantasy-adventure-movies"
     ],
@@ -898,7 +995,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "teen-movies",
       "comedy-movies"
     ],
@@ -913,7 +1009,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "disney-channel-movies",
       "teen-movies"
@@ -928,7 +1023,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -945,7 +1039,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -961,7 +1054,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-channel-movies",
       "teen-movies",
@@ -977,7 +1069,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "teen-movies",
       "comedy-movies"
@@ -992,7 +1083,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "disney-channel-movies",
       "comedy-movies",
@@ -1008,7 +1098,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "teen-movies",
       "comedy-movies"
     ],
@@ -1022,7 +1111,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -1040,7 +1128,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies",
       "fantasy-adventure-movies",
@@ -1051,13 +1138,25 @@ module.exports = [
     "franchise": "Casper"
   },
   {
+    "id": "tt0239395",
+    "name": "Cats & Dogs",
+    "startYear": 2001,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "comedy-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 80
+  },
+  {
     "id": "tt0118829",
     "name": "Cats Don't Dance",
     "startYear": 1997,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "animated-movies",
       "family-movies",
       "comedy-movies"
@@ -1072,12 +1171,23 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "superhero-movies",
       "dc"
     ],
     "enabled": true,
     "featuredRank": 78
+  },
+  {
+    "id": "tt0210616",
+    "name": "Center Stage",
+    "startYear": 2000,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "teen-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 75
   },
   {
     "id": "tt0367594",
@@ -1086,7 +1196,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "comedy-movies",
       "fantasy-adventure-movies"
@@ -1101,7 +1210,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "fantasy-adventure-movies"
     ],
@@ -1115,7 +1223,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "comedy-movies"
     ],
@@ -1129,7 +1236,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "comedy-movies"
     ],
@@ -1143,7 +1249,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -1160,7 +1265,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "comedy-movies"
@@ -1175,7 +1279,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -1191,7 +1294,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -1207,7 +1309,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "nickelodeon-movies",
       "comedy-movies",
@@ -1224,7 +1325,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "teen-movies",
       "comedy-movies"
     ],
@@ -1238,7 +1338,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "teen-movies",
       "family-movies",
       "comedy-movies",
@@ -1254,7 +1353,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "disney-movies",
       "comedy-movies"
@@ -1269,7 +1367,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "fantasy-adventure-movies",
@@ -1279,30 +1376,12 @@ module.exports = [
     "featuredRank": 95
   },
   {
-    "id": "tt0489007",
-    "name": "Cow Belles",
-    "startYear": 2006,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "2000s",
-      "family-movies",
-      "disney-channel-movies",
-      "disney-movies",
-      "teen-movies",
-      "comedy-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 72
-  },
-  {
     "id": "tt0275277",
     "name": "Cowboy Bebop: The Movie",
     "startYear": 2001,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "animated-movies",
       "anime-movies",
       "anime",
@@ -1319,7 +1398,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "teen-movies"
     ],
     "enabled": true,
@@ -1332,7 +1410,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies"
     ],
@@ -1346,12 +1423,24 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies"
     ],
     "enabled": true,
     "featuredRank": 84
+  },
+  {
+    "id": "tt0317303",
+    "name": "Daddy Day Care",
+    "startYear": 2003,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "comedy-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 75
   },
   {
     "id": "tt0287978",
@@ -1360,7 +1449,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "superhero-movies",
       "marvel"
     ],
@@ -1374,7 +1462,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies"
     ],
@@ -1388,7 +1475,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "anime-movies",
@@ -1406,7 +1492,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -1416,13 +1501,24 @@ module.exports = [
     "featuredRank": 85
   },
   {
+    "id": "tt0092890",
+    "name": "Dirty Dancing",
+    "startYear": 1987,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "teen-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 88
+  },
+  {
     "id": "tt0208101",
     "name": "Don't Look Under the Bed",
     "startYear": 1999,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "disney-channel-movies",
       "spooky-movies",
@@ -1438,7 +1534,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-channel-movies",
       "teen-movies"
@@ -1453,7 +1548,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -1471,7 +1565,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies",
       "fantasy-adventure-movies"
@@ -1490,7 +1583,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "comedy-movies",
       "fantasy-adventure-movies"
@@ -1506,7 +1598,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "anime-movies",
       "anime",
       "animated-movies",
@@ -1524,7 +1615,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "anime-movies",
       "anime",
       "animated-movies",
@@ -1542,7 +1632,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "anime-movies",
       "anime",
       "animated-movies",
@@ -1560,7 +1649,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "anime-movies",
       "anime",
       "animated-movies",
@@ -1578,7 +1666,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "anime-movies",
       "anime",
       "animated-movies",
@@ -1596,7 +1683,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "anime-movies",
       "anime",
       "animated-movies",
@@ -1614,7 +1700,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "anime-movies",
       "anime",
       "animated-movies",
@@ -1632,7 +1717,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "anime-movies",
       "anime",
       "animated-movies",
@@ -1650,7 +1734,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "anime-movies",
       "anime",
       "animated-movies",
@@ -1668,7 +1751,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "anime-movies",
       "anime",
       "animated-movies",
@@ -1686,7 +1768,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "anime-movies",
       "anime",
       "animated-movies",
@@ -1704,7 +1785,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "anime-movies",
       "anime",
       "animated-movies",
@@ -1722,7 +1802,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "anime-movies",
       "anime",
       "animated-movies",
@@ -1740,7 +1819,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "nickelodeon-movies",
       "teen-movies",
@@ -1757,12 +1835,36 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "teen-movies",
       "comedy-movies"
     ],
     "enabled": true,
     "featuredRank": 75
+  },
+  {
+    "id": "tt0101775",
+    "name": "Drop Dead Fred",
+    "startYear": 1991,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "comedy-movies",
+      "fantasy-adventure-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 75
+  },
+  {
+    "id": "tt0303933",
+    "name": "Drumline",
+    "startYear": 2002,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "teen-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 80
   },
   {
     "id": "tt0099472",
@@ -1771,7 +1873,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -1789,7 +1890,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "comedy-movies"
     ],
     "enabled": true,
@@ -1802,12 +1902,24 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies"
     ],
     "enabled": true,
     "featuredRank": 80
+  },
+  {
+    "id": "tt0083866",
+    "name": "E.T. the Extra-Terrestrial",
+    "startYear": 1982,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "fantasy-adventure-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 98
   },
   {
     "id": "tt0099487",
@@ -1816,12 +1928,23 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "fantasy-adventure-movies",
       "spooky-movies"
     ],
     "enabled": true,
     "featuredRank": 90
+  },
+  {
+    "id": "tt0397313",
+    "name": "Eight Below",
+    "startYear": 2006,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 72
   },
   {
     "id": "tt0357277",
@@ -1830,12 +1953,24 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "superhero-movies",
       "marvel"
     ],
     "enabled": true,
     "featuredRank": 78
+  },
+  {
+    "id": "tt0319343",
+    "name": "Elf",
+    "startYear": 2003,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "comedy-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 98
   },
   {
     "id": "tt0327679",
@@ -1844,7 +1979,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "teen-movies",
       "family-movies",
       "comedy-movies",
@@ -1860,7 +1994,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "teen-movies",
       "comedy-movies"
     ],
@@ -1874,7 +2007,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-movies",
       "comedy-movies",
@@ -1884,13 +2016,25 @@ module.exports = [
     "featuredRank": 95
   },
   {
+    "id": "tt0104187",
+    "name": "Encino Man",
+    "startYear": 1992,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "teen-movies",
+      "comedy-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 78
+  },
+  {
     "id": "tt0270933",
     "name": "Escaflowne: The Movie",
     "startYear": 2000,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "anime-movies",
       "anime",
       "animated-movies",
@@ -1907,7 +2051,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -1924,7 +2067,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "superhero-movies",
       "marvel",
       "family-movies"
@@ -1939,7 +2081,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "superhero-movies",
       "marvel",
@@ -1956,7 +2097,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "fantasy-adventure-movies"
@@ -1965,13 +2105,25 @@ module.exports = [
     "featuredRank": 80
   },
   {
+    "id": "tt0091042",
+    "name": "Ferris Bueller's Day Off",
+    "startYear": 1986,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "teen-movies",
+      "comedy-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 95
+  },
+  {
     "id": "tt0173840",
     "name": "Final Fantasy: The Spirits Within",
     "startYear": 2001,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "animated-movies",
       "fantasy-adventure-movies"
     ],
@@ -1986,7 +2138,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -1998,19 +2149,18 @@ module.exports = [
     "franchise": "Finding Nemo"
   },
   {
-    "id": "tt0116311",
-    "name": "First Kid",
-    "startYear": 1996,
+    "id": "tt0091059",
+    "name": "Flight of the Navigator",
+    "startYear": 1986,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
-      "disney-movies",
-      "comedy-movies"
+      "fantasy-adventure-movies",
+      "disney-movies"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 85
   },
   {
     "id": "tt0119137",
@@ -2019,7 +2169,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "disney-movies",
       "comedy-movies",
@@ -2035,7 +2184,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "fantasy-adventure-movies"
     ],
@@ -2049,7 +2197,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-movies",
       "teen-movies",
@@ -2066,7 +2213,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies"
     ],
     "enabled": true,
@@ -2080,40 +2226,11 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "fantasy-adventure-movies"
     ],
     "enabled": true,
     "featuredRank": 82
-  },
-  {
-    "id": "tt0119152",
-    "name": "Free Willy 3: The Rescue",
-    "startYear": 1997,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "90s",
-      "family-movies",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 74
-  },
-  {
-    "id": "tt0382142",
-    "name": "Full-Court Miracle",
-    "startYear": 2003,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "2000s",
-      "family-movies",
-      "disney-channel-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 78
   },
   {
     "id": "tt0177789",
@@ -2122,12 +2239,24 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "comedy-movies",
       "fantasy-adventure-movies"
     ],
     "enabled": true,
     "featuredRank": 90
+  },
+  {
+    "id": "tt0356634",
+    "name": "Garfield: The Movie",
+    "startYear": 2004,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "comedy-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 75
   },
   {
     "id": "tt0119190",
@@ -2136,7 +2265,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "disney-movies",
       "comedy-movies",
@@ -2152,7 +2280,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "comedy-movies",
       "fantasy-adventure-movies",
@@ -2162,30 +2289,12 @@ module.exports = [
     "featuredRank": 72
   },
   {
-    "id": "tt0282521",
-    "name": "Get a Clue",
-    "startYear": 2002,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "2000s",
-      "family-movies",
-      "disney-channel-movies",
-      "disney-movies",
-      "teen-movies",
-      "comedy-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 78
-  },
-  {
     "id": "tt0113568",
     "name": "Ghost in the Shell",
     "startYear": 1995,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "anime-movies",
       "animated-movies"
     ],
@@ -2193,21 +2302,46 @@ module.exports = [
     "featuredRank": 98
   },
   {
-    "id": "tt0447987",
-    "name": "Go Figure",
-    "startYear": 2005,
+    "id": "tt0087332",
+    "name": "Ghostbusters",
+    "startYear": 1984,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
-      "family-movies",
-      "disney-channel-movies",
-      "disney-movies",
-      "teen-movies",
-      "comedy-movies"
+      "fantasy-adventure-movies",
+      "comedy-movies",
+      "spooky-movies"
     ],
     "enabled": true,
-    "featuredRank": 70
+    "featuredRank": 100,
+    "franchise": "Ghostbusters"
+  },
+  {
+    "id": "tt0097428",
+    "name": "Ghostbusters II",
+    "startYear": 1989,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "fantasy-adventure-movies",
+      "comedy-movies",
+      "spooky-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 85,
+    "franchise": "Ghostbusters"
+  },
+  {
+    "id": "tt0120685",
+    "name": "Godzilla",
+    "startYear": 1998,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "fantasy-adventure-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 75
   },
   {
     "id": "tt0399104",
@@ -2216,7 +2350,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-channel-movies",
       "teen-movies"
@@ -2231,7 +2364,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "nickelodeon-movies",
       "teen-movies",
@@ -2241,20 +2373,58 @@ module.exports = [
     "featuredRank": 100
   },
   {
-    "id": "tt0299943",
-    "name": "Gotta Kick It Up!",
-    "startYear": 2002,
+    "id": "tt0077631",
+    "name": "Grease",
+    "startYear": 1978,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
-      "family-movies",
-      "disney-channel-movies",
-      "disney-movies",
       "teen-movies"
     ],
     "enabled": true,
-    "featuredRank": 78
+    "featuredRank": 90
+  },
+  {
+    "id": "tt0087363",
+    "name": "Gremlins",
+    "startYear": 1984,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "fantasy-adventure-movies",
+      "comedy-movies",
+      "spooky-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 92,
+    "franchise": "Gremlins"
+  },
+  {
+    "id": "tt0099700",
+    "name": "Gremlins 2: The New Batch",
+    "startYear": 1990,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "fantasy-adventure-movies",
+      "comedy-movies",
+      "spooky-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 80,
+    "franchise": "Gremlins"
+  },
+  {
+    "id": "tt0113243",
+    "name": "Hackers",
+    "startYear": 1995,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "teen-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 75
   },
   {
     "id": "tt0427327",
@@ -2263,7 +2433,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "teen-movies",
       "comedy-movies"
@@ -2278,7 +2447,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "disney-channel-movies",
       "teen-movies",
@@ -2297,7 +2465,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-channel-movies",
       "disney-movies",
@@ -2315,7 +2482,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-channel-movies",
       "disney-movies",
@@ -2332,7 +2498,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "comedy-movies",
@@ -2343,13 +2508,24 @@ module.exports = [
     "franchise": "Happy Feet"
   },
   {
+    "id": "tt0116483",
+    "name": "Happy Gilmore",
+    "startYear": 1996,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "comedy-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 92
+  },
+  {
     "id": "tt0116493",
     "name": "Harriet the Spy",
     "startYear": 1996,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "nickelodeon-movies",
       "teen-movies"
@@ -2358,13 +2534,25 @@ module.exports = [
     "featuredRank": 85
   },
   {
+    "id": "tt0093148",
+    "name": "Harry and the Hendersons",
+    "startYear": 1987,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "comedy-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 80
+  },
+  {
     "id": "tt0295297",
     "name": "Harry Potter and the Chamber of Secrets",
     "startYear": 2002,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "fantasy-adventure-movies"
     ],
@@ -2379,7 +2567,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "fantasy-adventure-movies",
       "spooky-movies"
@@ -2395,7 +2582,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "fantasy-adventure-movies",
       "spooky-movies"
@@ -2411,7 +2597,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "fantasy-adventure-movies",
       "spooky-movies"
@@ -2427,7 +2612,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "fantasy-adventure-movies"
     ],
@@ -2442,7 +2626,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "teen-movies",
       "comedy-movies"
@@ -2457,7 +2640,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "superhero-movies",
       "spooky-movies",
       "fantasy-adventure-movies"
@@ -2472,7 +2654,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-movies",
       "teen-movies",
@@ -2490,7 +2671,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -2501,13 +2681,27 @@ module.exports = [
     "featuredRank": 95
   },
   {
+    "id": "tt0314166",
+    "name": "Hey Arnold! The Movie",
+    "startYear": 2002,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "animated-movies",
+      "nickelodeon-movies",
+      "comedy-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 82
+  },
+  {
     "id": "tt0475293",
     "name": "High School Musical",
     "startYear": 2006,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-channel-movies",
       "teen-movies",
@@ -2524,7 +2718,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-channel-movies",
       "disney-movies",
@@ -2541,7 +2734,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "disney-movies",
       "comedy-movies",
@@ -2558,7 +2750,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-movies",
       "teen-movies",
@@ -2575,7 +2766,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies"
     ],
@@ -2590,7 +2780,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies"
     ],
@@ -2605,7 +2794,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies"
     ],
@@ -2620,7 +2808,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -2636,7 +2823,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "fantasy-adventure-movies"
     ],
@@ -2650,7 +2836,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "fantasy-adventure-movies"
     ],
@@ -2664,7 +2849,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "disney-movies",
       "comedy-movies",
@@ -2675,63 +2859,33 @@ module.exports = [
     "franchise": "Honey, I Shrunk the Kids"
   },
   {
+    "id": "tt0097523",
+    "name": "Honey, I Shrunk the Kids",
+    "startYear": 1989,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "fantasy-adventure-movies",
+      "disney-movies",
+      "comedy-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 92,
+    "franchise": "Honey, I Shrunk the Kids"
+  },
+  {
     "id": "tt0102057",
     "name": "Hook",
     "startYear": 1991,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "fantasy-adventure-movies"
     ],
     "enabled": true,
     "featuredRank": 95
-  },
-  {
-    "id": "tt0219813",
-    "name": "Horse Sense",
-    "startYear": 1999,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "90s",
-      "family-movies",
-      "disney-channel-movies",
-      "teen-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 78
-  },
-  {
-    "id": "tt0274557",
-    "name": "Hounded",
-    "startYear": 2001,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "2000s",
-      "family-movies",
-      "disney-channel-movies",
-      "comedy-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 78
-  },
-  {
-    "id": "tt0116571",
-    "name": "House Arrest",
-    "startYear": 1996,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "90s",
-      "family-movies",
-      "comedy-movies",
-      "teen-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 78
   },
   {
     "id": "tt0170016",
@@ -2740,7 +2894,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "comedy-movies",
       "fantasy-adventure-movies",
@@ -2756,7 +2909,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "anime-movies",
       "animated-movies",
       "family-movies",
@@ -2772,7 +2924,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "superhero-movies",
       "marvel"
     ],
@@ -2786,7 +2937,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "comedy-movies",
@@ -2803,7 +2953,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "comedy-movies",
@@ -2820,7 +2969,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "fantasy-adventure-movies"
     ],
     "enabled": true,
@@ -2833,7 +2981,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "disney-movies",
       "superhero-movies",
@@ -2850,7 +2997,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "anime-movies",
       "anime",
       "animated-movies",
@@ -2867,7 +3013,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "anime-movies",
       "anime",
       "animated-movies",
@@ -2884,7 +3029,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "anime-movies",
       "anime",
       "animated-movies",
@@ -2901,7 +3045,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "anime-movies",
       "anime",
       "animated-movies",
@@ -2918,7 +3061,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -2934,7 +3076,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "teen-movies",
       "comedy-movies"
     ],
@@ -2948,7 +3089,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "nickelodeon-movies",
@@ -2966,7 +3106,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies"
     ],
@@ -2980,28 +3119,11 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "teen-movies",
       "comedy-movies"
     ],
     "enabled": true,
     "featuredRank": 85
-  },
-  {
-    "id": "tt0942378",
-    "name": "Johnny Kapahala: Back on Board",
-    "startYear": 2007,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "2000s",
-      "family-movies",
-      "disney-channel-movies",
-      "teen-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 78,
-    "franchise": "Johnny Tsunami"
   },
   {
     "id": "tt0206064",
@@ -3010,7 +3132,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "disney-channel-movies",
       "teen-movies"
@@ -3025,7 +3146,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "teen-movies",
       "comedy-movies"
     ],
@@ -3039,7 +3159,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies",
       "fantasy-adventure-movies"
@@ -3055,7 +3174,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-channel-movies",
       "disney-movies",
@@ -3071,7 +3189,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-channel-movies",
       "teen-movies",
@@ -3087,7 +3204,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies",
       "fantasy-adventure-movies"
@@ -3102,7 +3218,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "fantasy-adventure-movies"
     ],
@@ -3117,11 +3232,36 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "fantasy-adventure-movies"
     ],
     "enabled": true,
     "featuredRank": 92
+  },
+  {
+    "id": "tt0257568",
+    "name": "Kangaroo Jack",
+    "startYear": 2003,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "comedy-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 70
+  },
+  {
+    "id": "tt0116756",
+    "name": "Kazaam",
+    "startYear": 1996,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "comedy-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 70
   },
   {
     "id": "tt0097814",
@@ -3146,7 +3286,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-channel-movies",
       "animated-movies",
@@ -3165,7 +3304,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -3175,13 +3313,25 @@ module.exports = [
     "featuredRank": 76
   },
   {
+    "id": "tt0091369",
+    "name": "Labyrinth",
+    "startYear": 1986,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "fantasy-adventure-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 90
+  },
+  {
     "id": "tt0249677",
     "name": "Lady and the Tramp II: Scamp's Adventure",
     "startYear": 2001,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -3197,7 +3347,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "teen-movies",
       "comedy-movies"
     ],
@@ -3212,7 +3361,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "comedy-movies",
       "fantasy-adventure-movies",
@@ -3222,21 +3370,16 @@ module.exports = [
     "featuredRank": 95
   },
   {
-    "id": "tt0450455",
-    "name": "Life Is Ruff",
-    "startYear": 2005,
+    "id": "tt0119528",
+    "name": "Liar Liar",
+    "startYear": 1997,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
-      "family-movies",
-      "disney-channel-movies",
-      "disney-movies",
-      "teen-movies",
       "comedy-movies"
     ],
     "enabled": true,
-    "featuredRank": 68
+    "featuredRank": 90
   },
   {
     "id": "tt0308506",
@@ -3245,7 +3388,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "comedy-movies"
     ],
@@ -3259,7 +3401,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -3277,7 +3418,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -3287,32 +3427,31 @@ module.exports = [
     "featuredRank": 82
   },
   {
-    "id": "tt0110363",
-    "name": "Little Big League",
-    "startYear": 1994,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "90s",
-      "family-movies",
-      "comedy-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 78
-  },
-  {
     "id": "tt0110364",
     "name": "Little Giants",
     "startYear": 1994,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies"
     ],
     "enabled": true,
     "featuredRank": 90
+  },
+  {
+    "id": "tt0097758",
+    "name": "Little Monsters",
+    "startYear": 1989,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "comedy-movies",
+      "spooky-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 75
   },
   {
     "id": "tt0318155",
@@ -3321,7 +3460,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "comedy-movies",
       "fantasy-adventure-movies"
@@ -3337,7 +3475,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "comedy-movies",
@@ -3348,27 +3485,12 @@ module.exports = [
     "franchise": "Madagascar"
   },
   {
-    "id": "tt0113755",
-    "name": "Man of the House",
-    "startYear": 1995,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "90s",
-      "family-movies",
-      "comedy-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 78
-  },
-  {
     "id": "tt0117008",
     "name": "Matilda",
     "startYear": 1996,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies",
       "fantasy-adventure-movies"
@@ -3383,7 +3505,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-movies",
       "comedy-movies",
@@ -3399,7 +3520,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "teen-movies",
       "comedy-movies"
     ],
@@ -3413,7 +3533,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -3430,7 +3549,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "comedy-movies",
       "fantasy-adventure-movies"
     ],
@@ -3445,7 +3563,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "comedy-movies",
       "fantasy-adventure-movies"
     ],
@@ -3459,7 +3576,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "anime-movies",
       "anime",
       "animated-movies",
@@ -3475,7 +3591,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "disney-movies",
       "fantasy-adventure-movies"
@@ -3490,7 +3605,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "superhero-movies",
       "fantasy-adventure-movies"
@@ -3506,7 +3620,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "anime-movies",
       "animated-movies"
     ],
@@ -3520,7 +3633,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-channel-movies"
     ],
@@ -3534,7 +3646,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-channel-movies",
       "disney-movies",
@@ -3551,7 +3662,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "comedy-movies",
@@ -3568,7 +3678,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -3586,7 +3695,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "fantasy-adventure-movies"
     ],
     "enabled": true,
@@ -3600,7 +3708,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "fantasy-adventure-movies"
     ],
     "enabled": true,
@@ -3613,7 +3720,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-channel-movies",
       "teen-movies"
@@ -3628,7 +3734,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies"
     ],
@@ -3642,7 +3747,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies"
     ],
@@ -3656,7 +3760,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -3673,7 +3776,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -3689,7 +3791,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies",
       "fantasy-adventure-movies"
@@ -3701,13 +3802,26 @@ module.exports = [
     ]
   },
   {
+    "id": "tt0158811",
+    "name": "Muppets from Space",
+    "startYear": 1999,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "comedy-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 78,
+    "franchise": "The Muppets"
+  },
+  {
     "id": "tt0102492",
     "name": "My Girl",
     "startYear": 1991,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "teen-movies"
     ],
@@ -3737,7 +3851,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "superhero-movies",
       "comedy-movies",
       "fantasy-adventure-movies"
@@ -3752,7 +3865,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "nickelodeon-movies",
       "comedy-movies"
@@ -3767,7 +3879,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "comedy-movies",
       "fantasy-adventure-movies"
@@ -3776,13 +3887,25 @@ module.exports = [
     "featuredRank": 88
   },
   {
+    "id": "tt0374900",
+    "name": "Napoleon Dynamite",
+    "startYear": 2004,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "teen-movies",
+      "comedy-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 90
+  },
+  {
     "id": "tt0476680",
     "name": "Naruto the Movie: Ninja Clash in the Land of Snow",
     "startYear": 2004,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "anime-movies",
       "anime",
       "animated-movies",
@@ -3799,7 +3922,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-movies",
       "fantasy-adventure-movies"
@@ -3815,7 +3937,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "teen-movies",
       "comedy-movies"
     ],
@@ -3829,7 +3950,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "comedy-movies",
       "fantasy-adventure-movies"
@@ -3845,7 +3965,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "anime-movies",
       "animated-movies"
     ],
@@ -3853,21 +3972,16 @@ module.exports = [
     "featuredRank": 92
   },
   {
-    "id": "tt0426568",
-    "name": "Now You See It...",
-    "startYear": 2005,
+    "id": "tt0114011",
+    "name": "Now and Then",
+    "startYear": 1995,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
-      "family-movies",
-      "disney-channel-movies",
-      "disney-movies",
-      "fantasy-adventure-movies",
       "teen-movies"
     ],
     "enabled": true,
-    "featuredRank": 72
+    "featuredRank": 85
   },
   {
     "id": "tt0107745",
@@ -3876,7 +3990,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "animated-movies",
       "family-movies",
       "fantasy-adventure-movies"
@@ -3891,7 +4004,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "teen-movies",
       "comedy-movies"
     ],
@@ -3905,7 +4017,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "comedy-movies",
@@ -3921,7 +4032,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "comedy-movies",
@@ -3937,7 +4047,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "anime-movies",
       "anime",
       "animated-movies",
@@ -3953,7 +4062,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "anime-movies",
       "animated-movies",
       "spooky-movies"
@@ -3968,7 +4076,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "fantasy-adventure-movies"
     ],
@@ -3982,7 +4089,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-channel-movies",
       "disney-movies",
@@ -3999,7 +4105,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -4017,7 +4122,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-movies",
       "fantasy-adventure-movies"
@@ -4033,7 +4137,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-movies",
       "fantasy-adventure-movies",
@@ -4050,7 +4153,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-movies",
       "comedy-movies",
@@ -4061,29 +4163,12 @@ module.exports = [
     "franchise": "Pirates of the Caribbean"
   },
   {
-    "id": "tt0393596",
-    "name": "Pixel Perfect",
-    "startYear": 2004,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "2000s",
-      "family-movies",
-      "disney-channel-movies",
-      "disney-movies",
-      "teen-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 76
-  },
-  {
     "id": "tt0114148",
     "name": "Pocahontas",
     "startYear": 1995,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -4099,7 +4184,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -4115,7 +4199,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "anime-movies",
@@ -4134,7 +4217,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "anime-movies",
       "animated-movies",
       "family-movies",
@@ -4153,7 +4235,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "anime-movies",
       "animated-movies",
       "family-movies",
@@ -4169,7 +4250,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "anime-movies",
@@ -4188,7 +4268,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "anime-movies",
       "animated-movies",
       "family-movies",
@@ -4207,7 +4286,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "anime-movies",
       "animated-movies",
       "family-movies",
@@ -4223,7 +4301,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "anime-movies",
       "animated-movies",
       "family-movies",
@@ -4239,7 +4316,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "anime-movies",
@@ -4251,13 +4327,27 @@ module.exports = [
     "franchise": "Pokémon"
   },
   {
+    "id": "tt0119918",
+    "name": "Pooh's Grand Adventure: The Search for Christopher Robin",
+    "startYear": 1997,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "animated-movies",
+      "disney-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 80,
+    "franchise": "Winnie the Pooh"
+  },
+  {
     "id": "tt0407121",
     "name": "Pooh's Heffalump Movie",
     "startYear": 2005,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -4275,7 +4365,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "anime-movies",
       "anime",
       "animated-movies",
@@ -4291,7 +4380,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "animated-movies",
       "anime-movies",
       "anime",
@@ -4307,7 +4395,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies"
     ],
@@ -4321,7 +4408,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies"
     ],
@@ -4335,7 +4421,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "animated-movies",
       "family-movies",
       "fantasy-adventure-movies"
@@ -4344,43 +4429,12 @@ module.exports = [
     "featuredRank": 82
   },
   {
-    "id": "tt0245380",
-    "name": "Quints",
-    "startYear": 2000,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "2000s",
-      "family-movies",
-      "disney-channel-movies",
-      "disney-movies",
-      "comedy-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 72
-  },
-  {
-    "id": "tt0361696",
-    "name": "Raise Your Voice",
-    "startYear": 2004,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "2000s",
-      "teen-movies",
-      "family-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 78
-  },
-  {
     "id": "tt0382932",
     "name": "Ratatouille",
     "startYear": 2007,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -4391,30 +4445,12 @@ module.exports = [
     "featuredRank": 100
   },
   {
-    "id": "tt0494716",
-    "name": "Read It and Weep",
-    "startYear": 2006,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "2000s",
-      "family-movies",
-      "disney-channel-movies",
-      "disney-movies",
-      "teen-movies",
-      "comedy-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 76
-  },
-  {
     "id": "tt0265632",
     "name": "Recess: School's Out",
     "startYear": 2001,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -4432,7 +4468,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-movies"
     ],
@@ -4446,7 +4481,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-channel-movies",
       "disney-movies",
@@ -4464,7 +4498,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -4480,28 +4513,11 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies"
     ],
     "enabled": true,
     "featuredRank": 85
-  },
-  {
-    "id": "tt0323810",
-    "name": "Right on Track",
-    "startYear": 2003,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "2000s",
-      "family-movies",
-      "disney-channel-movies",
-      "disney-movies",
-      "teen-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 70
   },
   {
     "id": "tt0358082",
@@ -4510,7 +4526,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "comedy-movies",
@@ -4526,7 +4541,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "animated-movies",
       "family-movies",
       "comedy-movies",
@@ -4542,12 +4556,23 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies"
     ],
     "enabled": true,
     "featuredRank": 80
+  },
+  {
+    "id": "tt0108002",
+    "name": "Rudy",
+    "startYear": 1993,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 85
   },
   {
     "id": "tt0337711",
@@ -4556,7 +4581,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "nickelodeon-movies",
@@ -4574,7 +4598,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "nickelodeon-movies",
@@ -4591,7 +4614,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "teen-movies"
     ],
     "enabled": true,
@@ -4604,7 +4626,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "teen-movies",
       "comedy-movies"
@@ -4619,7 +4640,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "comedy-movies",
       "fantasy-adventure-movies",
@@ -4630,13 +4650,27 @@ module.exports = [
     "franchise": "Scooby-Doo"
   },
   {
+    "id": "tt0166792",
+    "name": "Scooby-Doo on Zombie Island",
+    "startYear": 1998,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "animated-movies",
+      "spooky-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 88,
+    "franchise": "Scooby-Doo"
+  },
+  {
     "id": "tt0307453",
     "name": "Shark Tale",
     "startYear": 2004,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "animated-movies",
       "family-movies",
       "comedy-movies"
@@ -4651,7 +4685,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "teen-movies",
       "comedy-movies"
     ],
@@ -4665,12 +4698,24 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "teen-movies",
       "comedy-movies"
     ],
     "enabled": true,
     "featuredRank": 95
+  },
+  {
+    "id": "tt0091949",
+    "name": "Short Circuit",
+    "startYear": 1986,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "comedy-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 80
   },
   {
     "id": "tt0126029",
@@ -4679,7 +4724,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "comedy-movies",
@@ -4696,7 +4740,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "comedy-movies",
@@ -4713,7 +4756,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "comedy-movies",
@@ -4724,13 +4766,24 @@ module.exports = [
     "franchise": "Shrek"
   },
   {
+    "id": "tt0105402",
+    "name": "Sidekicks",
+    "startYear": 1993,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 70
+  },
+  {
     "id": "tt0165982",
     "name": "Sinbad: Legend of the Seven Seas",
     "startYear": 2003,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "animated-movies",
       "family-movies",
       "fantasy-adventure-movies"
@@ -4739,13 +4792,25 @@ module.exports = [
     "featuredRank": 88
   },
   {
+    "id": "tt0088128",
+    "name": "Sixteen Candles",
+    "startYear": 1984,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "teen-movies",
+      "comedy-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 85
+  },
+  {
     "id": "tt0405325",
     "name": "Sky High",
     "startYear": 2005,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-movies",
       "superhero-movies",
@@ -4763,7 +4828,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "teen-movies",
       "comedy-movies"
@@ -4778,7 +4842,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies",
       "fantasy-adventure-movies"
@@ -4793,7 +4856,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "disney-channel-movies",
       "teen-movies",
@@ -4810,7 +4872,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "nickelodeon-movies",
       "teen-movies",
@@ -4826,7 +4887,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-movies",
       "comedy-movies"
@@ -4841,7 +4901,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "animated-movies",
       "comedy-movies"
     ],
@@ -4856,7 +4915,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "comedy-movies",
@@ -4867,13 +4925,25 @@ module.exports = [
     "franchise": "Looney Tunes"
   },
   {
+    "id": "tt0120185",
+    "name": "Spice World",
+    "startYear": 1998,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "teen-movies",
+      "comedy-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 72
+  },
+  {
     "id": "tt0145487",
     "name": "Spider-Man",
     "startYear": 2002,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "superhero-movies",
       "fantasy-adventure-movies"
     ],
@@ -4888,7 +4958,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "superhero-movies",
       "fantasy-adventure-movies"
     ],
@@ -4903,7 +4972,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "superhero-movies",
       "fantasy-adventure-movies"
     ],
@@ -4918,7 +4986,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "fantasy-adventure-movies"
@@ -4933,7 +5000,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "anime-movies",
@@ -4950,7 +5016,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "comedy-movies",
       "fantasy-adventure-movies"
@@ -4966,7 +5031,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "comedy-movies",
       "fantasy-adventure-movies"
@@ -4982,7 +5046,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "comedy-movies",
       "fantasy-adventure-movies"
@@ -5000,7 +5063,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "fantasy-adventure-movies"
     ],
@@ -5015,7 +5077,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "fantasy-adventure-movies"
     ],
@@ -5030,7 +5091,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "fantasy-adventure-movies"
     ],
     "enabled": true,
@@ -5044,7 +5104,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "anime-movies",
       "anime",
       "animated-movies",
@@ -5054,30 +5113,12 @@ module.exports = [
     "featuredRank": 86
   },
   {
-    "id": "tt0250754",
-    "name": "Stepsister from Planet Weird",
-    "startYear": 2000,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "2000s",
-      "family-movies",
-      "disney-channel-movies",
-      "disney-movies",
-      "fantasy-adventure-movies",
-      "comedy-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 76
-  },
-  {
     "id": "tt0348124",
     "name": "Stitch! The Movie",
     "startYear": 2003,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -5087,13 +5128,24 @@ module.exports = [
     "featuredRank": 82
   },
   {
+    "id": "tt0111301",
+    "name": "Street Fighter",
+    "startYear": 1994,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "fantasy-adventure-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 72
+  },
+  {
     "id": "tt0164912",
     "name": "Stuart Little",
     "startYear": 1999,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies",
       "fantasy-adventure-movies"
@@ -5109,7 +5161,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "comedy-movies",
       "fantasy-adventure-movies"
@@ -5119,30 +5170,12 @@ module.exports = [
     "franchise": "Stuart Little"
   },
   {
-    "id": "tt0410696",
-    "name": "Stuck in the Suburbs",
-    "startYear": 2004,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "2000s",
-      "family-movies",
-      "disney-channel-movies",
-      "disney-movies",
-      "teen-movies",
-      "comedy-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 78
-  },
-  {
     "id": "tt0108255",
     "name": "Super Mario Bros.",
     "startYear": 1993,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies",
       "fantasy-adventure-movies"
@@ -5152,21 +5185,17 @@ module.exports = [
     "franchise": "Super Mario"
   },
   {
-    "id": "tt0800226",
-    "name": "Superman: Brainiac Attacks",
-    "startYear": 2006,
+    "id": "tt0108258",
+    "name": "Surf Ninjas",
+    "startYear": 1993,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
-      "animated-movies",
-      "superhero-movies",
-      "dc",
-      "fantasy-adventure-movies"
+      "family-movies",
+      "comedy-movies"
     ],
     "enabled": true,
-    "featuredRank": 78,
-    "franchise": "Superman"
+    "featuredRank": 72
   },
   {
     "id": "tt0423294",
@@ -5175,7 +5204,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "comedy-movies"
@@ -5190,7 +5218,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -5206,7 +5233,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -5222,7 +5248,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -5239,7 +5264,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "animated-movies",
       "superhero-movies",
       "dc",
@@ -5256,7 +5280,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "superhero-movies",
       "comedy-movies",
@@ -5273,7 +5296,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "superhero-movies",
       "comedy-movies",
@@ -5290,7 +5312,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "superhero-movies",
       "comedy-movies",
@@ -5307,7 +5328,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "anime-movies",
       "anime",
       "animated-movies",
@@ -5324,7 +5344,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies",
       "spooky-movies"
@@ -5340,7 +5359,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "superhero-movies",
       "fantasy-adventure-movies"
@@ -5355,7 +5373,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies"
     ],
@@ -5369,7 +5386,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies",
       "fantasy-adventure-movies"
@@ -5378,13 +5394,25 @@ module.exports = [
     "featuredRank": 84
   },
   {
+    "id": "tt0088847",
+    "name": "The Breakfast Club",
+    "startYear": 1985,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "teen-movies",
+      "comedy-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 95
+  },
+  {
     "id": "tt0338852",
     "name": "The Cheetah Girls",
     "startYear": 2003,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-channel-movies",
       "teen-movies",
@@ -5401,7 +5429,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-channel-movies",
       "teen-movies",
@@ -5418,7 +5445,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-movies",
       "fantasy-adventure-movies"
@@ -5434,7 +5460,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-channel-movies",
       "teen-movies"
@@ -5449,7 +5474,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-movies",
       "comedy-movies"
@@ -5458,13 +5482,25 @@ module.exports = [
     "featuredRank": 78
   },
   {
+    "id": "tt0083791",
+    "name": "The Dark Crystal",
+    "startYear": 1982,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "fantasy-adventure-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 80
+  },
+  {
     "id": "tt0120917",
     "name": "The Emperor's New Groove",
     "startYear": 2000,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -5481,7 +5517,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "anime-movies",
       "anime",
       "animated-movies",
@@ -5498,7 +5533,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-channel-movies",
       "teen-movies",
@@ -5508,13 +5542,26 @@ module.exports = [
     "featuredRank": 88
   },
   {
+    "id": "tt0089218",
+    "name": "The Goonies",
+    "startYear": 1985,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "fantasy-adventure-movies",
+      "comedy-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 100
+  },
+  {
     "id": "tt0338094",
     "name": "The Haunted Mansion",
     "startYear": 2003,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-movies",
       "comedy-movies",
@@ -5531,7 +5578,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "disney-movies"
@@ -5546,7 +5592,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -5565,7 +5610,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "fantasy-adventure-movies"
     ],
@@ -5579,7 +5623,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "fantasy-adventure-movies"
@@ -5594,7 +5637,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-channel-movies",
       "teen-movies",
@@ -5610,7 +5652,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -5620,13 +5661,53 @@ module.exports = [
     "featuredRank": 74
   },
   {
+    "id": "tt0087538",
+    "name": "The Karate Kid",
+    "startYear": 1984,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "teen-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 95
+  },
+  {
+    "id": "tt0095489",
+    "name": "The Land Before Time",
+    "startYear": 1988,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "animated-movies",
+      "fantasy-adventure-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 95,
+    "franchise": "The Land Before Time"
+  },
+  {
+    "id": "tt0110300",
+    "name": "The Land Before Time II: The Great Valley Adventure",
+    "startYear": 1994,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "animated-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 75,
+    "franchise": "The Land Before Time"
+  },
+  {
     "id": "tt0311429",
     "name": "The League of Extraordinary Gentlemen",
     "startYear": 2003,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "superhero-movies",
       "fantasy-adventure-movies"
     ],
@@ -5640,7 +5721,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -5656,7 +5736,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -5672,7 +5751,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -5682,13 +5760,27 @@ module.exports = [
     "featuredRank": 92
   },
   {
+    "id": "tt0097757",
+    "name": "The Little Mermaid",
+    "startYear": 1989,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "animated-movies",
+      "disney-movies",
+      "fantasy-adventure-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 100
+  },
+  {
     "id": "tt0240684",
     "name": "The Little Mermaid II: Return to the Sea",
     "startYear": 2000,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -5704,7 +5796,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "comedy-movies"
     ],
@@ -5718,7 +5809,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "spooky-movies",
       "comedy-movies",
@@ -5734,7 +5824,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-movies",
       "teen-movies",
@@ -5751,7 +5840,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "fantasy-adventure-movies"
     ],
     "enabled": true,
@@ -5765,7 +5853,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "fantasy-adventure-movies"
     ],
     "enabled": true,
@@ -5779,7 +5866,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "fantasy-adventure-movies"
     ],
     "enabled": true,
@@ -5793,7 +5879,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "fantasy-adventure-movies"
     ],
     "enabled": true,
@@ -5806,7 +5891,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-channel-movies",
       "teen-movies",
@@ -5823,7 +5907,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "superhero-movies",
       "comedy-movies",
       "fantasy-adventure-movies"
@@ -5838,7 +5921,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "fantasy-adventure-movies"
     ],
     "enabled": true,
@@ -5852,7 +5934,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "fantasy-adventure-movies"
     ],
     "enabled": true,
@@ -5866,7 +5947,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "fantasy-adventure-movies"
     ],
     "enabled": true,
@@ -5880,7 +5960,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "teen-movies",
       "comedy-movies"
@@ -5890,13 +5969,26 @@ module.exports = [
     "franchise": "The Mighty Ducks"
   },
   {
+    "id": "tt0093560",
+    "name": "The Monster Squad",
+    "startYear": 1987,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "comedy-movies",
+      "spooky-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 78
+  },
+  {
     "id": "tt0120616",
     "name": "The Mummy",
     "startYear": 1999,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "fantasy-adventure-movies",
       "spooky-movies",
       "comedy-movies"
@@ -5912,7 +6004,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "fantasy-adventure-movies",
       "spooky-movies",
       "comedy-movies"
@@ -5928,7 +6019,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "disney-movies",
       "comedy-movies",
@@ -5939,13 +6029,25 @@ module.exports = [
     "franchise": "The Muppets"
   },
   {
+    "id": "tt0088323",
+    "name": "The NeverEnding Story",
+    "startYear": 1984,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "fantasy-adventure-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 92
+  },
+  {
     "id": "tt0100240",
     "name": "The NeverEnding Story II: The Next Chapter",
     "startYear": 1990,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "fantasy-adventure-movies"
     ],
@@ -5959,7 +6061,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "teen-movies",
       "comedy-movies"
     ],
@@ -5973,7 +6074,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -5984,30 +6084,12 @@ module.exports = [
     "featuredRank": 100
   },
   {
-    "id": "tt0246834",
-    "name": "The Other Me",
-    "startYear": 2000,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "2000s",
-      "family-movies",
-      "disney-channel-movies",
-      "disney-movies",
-      "comedy-movies",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 70
-  },
-  {
     "id": "tt0110763",
     "name": "The Pagemaster",
     "startYear": 1994,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "fantasy-adventure-movies"
@@ -6022,7 +6104,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "disney-movies",
       "teen-movies",
@@ -6038,7 +6119,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "animated-movies",
       "family-movies",
       "fantasy-adventure-movies"
@@ -6053,7 +6133,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "fantasy-adventure-movies"
@@ -6068,7 +6147,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "superhero-movies",
@@ -6087,7 +6165,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "fantasy-adventure-movies"
@@ -6096,13 +6173,26 @@ module.exports = [
     "featuredRank": 90
   },
   {
+    "id": "tt0093779",
+    "name": "The Princess Bride",
+    "startYear": 1987,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "fantasy-adventure-movies",
+      "comedy-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 95
+  },
+  {
     "id": "tt0247638",
     "name": "The Princess Diaries",
     "startYear": 2001,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-movies",
       "teen-movies",
@@ -6119,7 +6209,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-channel-movies",
       "animated-movies",
@@ -6137,7 +6226,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -6156,7 +6244,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "comedy-movies",
@@ -6172,7 +6259,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "disney-movies",
       "superhero-movies",
@@ -6188,7 +6274,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "nickelodeon-movies",
@@ -6205,7 +6290,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "teen-movies",
       "comedy-movies"
@@ -6220,7 +6304,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "disney-movies",
       "comedy-movies",
@@ -6237,7 +6320,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-channel-movies",
       "comedy-movies",
@@ -6254,7 +6336,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "fantasy-adventure-movies"
     ],
@@ -6268,7 +6349,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "comedy-movies"
@@ -6284,7 +6364,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "teen-movies",
       "comedy-movies"
     ],
@@ -6299,7 +6378,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "nickelodeon-movies",
@@ -6316,7 +6394,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "animated-movies",
       "family-movies",
       "fantasy-adventure-movies"
@@ -6331,7 +6408,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "disney-channel-movies",
       "teen-movies",
@@ -6341,13 +6417,27 @@ module.exports = [
     "featuredRank": 84
   },
   {
+    "id": "tt0220099",
+    "name": "The Tigger Movie",
+    "startYear": 2000,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "animated-movies",
+      "disney-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 80,
+    "franchise": "Winnie the Pooh"
+  },
+  {
     "id": "tt0256466",
     "name": "The Ultimate Christmas Present",
     "startYear": 2000,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-channel-movies",
       "comedy-movies",
@@ -6357,13 +6447,24 @@ module.exports = [
     "featuredRank": 82
   },
   {
+    "id": "tt0120484",
+    "name": "The Waterboy",
+    "startYear": 1998,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "comedy-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 88
+  },
+  {
     "id": "tt0282120",
     "name": "The Wild Thornberrys Movie",
     "startYear": 2002,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "nickelodeon-movies",
@@ -6381,7 +6482,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "fantasy-adventure-movies",
       "spooky-movies"
@@ -6390,13 +6490,25 @@ module.exports = [
     "featuredRank": 80
   },
   {
+    "id": "tt0098663",
+    "name": "The Wizard",
+    "startYear": 1989,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "teen-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 78
+  },
+  {
     "id": "tt0111419",
     "name": "Thumbelina",
     "startYear": 1994,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "animated-movies",
       "family-movies",
       "fantasy-adventure-movies"
@@ -6405,29 +6517,12 @@ module.exports = [
     "featuredRank": 82
   },
   {
-    "id": "tt0397113",
-    "name": "Tiger Cruise",
-    "startYear": 2004,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "2000s",
-      "family-movies",
-      "disney-channel-movies",
-      "disney-movies",
-      "teen-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 72
-  },
-  {
     "id": "tt0120913",
     "name": "Titan A.E.",
     "startYear": 2000,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "fantasy-adventure-movies"
@@ -6436,13 +6531,22 @@ module.exports = [
     "featuredRank": 85
   },
   {
+    "id": "tt0120338",
+    "name": "Titanic",
+    "startYear": 1997,
+    "endYear": null,
+    "type": "movie",
+    "tags": [],
+    "enabled": true,
+    "featuredRank": 95
+  },
+  {
     "id": "tt0453556",
     "name": "TMNT",
     "startYear": 2007,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "superhero-movies",
@@ -6459,7 +6563,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "anime-movies",
       "animated-movies",
       "comedy-movies"
@@ -6468,13 +6571,25 @@ module.exports = [
     "featuredRank": 90
   },
   {
+    "id": "tt0105616",
+    "name": "Tom and Jerry: The Movie",
+    "startYear": 1993,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "animated-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 72
+  },
+  {
     "id": "tt0114709",
     "name": "Toy Story",
     "startYear": 1995,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -6492,7 +6607,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -6510,7 +6624,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "fantasy-adventure-movies"
     ],
     "enabled": true,
@@ -6524,7 +6637,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "disney-movies",
@@ -6540,7 +6652,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-channel-movies",
       "teen-movies"
@@ -6549,19 +6660,16 @@ module.exports = [
     "featuredRank": 80
   },
   {
-    "id": "tt0282223",
-    "name": "'Twas the Night",
-    "startYear": 2001,
+    "id": "tt0117998",
+    "name": "Twister",
+    "startYear": 1996,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
-      "family-movies",
-      "disney-channel-movies",
-      "comedy-movies"
+      "fantasy-adventure-movies"
     ],
     "enabled": true,
-    "featuredRank": 76
+    "featuredRank": 88
   },
   {
     "id": "tt0467421",
@@ -6570,7 +6678,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-channel-movies",
       "disney-movies",
@@ -6588,7 +6695,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-channel-movies",
       "disney-movies",
@@ -6606,7 +6712,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "disney-channel-movies",
       "teen-movies",
@@ -6618,13 +6723,24 @@ module.exports = [
     "notes": "Disney Channel Original Movie."
   },
   {
+    "id": "tt0263757",
+    "name": "Uptown Girls",
+    "startYear": 2003,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "comedy-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 72
+  },
+  {
     "id": "tt0216651",
     "name": "Vampire Hunter D: Bloodlust",
     "startYear": 2000,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "anime-movies",
       "anime",
       "animated-movies",
@@ -6635,13 +6751,24 @@ module.exports = [
     "franchise": "Vampire Hunter D"
   },
   {
+    "id": "tt0139699",
+    "name": "Varsity Blues",
+    "startYear": 1999,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "teen-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 80
+  },
+  {
     "id": "tt0312004",
     "name": "Wallace & Gromit: The Curse of the Were-Rabbit",
     "startYear": 2005,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "animated-movies",
       "comedy-movies",
@@ -6653,18 +6780,16 @@ module.exports = [
     "franchise": "Wallace & Gromit"
   },
   {
-    "id": "tt0120479",
-    "name": "Warriors of Virtue",
-    "startYear": 1997,
+    "id": "tt0105793",
+    "name": "Wayne's World",
+    "startYear": 1992,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
-      "family-movies",
-      "fantasy-adventure-movies"
+      "comedy-movies"
     ],
     "enabled": true,
-    "featuredRank": 76
+    "featuredRank": 90
   },
   {
     "id": "tt0108526",
@@ -6673,7 +6798,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "animated-movies",
       "comedy-movies",
@@ -6689,7 +6813,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-channel-movies",
       "disney-movies",
@@ -6706,7 +6829,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "teen-movies",
       "family-movies",
       "comedy-movies"
@@ -6721,7 +6843,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "anime-movies",
       "anime",
       "animated-movies",
@@ -6731,13 +6852,53 @@ module.exports = [
     "featuredRank": 94
   },
   {
+    "id": "tt0096438",
+    "name": "Who Framed Roger Rabbit",
+    "startYear": 1988,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "animated-movies",
+      "disney-movies",
+      "comedy-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 92
+  },
+  {
+    "id": "tt0096446",
+    "name": "Willow",
+    "startYear": 1988,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "fantasy-adventure-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 82
+  },
+  {
+    "id": "tt0067992",
+    "name": "Willy Wonka & the Chocolate Factory",
+    "startYear": 1971,
+    "endYear": null,
+    "type": "movie",
+    "tags": [
+      "family-movies",
+      "fantasy-adventure-movies"
+    ],
+    "enabled": true,
+    "featuredRank": 95
+  },
+  {
     "id": "tt0120903",
     "name": "X-Men",
     "startYear": 2000,
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "superhero-movies",
       "fantasy-adventure-movies"
     ],
@@ -6752,7 +6913,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "superhero-movies",
       "marvel",
       "fantasy-adventure-movies"
@@ -6767,30 +6927,12 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "superhero-movies",
       "fantasy-adventure-movies"
     ],
     "enabled": true,
     "featuredRank": 95,
     "franchise": "X-Men"
-  },
-  {
-    "id": "tt0329783",
-    "name": "You Wish!",
-    "startYear": 2003,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "2000s",
-      "family-movies",
-      "disney-channel-movies",
-      "disney-movies",
-      "fantasy-adventure-movies",
-      "comedy-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 72
   },
   {
     "id": "tt0403703",
@@ -6800,7 +6942,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "anime-movies",
       "anime",
       "animated-movies",
@@ -6820,7 +6961,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "fantasy-adventure-movies"
     ],
@@ -6834,7 +6974,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "90s",
       "family-movies",
       "disney-channel-movies",
       "teen-movies",
@@ -6852,7 +6991,6 @@ module.exports = [
     "endYear": null,
     "type": "movie",
     "tags": [
-      "2000s",
       "family-movies",
       "disney-channel-movies",
       "disney-movies",
@@ -6862,23 +7000,5 @@ module.exports = [
     ],
     "enabled": true,
     "featuredRank": 82
-  },
-  {
-    "id": "tt0379060",
-    "name": "Zenon: Z3",
-    "startYear": 2004,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "2000s",
-      "family-movies",
-      "disney-channel-movies",
-      "disney-movies",
-      "teen-movies",
-      "comedy-movies",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 78
   }
 ];

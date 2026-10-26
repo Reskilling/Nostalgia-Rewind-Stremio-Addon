@@ -1,23 +1,18 @@
 'use strict';
 
 // Nostalgia Rewind catalog configuration.
-// Catalogs are built from factual media tags rather than catalog-specific tags.
+//
+// Every catalog is a row on the Stremio home screen, so keep the list short.
+// Categories that don't need their own row belong in a type's filters, which
+// Stremio shows as a dropdown in Discover. Catalogs and filters both match an
+// item when it carries any of their tags; a catalog with no tags matches all.
+// Decade filters match by years instead: each title belongs to the one decade
+// of its heyday (see catalog-query.js), so a show running 1987-1995 is 90s.
 // Toggle a catalog by changing only its enabled value.
 
-const SORT_MODES = ['featured', 'alphabetical', 'chronological'];
 const MEDIA_TYPES = ['series', 'movie'];
-const MATCH_MODES = ['all', 'tag', 'tags-any'];
 
 const KNOWN_TAGS = [
-  '2000s',
-  '2000s-anime',
-  '2000s-kids',
-  '90s',
-  '90s-action',
-  '90s-anime',
-  '90s-classics',
-  '90s-comedy',
-  '90s-kids',
   'action',
   'action-anime',
   'adult-animation',
@@ -36,11 +31,7 @@ const KNOWN_TAGS = [
   'disney-channel',
   'disney-channel-movies',
   'disney-movies',
-  'early-2000s',
-  'early-2000s-classics',
-  'early-90s',
   'educational',
-  'educational-nostalgia',
   'family-movies',
   'fantasy-adventure-movies',
   'fantasy-anime',
@@ -49,12 +40,10 @@ const KNOWN_TAGS = [
   'kids-animation',
   'kids-teen-sitcoms',
   'kids-wb',
-  'late-90s',
   'live-action-kids',
+  'live-action-primetime',
   'marvel',
-  'mid-90s',
   'nickelodeon',
-  'nickelodeon-gas',
   'nickelodeon-movies',
   'nicktoons',
   'one-saturday-morning',
@@ -62,7 +51,6 @@ const KNOWN_TAGS = [
   'pbs-kids',
   'playhouse-disney',
   'preschool',
-  'preschool-nostalgia',
   'retro-syndication',
   'saturday-morning',
   'science-nature',
@@ -77,152 +65,84 @@ const KNOWN_TAGS = [
   'weird-cartoons',
 ];
 
+const NICKELODEON_TAGS = ['nickelodeon', 'nicktoons', 'snick'];
+const CARTOON_NETWORK_TAGS = ['cartoon-network'];
+const DISNEY_TV_TAGS = [
+  'disney-channel',
+  'toon-disney',
+  'disney-afternoon',
+  'one-saturday-morning',
+  'playhouse-disney',
+];
+
+const DECADE_FILTERS = [
+  { name: '80s & Earlier', years: [0, 1989] },
+  { name: '90s', years: [1990, 1999] },
+  { name: '2000s', years: [2000, 2009] },
+];
+
+const SERIES_FILTERS = [
+  ...DECADE_FILTERS,
+  { name: 'Nickelodeon', tags: NICKELODEON_TAGS },
+  { name: 'Cartoon Network', tags: CARTOON_NETWORK_TAGS },
+  { name: 'Disney', tags: DISNEY_TV_TAGS },
+  { name: "Fox Kids & Kids' WB", tags: ['fox-kids', 'kids-wb'] },
+  { name: 'Toonami', tags: ['toonami'] },
+  { name: 'Anime', tags: ['anime'] },
+  { name: 'Superheroes', tags: ['superhero-animation'] },
+  { name: 'Retro Reruns', tags: ['retro-syndication', 'syndicated-classics'] },
+  { name: 'PBS & Preschool', tags: ['pbs', 'pbs-kids', 'preschool', 'educational', 'science-nature'] },
+  { name: 'Live Action & Sitcoms', tags: ['live-action-kids', 'kids-teen-sitcoms', 'live-action-primetime'] },
+  { name: 'Adult Swim & Adult Animation', tags: ['adult-animation', 'adult-swim'] },
+  { name: 'Hidden Gems', tags: ['forgotten-obscure'] },
+];
+
+const MOVIE_FILTERS = [
+  ...DECADE_FILTERS,
+  { name: 'Animated', tags: ['animated-movies'] },
+  { name: 'Disney', tags: ['disney-movies'] },
+  { name: 'TV Movies & DCOMs', tags: ['disney-channel-movies', 'nickelodeon-movies', 'cartoon-network-movies'] },
+  { name: 'Anime', tags: ['anime-movies'] },
+  { name: 'Superheroes', tags: ['superhero-movies'] },
+  { name: 'Teen', tags: ['teen-movies'] },
+  { name: 'Comedy', tags: ['comedy-movies'] },
+  { name: 'Spooky', tags: ['spooky-movies'] },
+];
+
 const catalogs = [
   {
     id: 'nostalgia-rewind-tv',
     name: 'Nostalgia Rewind TV',
     type: 'series',
-    match: 'all',
-    sort: 'alphabetical',
+    filters: SERIES_FILTERS,
     enabled: true,
   },
   {
     id: 'nostalgia-rewind-nickelodeon',
     name: 'Nickelodeon',
     type: 'series',
-    match: 'tags-any',
-    tags: ['nickelodeon', 'nicktoons', 'snick', 'nickelodeon-gas'],
-    sort: 'alphabetical',
+    tags: NICKELODEON_TAGS,
     enabled: true,
   },
   {
     id: 'nostalgia-rewind-cartoon-network',
     name: 'Cartoon Network',
     type: 'series',
-    match: 'tags-any',
-    tags: ['cartoon-network'],
-    sort: 'alphabetical',
+    tags: CARTOON_NETWORK_TAGS,
     enabled: true,
   },
   {
     id: 'nostalgia-rewind-disney-tv',
     name: 'Disney TV',
     type: 'series',
-    match: 'tags-any',
-    tags: [
-      'disney-channel',
-      'toon-disney',
-      'disney-afternoon',
-      'one-saturday-morning',
-      'playhouse-disney',
-    ],
-    sort: 'alphabetical',
-    enabled: true,
-  },
-  {
-    id: 'nostalgia-rewind-saturday-after-school',
-    name: 'Saturday Morning & After School',
-    type: 'series',
-    match: 'tags-any',
-    tags: [
-      'saturday-morning',
-      'after-school',
-      'fox-kids',
-      'kids-wb',
-      'syndicated-classics',
-      'retro-syndication',
-    ],
-    sort: 'alphabetical',
-    enabled: true,
-  },
-  {
-    id: 'nostalgia-rewind-pbs-preschool',
-    name: 'PBS & Preschool',
-    type: 'series',
-    match: 'tags-any',
-    tags: ['pbs', 'pbs-kids', 'preschool', 'educational', 'science-nature'],
-    sort: 'alphabetical',
-    enabled: true,
-  },
-  {
-    id: 'nostalgia-rewind-anime',
-    name: 'Anime',
-    type: 'series',
-    match: 'tags-any',
-    tags: ['anime', 'fantasy-anime'],
-    sort: 'alphabetical',
-    enabled: true,
-  },
-  {
-    id: 'nostalgia-rewind-live-action-sitcoms',
-    name: 'Live Action & Sitcoms',
-    type: 'series',
-    match: 'tags-any',
-    tags: ['live-action-kids', 'kids-teen-sitcoms'],
-    sort: 'alphabetical',
-    enabled: true,
-  },
-  {
-    id: 'nostalgia-rewind-adult-animation',
-    name: 'Adult Animation',
-    type: 'series',
-    match: 'tags-any',
-    tags: ['adult-animation', 'adult-swim'],
-    sort: 'alphabetical',
-    enabled: true,
-  },
-  {
-    id: 'nostalgia-rewind-forgotten-obscure',
-    name: 'Forgotten & Obscure',
-    type: 'series',
-    match: 'tags-any',
-    tags: ['forgotten-obscure'],
-    sort: 'alphabetical',
+    tags: DISNEY_TV_TAGS,
     enabled: true,
   },
   {
     id: 'nostalgia-rewind-movies',
     name: 'Nostalgia Rewind Movies',
     type: 'movie',
-    match: 'all',
-    sort: 'alphabetical',
-    enabled: true,
-  },
-  {
-    id: 'nostalgia-rewind-kids-family-movies',
-    name: 'Kids & Family Movies',
-    type: 'movie',
-    match: 'tags-any',
-    tags: ['family-movies', 'animated-movies'],
-    sort: 'alphabetical',
-    enabled: true,
-  },
-  {
-    id: 'nostalgia-rewind-tv-movies-specials',
-    name: 'TV Movies & Specials',
-    type: 'movie',
-    match: 'tags-any',
-    tags: ['disney-channel-movies', 'nickelodeon-movies', 'cartoon-network-movies'],
-    sort: 'alphabetical',
-    enabled: true,
-  },
-  {
-    id: 'nostalgia-rewind-anime-superhero-movies',
-    name: 'Anime & Superhero Movies',
-    type: 'movie',
-    match: 'tags-any',
-    tags: ['anime-movies', 'superhero-movies'],
-    sort: 'alphabetical',
-    enabled: true,
-  },
-  {
-    id: 'nostalgia-rewind-teen-comedy-adventure',
-    name: 'Teen, Comedy & Adventure',
-    type: 'movie',
-    match: 'tags-any',
-    tags: ['teen-movies', 'comedy-movies', 'fantasy-adventure-movies', 'spooky-movies'],
-    excludeTags: ['family-movies'],
-    sort: 'alphabetical',
+    filters: MOVIE_FILTERS,
     enabled: true,
   },
 ];
@@ -230,7 +150,5 @@ const catalogs = [
 module.exports = {
   catalogs,
   KNOWN_TAGS,
-  SORT_MODES,
   MEDIA_TYPES,
-  MATCH_MODES,
 };

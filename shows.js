@@ -10,14 +10,36 @@ module.exports = [
     "tags": [
       "saturday-morning",
       "forgotten-obscure",
-      "comedy",
-      "90s",
-      "early-90s",
-      "90s-classics",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 60
+  },
+  {
+    "id": "tt0115082",
+    "name": "3rd Rock from the Sun",
+    "startYear": 1996,
+    "endYear": 2001,
+    "type": "series",
+    "tags": [
+      "live-action-primetime",
+      "kids-teen-sitcoms",
+      "comedy"
+    ],
+    "enabled": true,
+    "featuredRank": 85
+  },
+  {
+    "id": "tt0115083",
+    "name": "7th Heaven",
+    "startYear": 1996,
+    "endYear": 2007,
+    "type": "series",
+    "tags": [
+      "live-action-primetime"
+    ],
+    "enabled": true,
+    "featuredRank": 85
   },
   {
     "id": "tt0144700",
@@ -31,15 +53,26 @@ module.exports = [
       "toon-disney",
       "one-saturday-morning",
       "saturday-morning",
-      "comedy",
-      "90s",
-      "90s-classics",
-      "late-90s",
-      "90s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 78
+  },
+  {
+    "id": "tt0094531",
+    "name": "A Pup Named Scooby-Doo",
+    "startYear": 1988,
+    "endYear": 1991,
+    "type": "series",
+    "tags": [
+      "syndicated-classics",
+      "retro-syndication",
+      "kids-animation",
+      "saturday-morning"
+    ],
+    "enabled": true,
+    "featuredRank": 85,
+    "franchise": "Scooby-Doo"
   },
   {
     "id": "tt0108684",
@@ -52,15 +85,26 @@ module.exports = [
       "nicktoons",
       "weird-cartoons",
       "kids-animation",
-      "comedy",
-      "90s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 90
+  },
+  {
+    "id": "tt0222518",
+    "name": "Adventures of Sonic the Hedgehog",
+    "startYear": 1993,
+    "endYear": 1993,
+    "type": "series",
+    "tags": [
+      "syndicated-classics",
+      "after-school",
+      "kids-animation",
+      "comedy"
+    ],
+    "enabled": true,
+    "featuredRank": 85,
+    "franchise": "Sonic the Hedgehog"
   },
   {
     "id": "tt0105935",
@@ -74,18 +118,28 @@ module.exports = [
       "disney-afternoon",
       "after-school",
       "kids-animation",
-      "comedy",
-      "90s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75,
     "programmingBlocks": [
       "Disney Afternoon"
     ]
+  },
+  {
+    "id": "tt0090390",
+    "name": "ALF",
+    "startYear": 1986,
+    "endYear": 1990,
+    "type": "series",
+    "tags": [
+      "live-action-primetime",
+      "kids-teen-sitcoms",
+      "comedy",
+      "syndicated-classics"
+    ],
+    "enabled": true,
+    "featuredRank": 85
   },
   {
     "id": "tt0387714",
@@ -97,11 +151,7 @@ module.exports = [
       "nickelodeon",
       "nicktoons",
       "kids-animation",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -115,13 +165,7 @@ module.exports = [
     "tags": [
       "nickelodeon",
       "snick",
-      "live-action-kids",
-      "90s",
-      "2000s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids"
+      "live-action-kids"
     ],
     "enabled": true,
     "featuredRank": 90,
@@ -140,13 +184,24 @@ module.exports = [
       "syndicated-classics",
       "kids-animation",
       "comedy",
-      "retro-syndication",
-      "90s",
-      "90s-kids",
-      "90s-comedy"
+      "retro-syndication"
     ],
     "enabled": true,
     "featuredRank": 75
+  },
+  {
+    "id": "tt0397306",
+    "name": "American Dad!",
+    "startYear": 2005,
+    "endYear": null,
+    "type": "series",
+    "tags": [
+      "adult-animation",
+      "adult-swim",
+      "comedy"
+    ],
+    "enabled": true,
+    "featuredRank": 88
   },
   {
     "id": "tt0429305",
@@ -159,11 +214,7 @@ module.exports = [
       "toon-disney",
       "kids-animation",
       "action",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -179,16 +230,7 @@ module.exports = [
       "saturday-morning",
       "kids-animation",
       "comedy",
-      "weird-cartoons",
-      "90s",
-      "90s-classics",
-      "late-90s",
-      "90s-kids",
-      "90s-comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "weird-cartoons"
     ],
     "enabled": true,
     "featuredRank": 70
@@ -204,12 +246,7 @@ module.exports = [
       "saturday-morning",
       "after-school",
       "kids-animation",
-      "comedy",
-      "90s",
-      "early-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 100
@@ -222,13 +259,7 @@ module.exports = [
     "type": "series",
     "tags": [
       "nickelodeon",
-      "live-action-kids",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids"
+      "live-action-kids"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -244,10 +275,7 @@ module.exports = [
       "adult-animation",
       "weird-cartoons",
       "comedy",
-      "cult-animation",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics"
+      "cult-animation"
     ],
     "enabled": true,
     "featuredRank": 90,
@@ -264,13 +292,7 @@ module.exports = [
     "tags": [
       "nickelodeon",
       "snick",
-      "live-action-kids",
-      "90s",
-      "2000s",
-      "early-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids"
+      "live-action-kids"
     ],
     "enabled": true,
     "featuredRank": 90,
@@ -287,14 +309,7 @@ module.exports = [
     "tags": [
       "pbs",
       "pbs-kids",
-      "educational",
-      "educational-nostalgia",
-      "90s",
-      "2000s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids"
+      "educational"
     ],
     "enabled": true,
     "featuredRank": 100
@@ -309,11 +324,7 @@ module.exports = [
       "nickelodeon",
       "nicktoons",
       "kids-animation",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -328,12 +339,7 @@ module.exports = [
     "tags": [
       "anime",
       "action-anime",
-      "toonami",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids",
-      "2000s-anime"
+      "toonami"
     ],
     "enabled": true,
     "featuredRank": 80
@@ -348,14 +354,24 @@ module.exports = [
       "nickelodeon",
       "nicktoons",
       "kids-animation",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 90
+  },
+  {
+    "id": "tt0339955",
+    "name": "Azumanga Daioh: The Animation",
+    "startYear": 2002,
+    "endYear": 2002,
+    "type": "series",
+    "tags": [
+      "anime",
+      "comedy"
+    ],
+    "enabled": true,
+    "featuredRank": 75,
+    "displayName": "Azumanga Daioh"
   },
   {
     "id": "tt0156200",
@@ -367,38 +383,26 @@ module.exports = [
       "pbs",
       "pbs-kids",
       "educational",
-      "educational-nostalgia",
       "preschool",
-      "preschool-nostalgia",
-      "kids-animation",
-      "90s",
-      "90s-classics",
-      "early-90s",
-      "90s-kids",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "kids-animation"
     ],
     "enabled": true,
     "featuredRank": 82
   },
   {
-    "id": "tt0252753",
-    "name": "Baby Blues",
-    "startYear": 2000,
-    "endYear": 2002,
+    "id": "tt0338580",
+    "name": "Baby Looney Tunes",
+    "startYear": 2001,
+    "endYear": 2005,
     "type": "series",
     "tags": [
-      "adult-animation",
-      "cult-animation",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics"
+      "cartoon-network",
+      "kids-animation",
+      "preschool"
     ],
     "enabled": true,
-    "featuredRank": 70
+    "featuredRank": 72,
+    "franchise": "Looney Tunes"
   },
   {
     "id": "tt0144701",
@@ -410,15 +414,7 @@ module.exports = [
       "pbs",
       "pbs-kids",
       "preschool",
-      "educational",
-      "educational-nostalgia",
-      "preschool-nostalgia",
-      "90s",
-      "2000s",
-      "early-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids"
+      "educational"
     ],
     "enabled": true,
     "featuredRank": 90
@@ -435,14 +431,7 @@ module.exports = [
       "superhero-animation",
       "kids-animation",
       "action",
-      "dc",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-action"
+      "dc"
     ],
     "enabled": true,
     "featuredRank": 90,
@@ -462,16 +451,27 @@ module.exports = [
       "kids-animation",
       "action",
       "dc",
-      "cult-animation",
-      "90s",
-      "early-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-action"
+      "cult-animation"
     ],
     "enabled": true,
     "featuredRank": 100,
     "franchise": "Batman"
+  },
+  {
+    "id": "tt0076983",
+    "name": "Battle of the Planets",
+    "startYear": 1978,
+    "endYear": 1980,
+    "type": "series",
+    "tags": [
+      "syndicated-classics",
+      "retro-syndication",
+      "kids-animation",
+      "anime",
+      "action"
+    ],
+    "enabled": true,
+    "featuredRank": 72
   },
   {
     "id": "tt0106367",
@@ -482,12 +482,7 @@ module.exports = [
     "tags": [
       "educational",
       "science-nature",
-      "live-action-kids",
-      "educational-nostalgia",
-      "90s",
-      "early-90s",
-      "90s-classics",
-      "90s-kids"
+      "live-action-kids"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -501,20 +496,29 @@ module.exports = [
     "tags": [
       "disney-channel",
       "playhouse-disney",
-      "preschool",
-      "preschool-nostalgia",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids"
+      "preschool"
     ],
     "enabled": true,
     "featuredRank": 75,
     "programmingBlocks": [
       "Playhouse Disney"
     ]
+  },
+  {
+    "id": "tt0115108",
+    "name": "Beast Wars: Transformers",
+    "startYear": 1996,
+    "endYear": 1999,
+    "type": "series",
+    "tags": [
+      "syndicated-classics",
+      "saturday-morning",
+      "kids-animation",
+      "action"
+    ],
+    "enabled": true,
+    "featuredRank": 90,
+    "franchise": "Transformers"
   },
   {
     "id": "tt0105950",
@@ -524,12 +528,7 @@ module.exports = [
     "type": "series",
     "tags": [
       "adult-animation",
-      "comedy",
-      "90s",
-      "2000s",
-      "early-90s",
-      "90s-classics",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -544,10 +543,7 @@ module.exports = [
       "syndicated-classics",
       "kids-animation",
       "comedy",
-      "retro-syndication",
-      "90s",
-      "90s-kids",
-      "90s-comedy"
+      "retro-syndication"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -562,14 +558,24 @@ module.exports = [
       "cartoon-network",
       "kids-animation",
       "action",
-      "superhero-animation",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "superhero-animation"
     ],
     "enabled": true,
     "featuredRank": 96
+  },
+  {
+    "id": "tt0318871",
+    "name": "Berserk",
+    "startYear": 1997,
+    "endYear": 1998,
+    "type": "series",
+    "tags": [
+      "anime",
+      "action-anime",
+      "cult-animation"
+    ],
+    "enabled": true,
+    "featuredRank": 82
   },
   {
     "id": "tt0242192",
@@ -580,14 +586,7 @@ module.exports = [
     "tags": [
       "pbs",
       "pbs-kids",
-      "educational",
-      "educational-nostalgia",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids"
+      "educational"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -601,12 +600,7 @@ module.exports = [
     "tags": [
       "anime",
       "action",
-      "action-anime",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids",
-      "2000s-anime"
+      "action-anime"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -622,12 +616,7 @@ module.exports = [
       "saturday-morning",
       "after-school",
       "live-action-kids",
-      "action",
-      "90s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-action"
+      "action"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -636,22 +625,19 @@ module.exports = [
     ]
   },
   {
-    "id": "tt0098752",
-    "name": "Bill & Ted's Excellent Adventures",
-    "startYear": 1990,
-    "endYear": 1991,
+    "id": "tt0147752",
+    "name": "Biker Mice from Mars",
+    "startYear": 1993,
+    "endYear": 1996,
     "type": "series",
     "tags": [
-      "fox-kids",
+      "syndicated-classics",
       "saturday-morning",
       "kids-animation",
-      "comedy",
-      "90s",
-      "early-90s",
-      "90s-kids"
+      "action"
     ],
     "enabled": true,
-    "featuredRank": 78
+    "featuredRank": 82
   },
   {
     "id": "tt0173528",
@@ -662,12 +648,7 @@ module.exports = [
     "tags": [
       "educational",
       "science-nature",
-      "live-action-kids",
-      "educational-nostalgia",
-      "90s",
-      "early-90s",
-      "90s-classics",
-      "90s-kids"
+      "live-action-kids"
     ],
     "enabled": true,
     "featuredRank": 90
@@ -683,11 +664,7 @@ module.exports = [
       "adult-swim",
       "action",
       "action-anime",
-      "fantasy-anime",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-anime"
+      "fantasy-anime"
     ],
     "enabled": true,
     "featuredRank": 98
@@ -703,10 +680,7 @@ module.exports = [
       "adult-swim",
       "action",
       "action-anime",
-      "fantasy-anime",
-      "2000s",
-      "early-2000s",
-      "2000s-anime"
+      "fantasy-anime"
     ],
     "enabled": true,
     "featuredRank": 84
@@ -721,13 +695,7 @@ module.exports = [
       "anime",
       "adult-swim",
       "action",
-      "action-anime",
-      "90s",
-      "late-90s",
-      "90s-anime",
-      "2000s",
-      "early-2000s",
-      "2000s-anime"
+      "action-anime"
     ],
     "enabled": true,
     "featuredRank": 82
@@ -740,14 +708,7 @@ module.exports = [
     "type": "series",
     "tags": [
       "nickelodeon",
-      "preschool",
-      "preschool-nostalgia",
-      "90s",
-      "2000s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids"
+      "preschool"
     ],
     "enabled": true,
     "featuredRank": 100
@@ -762,18 +723,8 @@ module.exports = [
       "pbs",
       "pbs-kids",
       "educational",
-      "educational-nostalgia",
       "preschool",
-      "preschool-nostalgia",
-      "kids-animation",
-      "90s",
-      "90s-classics",
-      "late-90s",
-      "90s-kids",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "kids-animation"
     ],
     "enabled": true,
     "featuredRank": 84
@@ -789,12 +740,7 @@ module.exports = [
       "saturday-morning",
       "after-school",
       "kids-animation",
-      "comedy",
-      "90s",
-      "early-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -810,12 +756,7 @@ module.exports = [
       "action-anime",
       "weird-cartoons",
       "comedy",
-      "toonami",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids",
-      "2000s-anime"
+      "toonami"
     ],
     "enabled": true,
     "featuredRank": 76
@@ -834,12 +775,7 @@ module.exports = [
       "syndicated-classics",
       "kids-animation",
       "comedy",
-      "retro-syndication",
-      "90s",
-      "early-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-comedy"
+      "retro-syndication"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -857,14 +793,7 @@ module.exports = [
       "disney-channel",
       "live-action-kids",
       "kids-teen-sitcoms",
-      "comedy",
-      "90s",
-      "2000s",
-      "early-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 90
@@ -878,10 +807,7 @@ module.exports = [
     "tags": [
       "kids-animation",
       "comedy",
-      "after-school",
-      "2000s",
-      "early-2000s",
-      "2000s-kids"
+      "after-school"
     ],
     "enabled": true,
     "featuredRank": 82
@@ -896,11 +822,35 @@ module.exports = [
       "disney-channel",
       "toon-disney",
       "kids-animation",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
+    ],
+    "enabled": true,
+    "featuredRank": 75
+  },
+  {
+    "id": "tt0118276",
+    "name": "Buffy the Vampire Slayer",
+    "startYear": 1997,
+    "endYear": 2003,
+    "type": "series",
+    "tags": [
+      "live-action-primetime",
+      "action"
+    ],
+    "enabled": true,
+    "featuredRank": 98
+  },
+  {
+    "id": "tt0162796",
+    "name": "Bump in the Night",
+    "startYear": 1994,
+    "endYear": 1995,
+    "type": "series",
+    "tags": [
+      "saturday-morning",
+      "kids-animation",
+      "weird-cartoons",
+      "forgotten-obscure"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -918,11 +868,7 @@ module.exports = [
       "saturday-morning",
       "kids-animation",
       "action",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -940,12 +886,7 @@ module.exports = [
       "kids-animation",
       "action",
       "cult-animation",
-      "forgotten-obscure",
-      "90s",
-      "90s-classics",
-      "early-90s",
-      "90s-kids",
-      "90s-action"
+      "forgotten-obscure"
     ],
     "enabled": true,
     "featuredRank": 78
@@ -959,17 +900,26 @@ module.exports = [
     "tags": [
       "pbs",
       "pbs-kids",
-      "preschool",
-      "preschool-nostalgia",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids"
+      "preschool"
     ],
     "enabled": true,
     "featuredRank": 75
+  },
+  {
+    "id": "tt0103380",
+    "name": "California Dreams",
+    "startYear": 1992,
+    "endYear": 1997,
+    "type": "series",
+    "tags": [
+      "live-action-primetime",
+      "kids-teen-sitcoms",
+      "comedy",
+      "live-action-kids",
+      "saturday-morning"
+    ],
+    "enabled": true,
+    "featuredRank": 78
   },
   {
     "id": "tt0419315",
@@ -981,11 +931,7 @@ module.exports = [
       "cartoon-network",
       "after-school",
       "kids-animation",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -1002,12 +948,7 @@ module.exports = [
       "syndicated-classics",
       "kids-animation",
       "action",
-      "retro-syndication",
-      "90s",
-      "early-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-action"
+      "retro-syndication"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -1024,15 +965,7 @@ module.exports = [
       "saturday-morning",
       "anime",
       "kids-animation",
-      "fantasy-anime",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-anime",
-      "2000s-anime"
+      "fantasy-anime"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -1048,15 +981,7 @@ module.exports = [
     "endYear": null,
     "type": "series",
     "tags": [
-      "anime",
-      "90s",
-      "2000s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-anime",
-      "2000s-anime"
+      "anime"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -1074,14 +999,7 @@ module.exports = [
       "nickelodeon",
       "nicktoons",
       "kids-animation",
-      "comedy",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 90
@@ -1097,10 +1015,7 @@ module.exports = [
       "nicktoons",
       "kids-animation",
       "comedy",
-      "weird-cartoons",
-      "2000s",
-      "early-2000s",
-      "2000s-kids"
+      "weird-cartoons"
     ],
     "enabled": true,
     "featuredRank": 80,
@@ -1116,12 +1031,7 @@ module.exports = [
     "type": "series",
     "tags": [
       "adult-animation",
-      "comedy",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -1137,38 +1047,22 @@ module.exports = [
       "nicktoons",
       "forgotten-obscure",
       "kids-animation",
-      "comedy",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 60
   },
   {
-    "id": "tt0487813",
-    "name": "Charlie and Lola",
-    "startYear": 2005,
-    "endYear": 2008,
+    "id": "tt0158552",
+    "name": "Charmed",
+    "startYear": 1998,
+    "endYear": 2006,
     "type": "series",
     "tags": [
-      "disney-channel",
-      "playhouse-disney",
-      "preschool",
-      "preschool-nostalgia",
-      "kids-animation",
-      "educational",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "live-action-primetime"
     ],
     "enabled": true,
-    "featuredRank": 72
+    "featuredRank": 92
   },
   {
     "id": "tt0096557",
@@ -1184,10 +1078,7 @@ module.exports = [
       "syndicated-classics",
       "kids-animation",
       "comedy",
-      "retro-syndication",
-      "90s",
-      "90s-kids",
-      "90s-comedy"
+      "retro-syndication"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -1206,12 +1097,41 @@ module.exports = [
       "kids-animation",
       "comedy",
       "weird-cartoons",
-      "cult-animation",
-      "2000s",
-      "2000s-kids"
+      "cult-animation"
     ],
     "enabled": true,
     "featuredRank": 90
+  },
+  {
+    "id": "tt0147757",
+    "name": "City Guys",
+    "startYear": 1997,
+    "endYear": 2001,
+    "type": "series",
+    "tags": [
+      "live-action-primetime",
+      "kids-teen-sitcoms",
+      "comedy",
+      "live-action-kids",
+      "saturday-morning"
+    ],
+    "enabled": true,
+    "featuredRank": 72
+  },
+  {
+    "id": "tt0101065",
+    "name": "Clarissa Explains It All",
+    "startYear": 1991,
+    "endYear": 1994,
+    "type": "series",
+    "tags": [
+      "nickelodeon",
+      "live-action-kids",
+      "kids-teen-sitcoms",
+      "comedy"
+    ],
+    "enabled": true,
+    "featuredRank": 95
   },
   {
     "id": "tt0767914",
@@ -1223,9 +1143,7 @@ module.exports = [
       "cartoon-network",
       "kids-animation",
       "comedy",
-      "cult-animation",
-      "2000s",
-      "2000s-kids"
+      "cult-animation"
     ],
     "enabled": true,
     "featuredRank": 80
@@ -1239,12 +1157,7 @@ module.exports = [
     "tags": [
       "pbs",
       "pbs-kids",
-      "preschool",
-      "preschool-nostalgia",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "preschool"
     ],
     "enabled": true,
     "featuredRank": 90
@@ -1260,10 +1173,7 @@ module.exports = [
       "weird-cartoons",
       "forgotten-obscure",
       "comedy",
-      "cult-animation",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics"
+      "cult-animation"
     ],
     "enabled": true,
     "featuredRank": 60
@@ -1278,11 +1188,7 @@ module.exports = [
       "kids-animation",
       "action",
       "cult-animation",
-      "after-school",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "after-school"
     ],
     "enabled": true,
     "featuredRank": 90
@@ -1297,11 +1203,7 @@ module.exports = [
       "cartoon-network",
       "after-school",
       "kids-animation",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 90
@@ -1318,14 +1220,7 @@ module.exports = [
       "weird-cartoons",
       "kids-animation",
       "comedy",
-      "cult-animation",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-comedy"
+      "cult-animation"
     ],
     "enabled": true,
     "featuredRank": 100
@@ -1341,12 +1236,7 @@ module.exports = [
       "after-school",
       "weird-cartoons",
       "kids-animation",
-      "comedy",
-      "90s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 90
@@ -1363,12 +1253,7 @@ module.exports = [
       "anime",
       "action",
       "cult-animation",
-      "action-anime",
-      "90s",
-      "late-90s",
-      "90s-classics",
-      "90s-anime",
-      "90s-action"
+      "action-anime"
     ],
     "enabled": true,
     "featuredRank": 100,
@@ -1386,36 +1271,10 @@ module.exports = [
       "pbs",
       "pbs-kids",
       "educational",
-      "science-nature",
-      "educational-nostalgia",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "science-nature"
     ],
     "enabled": true,
     "featuredRank": 75
-  },
-  {
-    "id": "tt0211793",
-    "name": "Cybersix",
-    "startYear": 1999,
-    "endYear": 1999,
-    "type": "series",
-    "tags": [
-      "fox-kids",
-      "saturday-morning",
-      "kids-animation",
-      "action",
-      "cult-animation",
-      "90s",
-      "90s-classics",
-      "late-90s",
-      "90s-kids",
-      "90s-action"
-    ],
-    "enabled": true,
-    "featuredRank": 70
   },
   {
     "id": "tt0372650",
@@ -1427,12 +1286,7 @@ module.exports = [
     "tags": [
       "anime",
       "action-anime",
-      "toonami",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids",
-      "2000s-anime"
+      "toonami"
     ],
     "enabled": true,
     "featuredRank": 76,
@@ -1450,11 +1304,7 @@ module.exports = [
       "nickelodeon",
       "nicktoons",
       "kids-animation",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -1468,12 +1318,7 @@ module.exports = [
     "tags": [
       "adult-animation",
       "comedy",
-      "cult-animation",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-comedy"
+      "cult-animation"
     ],
     "enabled": true,
     "featuredRank": 90
@@ -1492,12 +1337,7 @@ module.exports = [
       "syndicated-classics",
       "kids-animation",
       "comedy",
-      "retro-syndication",
-      "90s",
-      "early-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-comedy"
+      "retro-syndication"
     ],
     "enabled": true,
     "featuredRank": 90,
@@ -1515,14 +1355,22 @@ module.exports = [
       "disney-channel",
       "toon-disney",
       "kids-animation",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75
+  },
+  {
+    "id": "tt0118300",
+    "name": "Dawson's Creek",
+    "startYear": 1998,
+    "endYear": 2003,
+    "type": "series",
+    "tags": [
+      "live-action-primetime"
+    ],
+    "enabled": true,
+    "featuredRank": 90
   },
   {
     "id": "tt0877057",
@@ -1535,9 +1383,7 @@ module.exports = [
       "adult-swim",
       "action",
       "fantasy-anime",
-      "cult-animation",
-      "2000s",
-      "2000s-anime"
+      "cult-animation"
     ],
     "enabled": true,
     "featuredRank": 100
@@ -1552,14 +1398,7 @@ module.exports = [
       "cartoon-network",
       "after-school",
       "kids-animation",
-      "comedy",
-      "90s",
-      "2000s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 100
@@ -1578,19 +1417,39 @@ module.exports = [
       "kids-animation",
       "action",
       "action-anime",
-      "fantasy-anime",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-anime",
-      "2000s-anime",
-      "90s-action"
+      "fantasy-anime"
     ],
     "enabled": true,
     "featuredRank": 90
+  },
+  {
+    "id": "tt0118984",
+    "name": "Dilbert",
+    "startYear": 1999,
+    "endYear": 2000,
+    "type": "series",
+    "tags": [
+      "adult-animation",
+      "comedy",
+      "forgotten-obscure"
+    ],
+    "enabled": true,
+    "featuredRank": 70
+  },
+  {
+    "id": "tt0101081",
+    "name": "Dinosaurs",
+    "startYear": 1991,
+    "endYear": 1994,
+    "type": "series",
+    "tags": [
+      "live-action-primetime",
+      "kids-teen-sitcoms",
+      "comedy",
+      "cult-animation"
+    ],
+    "enabled": true,
+    "featuredRank": 88
   },
   {
     "id": "tt0088528",
@@ -1606,10 +1465,7 @@ module.exports = [
       "syndicated-classics",
       "kids-animation",
       "comedy",
-      "retro-syndication",
-      "90s",
-      "90s-kids",
-      "90s-comedy"
+      "retro-syndication"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -1628,17 +1484,7 @@ module.exports = [
       "saturday-morning",
       "kids-animation",
       "comedy",
-      "action",
-      "90s",
-      "90s-classics",
-      "late-90s",
-      "90s-kids",
-      "90s-action",
-      "90s-comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "action"
     ],
     "enabled": true,
     "featuredRank": 74
@@ -1651,36 +1497,10 @@ module.exports = [
     "type": "series",
     "tags": [
       "nickelodeon",
-      "preschool",
-      "preschool-nostalgia",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "preschool"
     ],
     "enabled": true,
     "featuredRank": 75
-  },
-  {
-    "id": "tt0242197",
-    "name": "Double Dragon",
-    "startYear": 1993,
-    "endYear": 1994,
-    "type": "series",
-    "tags": [
-      "kids-animation",
-      "action",
-      "cult-animation",
-      "saturday-morning",
-      "forgotten-obscure",
-      "90s",
-      "90s-classics",
-      "early-90s",
-      "90s-kids",
-      "90s-action"
-    ],
-    "enabled": true,
-    "featuredRank": 66
   },
   {
     "id": "tt0101084",
@@ -1692,36 +1512,10 @@ module.exports = [
       "nickelodeon",
       "nicktoons",
       "kids-animation",
-      "comedy",
-      "90s",
-      "early-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 90
-  },
-  {
-    "id": "tt0208616",
-    "name": "Downtown",
-    "startYear": 1999,
-    "endYear": 2000,
-    "type": "series",
-    "tags": [
-      "adult-animation",
-      "cult-animation",
-      "comedy",
-      "90s",
-      "90s-classics",
-      "late-90s",
-      "90s-comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics"
-    ],
-    "enabled": true,
-    "featuredRank": 78
   },
   {
     "id": "tt0111942",
@@ -1731,12 +1525,7 @@ module.exports = [
     "type": "series",
     "tags": [
       "adult-animation",
-      "comedy",
-      "90s",
-      "2000s",
-      "mid-90s",
-      "90s-classics",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -1776,16 +1565,7 @@ module.exports = [
       "anime",
       "action",
       "action-anime",
-      "fantasy-anime",
-      "90s",
-      "2000s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-anime",
-      "2000s-anime",
-      "90s-action"
+      "fantasy-anime"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -1807,16 +1587,7 @@ module.exports = [
       "anime",
       "action",
       "action-anime",
-      "fantasy-anime",
-      "90s",
-      "2000s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-anime",
-      "2000s-anime",
-      "90s-action"
+      "fantasy-anime"
     ],
     "enabled": true,
     "featuredRank": 100,
@@ -1824,25 +1595,6 @@ module.exports = [
       "Toonami"
     ],
     "franchise": "Dragon Ball"
-  },
-  {
-    "id": "tt0960287",
-    "name": "Dragon Drive",
-    "startYear": 2002,
-    "endYear": 2003,
-    "type": "series",
-    "tags": [
-      "anime",
-      "action",
-      "action-anime",
-      "fantasy-anime",
-      "forgotten-obscure",
-      "2000s",
-      "early-2000s",
-      "2000s-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 74
   },
   {
     "id": "tt0243061",
@@ -1853,14 +1605,7 @@ module.exports = [
     "tags": [
       "pbs",
       "pbs-kids",
-      "preschool",
-      "preschool-nostalgia",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids"
+      "preschool"
     ],
     "enabled": true,
     "featuredRank": 90
@@ -1875,11 +1620,20 @@ module.exports = [
       "nickelodeon",
       "live-action-kids",
       "kids-teen-sitcoms",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
+    ],
+    "enabled": true,
+    "featuredRank": 75
+  },
+  {
+    "id": "tt0386180",
+    "name": "Drawn Together",
+    "startYear": 2004,
+    "endYear": 2007,
+    "type": "series",
+    "tags": [
+      "adult-animation",
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -1895,12 +1649,7 @@ module.exports = [
       "saturday-morning",
       "kids-animation",
       "comedy",
-      "retro-syndication",
-      "90s",
-      "90s-classics",
-      "early-90s",
-      "90s-kids",
-      "90s-comedy"
+      "retro-syndication"
     ],
     "enabled": true,
     "featuredRank": 64
@@ -1914,10 +1663,7 @@ module.exports = [
     "tags": [
       "cartoon-network",
       "kids-animation",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 87
@@ -1931,11 +1677,7 @@ module.exports = [
     "tags": [
       "adult-animation",
       "comedy",
-      "cult-animation",
-      "90s",
-      "mid-90s",
-      "90s-classics",
-      "90s-comedy"
+      "cult-animation"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -1957,10 +1699,7 @@ module.exports = [
       "syndicated-classics",
       "kids-animation",
       "comedy",
-      "retro-syndication",
-      "90s",
-      "90s-kids",
-      "90s-comedy"
+      "retro-syndication"
     ],
     "enabled": true,
     "featuredRank": 90,
@@ -1977,15 +1716,27 @@ module.exports = [
     "tags": [
       "anime",
       "action-anime",
-      "fantasy-anime",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids",
-      "2000s-anime"
+      "fantasy-anime"
     ],
     "enabled": true,
     "featuredRank": 76
+  },
+  {
+    "id": "tt0085011",
+    "name": "Dungeons & Dragons",
+    "startYear": 1983,
+    "endYear": 1985,
+    "type": "series",
+    "tags": [
+      "syndicated-classics",
+      "retro-syndication",
+      "kids-animation",
+      "action",
+      "saturday-morning",
+      "cult-animation"
+    ],
+    "enabled": true,
+    "featuredRank": 78
   },
   {
     "id": "tt0111948",
@@ -1998,11 +1749,7 @@ module.exports = [
       "kids-wb",
       "saturday-morning",
       "after-school",
-      "kids-animation",
-      "90s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids"
+      "kids-animation"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -2017,14 +1764,7 @@ module.exports = [
       "cartoon-network",
       "after-school",
       "kids-animation",
-      "comedy",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 100
@@ -2040,15 +1780,23 @@ module.exports = [
       "saturday-morning",
       "after-school",
       "kids-animation",
-      "comedy",
-      "90s",
-      "early-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75
+  },
+  {
+    "id": "tt0101088",
+    "name": "Eerie, Indiana",
+    "startYear": 1991,
+    "endYear": 1992,
+    "type": "series",
+    "tags": [
+      "live-action-kids",
+      "forgotten-obscure"
+    ],
+    "enabled": true,
+    "featuredRank": 85
   },
   {
     "id": "tt0805837",
@@ -2062,9 +1810,7 @@ module.exports = [
       "kids-animation",
       "action",
       "comedy",
-      "superhero-animation",
-      "2000s",
-      "2000s-kids"
+      "superhero-animation"
     ],
     "enabled": true,
     "featuredRank": 84,
@@ -2082,13 +1828,7 @@ module.exports = [
     "tags": [
       "anime",
       "action-anime",
-      "fantasy-anime",
-      "90s",
-      "90s-classics",
-      "mid-90s",
-      "90s-kids",
-      "90s-anime",
-      "90s-action"
+      "fantasy-anime"
     ],
     "enabled": true,
     "featuredRank": 88,
@@ -2107,10 +1847,7 @@ module.exports = [
       "adult-swim",
       "action",
       "action-anime",
-      "fantasy-anime",
-      "2000s",
-      "early-2000s",
-      "2000s-anime"
+      "fantasy-anime"
     ],
     "enabled": true,
     "featuredRank": 90
@@ -2125,14 +1862,24 @@ module.exports = [
       "disney-channel",
       "live-action-kids",
       "kids-teen-sitcoms",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75
+  },
+  {
+    "id": "tt0460637",
+    "name": "Everybody Hates Chris",
+    "startYear": 2005,
+    "endYear": 2009,
+    "type": "series",
+    "tags": [
+      "live-action-primetime",
+      "kids-teen-sitcoms",
+      "comedy"
+    ],
+    "enabled": true,
+    "featuredRank": 90
   },
   {
     "id": "tt0419322",
@@ -2146,11 +1893,7 @@ module.exports = [
       "weird-cartoons",
       "forgotten-obscure",
       "kids-animation",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 60
@@ -2165,12 +1908,7 @@ module.exports = [
       "kids-animation",
       "action",
       "cult-animation",
-      "saturday-morning",
-      "90s",
-      "90s-classics",
-      "early-90s",
-      "90s-kids",
-      "90s-action"
+      "saturday-morning"
     ],
     "enabled": true,
     "featuredRank": 84
@@ -2185,11 +1923,7 @@ module.exports = [
       "fox-kids",
       "saturday-morning",
       "after-school",
-      "kids-animation",
-      "90s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids"
+      "kids-animation"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -2202,12 +1936,7 @@ module.exports = [
     "type": "series",
     "tags": [
       "adult-animation",
-      "comedy",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 90
@@ -2223,12 +1952,7 @@ module.exports = [
       "kids-teen-sitcoms",
       "comedy",
       "syndicated-classics",
-      "retro-syndication",
-      "90s",
-      "early-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-comedy"
+      "retro-syndication"
     ],
     "enabled": true,
     "featuredRank": 97,
@@ -2250,12 +1974,7 @@ module.exports = [
       "superhero-animation",
       "kids-animation",
       "action",
-      "marvel",
-      "90s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-action"
+      "marvel"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -2272,11 +1991,7 @@ module.exports = [
       "toon-disney",
       "forgotten-obscure",
       "kids-animation",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 60
@@ -2292,11 +2007,7 @@ module.exports = [
       "adult-swim",
       "anime",
       "weird-cartoons",
-      "cult-animation",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-anime"
+      "cult-animation"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -2314,14 +2025,25 @@ module.exports = [
       "cartoon-network",
       "after-school",
       "kids-animation",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 90
+  },
+  {
+    "id": "tt0085017",
+    "name": "Fraggle Rock",
+    "startYear": 1983,
+    "endYear": 1987,
+    "type": "series",
+    "tags": [
+      "syndicated-classics",
+      "retro-syndication",
+      "live-action-kids",
+      "preschool"
+    ],
+    "enabled": true,
+    "featuredRank": 88
   },
   {
     "id": "tt0203254",
@@ -2331,14 +2053,7 @@ module.exports = [
     "type": "series",
     "tags": [
       "nickelodeon",
-      "preschool",
-      "preschool-nostalgia",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids"
+      "preschool"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -2355,15 +2070,23 @@ module.exports = [
       "after-school",
       "kids-animation",
       "comedy",
-      "cult-animation",
-      "90s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-comedy"
+      "cult-animation"
     ],
     "enabled": true,
     "featuredRank": 75
+  },
+  {
+    "id": "tt0193676",
+    "name": "Freaks and Geeks",
+    "startYear": 1999,
+    "endYear": 2000,
+    "type": "series",
+    "tags": [
+      "live-action-primetime",
+      "comedy"
+    ],
+    "enabled": true,
+    "featuredRank": 92
   },
   {
     "id": "tt0865409",
@@ -2375,8 +2098,20 @@ module.exports = [
       "adult-swim",
       "adult-animation",
       "cult-animation",
-      "comedy",
-      "2000s"
+      "comedy"
+    ],
+    "enabled": true,
+    "featuredRank": 82
+  },
+  {
+    "id": "tt0328738",
+    "name": "Fruits Basket",
+    "startYear": 2001,
+    "endYear": 2001,
+    "type": "series",
+    "tags": [
+      "anime",
+      "fantasy-anime"
     ],
     "enabled": true,
     "featuredRank": 82
@@ -2392,12 +2127,7 @@ module.exports = [
       "kids-teen-sitcoms",
       "comedy",
       "syndicated-classics",
-      "retro-syndication",
-      "90s",
-      "early-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-comedy"
+      "retro-syndication"
     ],
     "enabled": true,
     "featuredRank": 98,
@@ -2417,18 +2147,26 @@ module.exports = [
       "anime",
       "action",
       "action-anime",
-      "fantasy-anime",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids",
-      "2000s-anime"
+      "fantasy-anime"
     ],
     "enabled": true,
     "featuredRank": 90,
     "programmingBlocks": [
       "Adult Swim"
     ]
+  },
+  {
+    "id": "tt0111973",
+    "name": "Fushigi Yûgi: The Mysterious Play",
+    "startYear": 1995,
+    "endYear": 2002,
+    "type": "series",
+    "tags": [
+      "anime",
+      "fantasy-anime"
+    ],
+    "enabled": true,
+    "featuredRank": 78
   },
   {
     "id": "tt0149460",
@@ -2438,15 +2176,26 @@ module.exports = [
     "type": "series",
     "tags": [
       "adult-animation",
-      "comedy",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 90
+  },
+  {
+    "id": "tt0086719",
+    "name": "G.I. Joe",
+    "startYear": 1985,
+    "endYear": 1986,
+    "type": "series",
+    "tags": [
+      "syndicated-classics",
+      "retro-syndication",
+      "kids-animation",
+      "action"
+    ],
+    "enabled": true,
+    "featuredRank": 92,
+    "displayName": "G.I. Joe: A Real American Hero"
   },
   {
     "id": "tt0094469",
@@ -2460,10 +2209,7 @@ module.exports = [
       "syndicated-classics",
       "kids-animation",
       "comedy",
-      "retro-syndication",
-      "90s",
-      "90s-kids",
-      "90s-comedy"
+      "retro-syndication"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -2482,13 +2228,7 @@ module.exports = [
       "kids-animation",
       "action",
       "comedy",
-      "cult-animation",
-      "90s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-action",
-      "90s-comedy"
+      "cult-animation"
     ],
     "enabled": true,
     "featuredRank": 90,
@@ -2507,17 +2247,40 @@ module.exports = [
       "adult-swim",
       "anime",
       "action",
-      "action-anime",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-anime"
+      "action-anime"
     ],
     "enabled": true,
     "featuredRank": 75,
     "programmingBlocks": [
       "Adult Swim"
     ]
+  },
+  {
+    "id": "tt0108787",
+    "name": "Ghostwriter",
+    "startYear": 1992,
+    "endYear": 1995,
+    "type": "series",
+    "tags": [
+      "pbs",
+      "pbs-kids",
+      "live-action-kids",
+      "educational"
+    ],
+    "enabled": true,
+    "featuredRank": 85
+  },
+  {
+    "id": "tt0238784",
+    "name": "Gilmore Girls",
+    "startYear": 2000,
+    "endYear": 2007,
+    "type": "series",
+    "tags": [
+      "live-action-primetime"
+    ],
+    "enabled": true,
+    "featuredRank": 95
   },
   {
     "id": "tt0423657",
@@ -2528,13 +2291,8 @@ module.exports = [
     "tags": [
       "nickelodeon",
       "preschool",
-      "preschool-nostalgia",
       "kids-animation",
-      "educational",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "educational"
     ],
     "enabled": true,
     "featuredRank": 82
@@ -2549,13 +2307,7 @@ module.exports = [
       "fox-kids",
       "saturday-morning",
       "after-school",
-      "kids-animation",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids"
+      "kids-animation"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -2574,12 +2326,7 @@ module.exports = [
       "syndicated-classics",
       "kids-animation",
       "comedy",
-      "retro-syndication",
-      "90s",
-      "early-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-comedy"
+      "retro-syndication"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -2597,14 +2344,23 @@ module.exports = [
       "fox-kids",
       "saturday-morning",
       "after-school",
-      "live-action-kids",
-      "90s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids"
+      "live-action-kids"
     ],
     "enabled": true,
     "featuredRank": 90
+  },
+  {
+    "id": "tt0315008",
+    "name": "Great Teacher Onizuka",
+    "startYear": 1999,
+    "endYear": 2000,
+    "type": "series",
+    "tags": [
+      "anime",
+      "comedy"
+    ],
+    "enabled": true,
+    "featuredRank": 82
   },
   {
     "id": "tt0305033",
@@ -2615,13 +2371,27 @@ module.exports = [
     "tags": [
       "nickelodeon",
       "preschool",
-      "preschool-nostalgia",
       "kids-animation",
       "anime",
       "retro-syndication"
     ],
     "enabled": true,
     "featuredRank": 74
+  },
+  {
+    "id": "tt0088527",
+    "name": "Growing Pains",
+    "startYear": 1985,
+    "endYear": 1992,
+    "type": "series",
+    "tags": [
+      "live-action-primetime",
+      "kids-teen-sitcoms",
+      "comedy",
+      "syndicated-classics"
+    ],
+    "enabled": true,
+    "featuredRank": 82
   },
   {
     "id": "tt0177444",
@@ -2631,12 +2401,7 @@ module.exports = [
     "type": "series",
     "tags": [
       "nickelodeon",
-      "preschool",
-      "preschool-nostalgia",
-      "90s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids"
+      "preschool"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -2651,12 +2416,7 @@ module.exports = [
     "tags": [
       "anime",
       "action-anime",
-      "toonami",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids",
-      "2000s-anime"
+      "toonami"
     ],
     "enabled": true,
     "featuredRank": 82,
@@ -2674,10 +2434,7 @@ module.exports = [
       "anime",
       "action",
       "action-anime",
-      "cult-animation",
-      "2000s",
-      "early-2000s",
-      "2000s-anime"
+      "cult-animation"
     ],
     "enabled": true,
     "featuredRank": 84
@@ -2690,11 +2447,7 @@ module.exports = [
     "type": "series",
     "tags": [
       "anime",
-      "fantasy-anime",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-anime"
+      "fantasy-anime"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -2709,18 +2462,58 @@ module.exports = [
       "cartoon-network",
       "toonami",
       "after-school",
-      "anime",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids",
-      "2000s-anime"
+      "anime"
     ],
     "enabled": true,
     "featuredRank": 75,
     "programmingBlocks": [
       "Toonami"
     ]
+  },
+  {
+    "id": "tt0111994",
+    "name": "Hang Time",
+    "startYear": 1995,
+    "endYear": 2000,
+    "type": "series",
+    "tags": [
+      "live-action-primetime",
+      "kids-teen-sitcoms",
+      "comedy",
+      "live-action-kids",
+      "saturday-morning"
+    ],
+    "enabled": true,
+    "featuredRank": 75
+  },
+  {
+    "id": "tt0103435",
+    "name": "Hangin' with Mr. Cooper",
+    "startYear": 1992,
+    "endYear": 1997,
+    "type": "series",
+    "tags": [
+      "live-action-primetime",
+      "kids-teen-sitcoms",
+      "comedy"
+    ],
+    "enabled": true,
+    "featuredRank": 82
+  },
+  {
+    "id": "tt0493093",
+    "name": "Hannah Montana",
+    "startYear": 2006,
+    "endYear": 2011,
+    "type": "series",
+    "tags": [
+      "disney-channel",
+      "live-action-kids",
+      "kids-teen-sitcoms",
+      "comedy"
+    ],
+    "enabled": true,
+    "featuredRank": 92
   },
   {
     "id": "tt0294097",
@@ -2731,10 +2524,7 @@ module.exports = [
     "tags": [
       "adult-swim",
       "adult-animation",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -2758,6 +2548,21 @@ module.exports = [
     "featuredRank": 75
   },
   {
+    "id": "tt0325547",
+    "name": "Hellsing",
+    "startYear": 2001,
+    "endYear": 2002,
+    "type": "series",
+    "tags": [
+      "anime",
+      "adult-swim",
+      "action-anime",
+      "cult-animation"
+    ],
+    "enabled": true,
+    "featuredRank": 82
+  },
+  {
     "id": "tt0138967",
     "name": "Hercules",
     "startYear": 1998,
@@ -2769,18 +2574,27 @@ module.exports = [
       "one-saturday-morning",
       "saturday-morning",
       "kids-animation",
-      "comedy",
-      "90s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75,
     "programmingBlocks": [
       "One Saturday Morning"
     ]
+  },
+  {
+    "id": "tt0111999",
+    "name": "Hercules: The Legendary Journeys",
+    "startYear": 1995,
+    "endYear": 1999,
+    "type": "series",
+    "tags": [
+      "live-action-primetime",
+      "syndicated-classics",
+      "action"
+    ],
+    "enabled": true,
+    "featuredRank": 82
   },
   {
     "id": "tt0115200",
@@ -2792,17 +2606,25 @@ module.exports = [
       "nickelodeon",
       "nicktoons",
       "kids-animation",
-      "comedy",
-      "90s",
-      "2000s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 100
+  },
+  {
+    "id": "tt0096610",
+    "name": "Hey Dude",
+    "startYear": 1989,
+    "endYear": 1991,
+    "type": "series",
+    "tags": [
+      "nickelodeon",
+      "live-action-kids",
+      "kids-teen-sitcoms",
+      "comedy"
+    ],
+    "enabled": true,
+    "featuredRank": 80
   },
   {
     "id": "tt0407398",
@@ -2814,54 +2636,10 @@ module.exports = [
       "cartoon-network",
       "kids-animation",
       "comedy",
-      "weird-cartoons",
-      "2000s",
-      "early-2000s",
-      "2000s-kids"
+      "weird-cartoons"
     ],
     "enabled": true,
     "featuredRank": 82
-  },
-  {
-    "id": "tt0406419",
-    "name": "Higglytown Heroes",
-    "startYear": 2004,
-    "endYear": 2008,
-    "type": "series",
-    "tags": [
-      "disney-channel",
-      "playhouse-disney",
-      "preschool",
-      "preschool-nostalgia",
-      "kids-animation",
-      "educational",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
-    ],
-    "enabled": true,
-    "featuredRank": 68
-  },
-  {
-    "id": "tt0147773",
-    "name": "Highlander: The Animated Series",
-    "startYear": 1994,
-    "endYear": 1996,
-    "type": "series",
-    "tags": [
-      "kids-animation",
-      "action",
-      "cult-animation",
-      "forgotten-obscure",
-      "90s",
-      "90s-classics",
-      "mid-90s",
-      "90s-kids",
-      "90s-action"
-    ],
-    "enabled": true,
-    "featuredRank": 70
   },
   {
     "id": "tt0426711",
@@ -2871,10 +2649,7 @@ module.exports = [
     "type": "series",
     "tags": [
       "anime",
-      "cult-animation",
-      "2000s",
-      "early-2000s",
-      "2000s-anime"
+      "cult-animation"
     ],
     "enabled": true,
     "featuredRank": 86
@@ -2889,13 +2664,7 @@ module.exports = [
       "kids-wb",
       "saturday-morning",
       "forgotten-obscure",
-      "kids-animation",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids"
+      "kids-animation"
     ],
     "enabled": true,
     "featuredRank": 60
@@ -2911,12 +2680,7 @@ module.exports = [
       "kids-teen-sitcoms",
       "comedy",
       "syndicated-classics",
-      "retro-syndication",
-      "90s-comedy",
-      "90s",
-      "early-90s",
-      "90s-classics",
-      "90s-kids"
+      "retro-syndication"
     ],
     "enabled": true,
     "featuredRank": 96,
@@ -2934,12 +2698,7 @@ module.exports = [
       "adult-swim",
       "adult-animation",
       "comedy",
-      "cult-animation",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-comedy"
+      "cult-animation"
     ],
     "enabled": true,
     "featuredRank": 90,
@@ -2957,11 +2716,7 @@ module.exports = [
       "disney-channel",
       "toon-disney",
       "kids-animation",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -2977,15 +2732,25 @@ module.exports = [
       "after-school",
       "weird-cartoons",
       "kids-animation",
-      "comedy",
-      "90s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75
+  },
+  {
+    "id": "tt0972534",
+    "name": "iCarly",
+    "startYear": 2007,
+    "endYear": 2012,
+    "type": "series",
+    "tags": [
+      "nickelodeon",
+      "live-action-kids",
+      "kids-teen-sitcoms",
+      "comedy"
+    ],
+    "enabled": true,
+    "featuredRank": 92
   },
   {
     "id": "tt0487183",
@@ -2997,18 +2762,27 @@ module.exports = [
     "tags": [
       "anime",
       "action-anime",
-      "toonami",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids",
-      "2000s-anime"
+      "toonami"
     ],
     "enabled": true,
     "featuredRank": 82,
     "alternateTitles": [
       "IGPX"
     ]
+  },
+  {
+    "id": "tt0385426",
+    "name": "Initial D: First Stage",
+    "startYear": 1998,
+    "endYear": 1998,
+    "type": "series",
+    "tags": [
+      "anime",
+      "action-anime"
+    ],
+    "enabled": true,
+    "featuredRank": 80,
+    "displayName": "Initial D"
   },
   {
     "id": "tt0085033",
@@ -3037,12 +2811,7 @@ module.exports = [
       "anime",
       "action",
       "action-anime",
-      "fantasy-anime",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids",
-      "2000s-anime"
+      "fantasy-anime"
     ],
     "enabled": true,
     "featuredRank": 90,
@@ -3062,11 +2831,7 @@ module.exports = [
       "weird-cartoons",
       "kids-animation",
       "comedy",
-      "cult-animation",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "cult-animation"
     ],
     "enabled": true,
     "featuredRank": 90
@@ -3084,12 +2849,7 @@ module.exports = [
       "superhero-animation",
       "kids-animation",
       "action",
-      "marvel",
-      "90s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-action"
+      "marvel"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -3105,11 +2865,7 @@ module.exports = [
       "kids-wb",
       "saturday-morning",
       "kids-animation",
-      "action",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "action"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -3124,14 +2880,7 @@ module.exports = [
       "cartoon-network",
       "after-school",
       "kids-animation",
-      "comedy",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 90
@@ -3146,14 +2895,40 @@ module.exports = [
       "kids-wb",
       "kids-animation",
       "saturday-morning",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 82
+  },
+  {
+    "id": "tt0057730",
+    "name": "Jonny Quest",
+    "startYear": 1964,
+    "endYear": 1965,
+    "type": "series",
+    "tags": [
+      "syndicated-classics",
+      "retro-syndication",
+      "kids-animation",
+      "action"
+    ],
+    "enabled": true,
+    "featuredRank": 78
+  },
+  {
+    "id": "tt0124949",
+    "name": "Jungle Cubs",
+    "startYear": 1996,
+    "endYear": 1998,
+    "type": "series",
+    "tags": [
+      "disney-channel",
+      "toon-disney",
+      "saturday-morning",
+      "kids-animation"
+    ],
+    "enabled": true,
+    "featuredRank": 72
   },
   {
     "id": "tt0275137",
@@ -3166,11 +2941,7 @@ module.exports = [
       "superhero-animation",
       "kids-animation",
       "action",
-      "dc",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "dc"
     ],
     "enabled": true,
     "featuredRank": 90,
@@ -3187,11 +2958,7 @@ module.exports = [
       "superhero-animation",
       "kids-animation",
       "action",
-      "dc",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "dc"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -3210,14 +2977,7 @@ module.exports = [
       "weird-cartoons",
       "forgotten-obscure",
       "kids-animation",
-      "comedy",
-      "90s",
-      "2000s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 60,
@@ -3236,41 +2996,12 @@ module.exports = [
       "snick",
       "live-action-kids",
       "kids-teen-sitcoms",
-      "comedy",
-      "90s",
-      "2000s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 90,
     "programmingBlocks": [
       "SNICK"
-    ]
-  },
-  {
-    "id": "tt0305046",
-    "name": "Android Kikaider: The Animation",
-    "displayName": "Kikaider",
-    "startYear": 2000,
-    "endYear": 2001,
-    "type": "series",
-    "tags": [
-      "anime",
-      "action-anime",
-      "adult-swim",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 70,
-    "alternateTitles": [
-      "Kikaider"
     ]
   },
   {
@@ -3284,11 +3015,7 @@ module.exports = [
       "toon-disney",
       "kids-animation",
       "action",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 100
@@ -3301,12 +3028,7 @@ module.exports = [
     "type": "series",
     "tags": [
       "adult-animation",
-      "comedy",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 90
@@ -3320,16 +3042,7 @@ module.exports = [
     "tags": [
       "nickelodeon",
       "preschool",
-      "preschool-nostalgia",
-      "kids-animation",
-      "90s",
-      "90s-classics",
-      "late-90s",
-      "90s-kids",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "kids-animation"
     ],
     "enabled": true,
     "featuredRank": 76
@@ -3341,12 +3054,7 @@ module.exports = [
     "endYear": 2003,
     "type": "series",
     "tags": [
-      "anime",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids",
-      "2000s-anime"
+      "anime"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -3372,6 +3080,51 @@ module.exports = [
     ]
   },
   {
+    "id": "tt0159885",
+    "name": "Kratts' Creatures",
+    "startYear": 1996,
+    "endYear": 1996,
+    "type": "series",
+    "tags": [
+      "pbs",
+      "pbs-kids",
+      "educational",
+      "science-nature"
+    ],
+    "enabled": true,
+    "featuredRank": 80
+  },
+  {
+    "id": "tt0437018",
+    "name": "Krypto the Superdog",
+    "startYear": 2005,
+    "endYear": 2006,
+    "type": "series",
+    "tags": [
+      "cartoon-network",
+      "kids-animation",
+      "dc",
+      "superhero-animation"
+    ],
+    "enabled": true,
+    "featuredRank": 72
+  },
+  {
+    "id": "tt0166048",
+    "name": "Lamb Chop's Play-Along",
+    "startYear": 1992,
+    "endYear": 1997,
+    "type": "series",
+    "tags": [
+      "pbs",
+      "pbs-kids",
+      "preschool",
+      "live-action-kids"
+    ],
+    "enabled": true,
+    "featuredRank": 80
+  },
+  {
     "id": "tt0390733",
     "name": "Last Exile",
     "startYear": 2003,
@@ -3382,10 +3135,7 @@ module.exports = [
       "action",
       "action-anime",
       "fantasy-anime",
-      "cult-animation",
-      "2000s",
-      "early-2000s",
-      "2000s-anime"
+      "cult-animation"
     ],
     "enabled": true,
     "featuredRank": 86
@@ -3399,16 +3149,43 @@ module.exports = [
     "tags": [
       "nickelodeon",
       "preschool",
-      "preschool-nostalgia",
       "live-action-kids",
-      "educational",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "educational"
     ],
     "enabled": true,
     "featuredRank": 84
+  },
+  {
+    "id": "tt0775372",
+    "name": "Legion of Super Heroes",
+    "startYear": 2006,
+    "endYear": 2008,
+    "type": "series",
+    "tags": [
+      "kids-wb",
+      "saturday-morning",
+      "kids-animation",
+      "superhero-animation",
+      "dc",
+      "action"
+    ],
+    "enabled": true,
+    "featuredRank": 72
+  },
+  {
+    "id": "tt0337550",
+    "name": "Liberty's Kids",
+    "startYear": 2002,
+    "endYear": 2003,
+    "type": "series",
+    "tags": [
+      "pbs",
+      "pbs-kids",
+      "educational",
+      "kids-animation"
+    ],
+    "enabled": true,
+    "featuredRank": 78
   },
   {
     "id": "tt0112047",
@@ -3421,12 +3198,7 @@ module.exports = [
       "saturday-morning",
       "after-school",
       "kids-animation",
-      "comedy",
-      "90s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -3441,11 +3213,7 @@ module.exports = [
       "disney-channel",
       "toon-disney",
       "kids-animation",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -3459,10 +3227,7 @@ module.exports = [
     "tags": [
       "adult-animation",
       "cult-animation",
-      "weird-cartoons",
-      "90s",
-      "90s-classics",
-      "early-90s"
+      "weird-cartoons"
     ],
     "enabled": true,
     "featuredRank": 86
@@ -3475,17 +3240,25 @@ module.exports = [
     "type": "series",
     "tags": [
       "nickelodeon",
-      "preschool",
-      "preschool-nostalgia",
-      "90s",
-      "2000s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids"
+      "preschool"
     ],
     "enabled": true,
     "featuredRank": 75
+  },
+  {
+    "id": "tt0229141",
+    "name": "Little Bill",
+    "startYear": 1999,
+    "endYear": 2004,
+    "type": "series",
+    "tags": [
+      "nickelodeon",
+      "preschool",
+      "kids-animation",
+      "educational"
+    ],
+    "enabled": true,
+    "featuredRank": 80
   },
   {
     "id": "tt0756522",
@@ -3497,11 +3270,7 @@ module.exports = [
       "disney-channel",
       "playhouse-disney",
       "preschool",
-      "preschool-nostalgia",
-      "educational",
-      "2000s",
-      "early-2000s",
-      "2000s-kids"
+      "educational"
     ],
     "enabled": true,
     "featuredRank": 88,
@@ -3519,11 +3288,7 @@ module.exports = [
       "disney-channel",
       "live-action-kids",
       "kids-teen-sitcoms",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 100
@@ -3541,11 +3306,7 @@ module.exports = [
       "saturday-morning",
       "forgotten-obscure",
       "kids-animation",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 60,
@@ -3564,14 +3325,26 @@ module.exports = [
       "kids-animation",
       "saturday-morning",
       "action",
-      "superhero-animation",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "superhero-animation"
     ],
     "enabled": true,
     "featuredRank": 72
+  },
+  {
+    "id": "tt0090405",
+    "name": "The Bugs Bunny and Tweety Show",
+    "startYear": 1986,
+    "endYear": 2000,
+    "type": "series",
+    "tags": [
+      "syndicated-classics",
+      "retro-syndication",
+      "kids-animation"
+    ],
+    "enabled": true,
+    "featuredRank": 100,
+    "franchise": "Looney Tunes",
+    "displayName": "Looney Tunes: The Bugs Bunny & Tweety Show"
   },
   {
     "id": "tt0159175",
@@ -3595,6 +3368,19 @@ module.exports = [
     ]
   },
   {
+    "id": "tt0112057",
+    "name": "Magic Knight Rayearth",
+    "startYear": 1994,
+    "endYear": 1995,
+    "type": "series",
+    "tags": [
+      "anime",
+      "fantasy-anime"
+    ],
+    "enabled": true,
+    "featuredRank": 75
+  },
+  {
     "id": "tt0303503",
     "name": "Magical DoReMi",
     "startYear": 1999,
@@ -3605,17 +3391,7 @@ module.exports = [
       "saturday-morning",
       "kids-animation",
       "anime",
-      "fantasy-anime",
-      "90s",
-      "90s-classics",
-      "late-90s",
-      "90s-kids",
-      "90s-anime",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids",
-      "2000s-anime"
+      "fantasy-anime"
     ],
     "enabled": true,
     "featuredRank": 72
@@ -3629,11 +3405,7 @@ module.exports = [
     "tags": [
       "live-action-kids",
       "kids-teen-sitcoms",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 98,
@@ -3650,10 +3422,7 @@ module.exports = [
     "tags": [
       "kids-animation",
       "action",
-      "forgotten-obscure",
-      "2000s",
-      "early-2000s",
-      "2000s-kids"
+      "forgotten-obscure"
     ],
     "enabled": true,
     "featuredRank": 82
@@ -3666,12 +3435,7 @@ module.exports = [
     "type": "series",
     "tags": [
       "nickelodeon",
-      "preschool",
-      "preschool-nostalgia",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "preschool"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -3684,15 +3448,7 @@ module.exports = [
     "type": "series",
     "tags": [
       "anime",
-      "forgotten-obscure",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-anime",
-      "2000s-anime"
+      "forgotten-obscure"
     ],
     "enabled": true,
     "featuredRank": 60
@@ -3705,12 +3461,7 @@ module.exports = [
     "type": "series",
     "tags": [
       "anime",
-      "action-anime",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids",
-      "2000s-anime"
+      "action-anime"
     ],
     "enabled": true,
     "featuredRank": 80
@@ -3729,11 +3480,7 @@ module.exports = [
       "kids-animation",
       "action",
       "comedy",
-      "cult-animation",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "cult-animation"
     ],
     "enabled": true,
     "featuredRank": 60,
@@ -3751,13 +3498,7 @@ module.exports = [
       "fox-kids",
       "saturday-morning",
       "after-school",
-      "kids-animation",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids"
+      "kids-animation"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -3772,36 +3513,10 @@ module.exports = [
       "adult-swim",
       "adult-animation",
       "cult-animation",
-      "comedy",
-      "2000s"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 90
-  },
-  {
-    "id": "tt0469008",
-    "name": "Tokyo Mew Mew",
-    "displayName": "Mew Mew Power",
-    "startYear": 2002,
-    "endYear": 2003,
-    "type": "series",
-    "tags": [
-      "fox-kids",
-      "saturday-morning",
-      "kids-animation",
-      "anime",
-      "fantasy-anime",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids",
-      "2000s-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 72,
-    "alternateTitles": [
-      "Mew Mew Power"
-    ]
   },
   {
     "id": "tt0784896",
@@ -3813,10 +3528,7 @@ module.exports = [
       "disney-channel",
       "playhouse-disney",
       "preschool",
-      "preschool-nostalgia",
-      "educational",
-      "2000s",
-      "2000s-kids"
+      "educational"
     ],
     "enabled": true,
     "featuredRank": 90,
@@ -3836,12 +3548,7 @@ module.exports = [
       "kids-animation",
       "toon-disney",
       "action",
-      "superhero-animation",
-      "90s",
-      "90s-classics",
-      "mid-90s",
-      "90s-kids",
-      "90s-action"
+      "superhero-animation"
     ],
     "enabled": true,
     "featuredRank": 76,
@@ -3860,16 +3567,26 @@ module.exports = [
       "saturday-morning",
       "after-school",
       "live-action-kids",
-      "action",
-      "90s",
-      "early-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-action"
+      "action"
     ],
     "enabled": true,
     "featuredRank": 100,
     "franchise": "Power Rangers"
+  },
+  {
+    "id": "tt0235589",
+    "name": "Mike, Lu & Og",
+    "startYear": 1999,
+    "endYear": 2001,
+    "type": "series",
+    "tags": [
+      "cartoon-network",
+      "kids-animation",
+      "comedy",
+      "forgotten-obscure"
+    ],
+    "enabled": true,
+    "featuredRank": 75
   },
   {
     "id": "tt0197148",
@@ -3882,12 +3599,7 @@ module.exports = [
       "weird-cartoons",
       "forgotten-obscure",
       "comedy",
-      "cult-animation",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-comedy"
+      "cult-animation"
     ],
     "enabled": true,
     "featuredRank": 60
@@ -3902,13 +3614,7 @@ module.exports = [
       "pbs",
       "pbs-kids",
       "preschool",
-      "educational",
-      "educational-nostalgia",
-      "preschool-nostalgia",
-      "90s",
-      "2000s",
-      "90s-kids",
-      "2000s-kids"
+      "educational"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -3925,13 +3631,7 @@ module.exports = [
       "after-school",
       "anime",
       "action",
-      "action-anime",
-      "90s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-anime",
-      "90s-action"
+      "action-anime"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -3983,10 +3683,7 @@ module.exports = [
       "adult-swim",
       "cartoon-network",
       "action",
-      "action-anime",
-      "90s",
-      "early-90s",
-      "90s-anime"
+      "action-anime"
     ],
     "enabled": true,
     "featuredRank": 82
@@ -4003,13 +3700,7 @@ module.exports = [
       "after-school",
       "anime",
       "action",
-      "action-anime",
-      "90s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-anime",
-      "90s-action"
+      "action-anime"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -4018,26 +3709,18 @@ module.exports = [
     ]
   },
   {
-    "id": "tt0298677",
-    "name": "Mon Colle Knights",
-    "startYear": 2001,
-    "endYear": 2002,
+    "id": "tt0115275",
+    "name": "Moesha",
+    "startYear": 1996,
+    "endYear": 2001,
     "type": "series",
     "tags": [
-      "fox-kids",
-      "saturday-morning",
-      "kids-animation",
-      "anime",
-      "fantasy-anime",
-      "action-anime",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids",
-      "2000s-anime"
+      "live-action-primetime",
+      "kids-teen-sitcoms",
+      "comedy"
     ],
     "enabled": true,
-    "featuredRank": 62
+    "featuredRank": 85
   },
   {
     "id": "tt0218775",
@@ -4048,15 +3731,7 @@ module.exports = [
     "tags": [
       "anime",
       "forgotten-obscure",
-      "fantasy-anime",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-anime",
-      "2000s-anime"
+      "fantasy-anime"
     ],
     "enabled": true,
     "featuredRank": 60
@@ -4071,16 +3746,42 @@ module.exports = [
       "adult-swim",
       "adult-animation",
       "weird-cartoons",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75,
     "programmingBlocks": [
       "Adult Swim"
     ]
+  },
+  {
+    "id": "tt0096657",
+    "name": "Mr. Bean",
+    "startYear": 1990,
+    "endYear": 1995,
+    "type": "series",
+    "tags": [
+      "live-action-primetime",
+      "comedy"
+    ],
+    "enabled": true,
+    "featuredRank": 92,
+    "franchise": "Mr. Bean"
+  },
+  {
+    "id": "tt0280277",
+    "name": "Mr. Bean: The Animated Series",
+    "startYear": 2002,
+    "endYear": 2004,
+    "type": "series",
+    "tags": [
+      "kids-animation",
+      "comedy"
+    ],
+    "enabled": true,
+    "featuredRank": 75,
+    "franchise": "Mr. Bean",
+    "notes": "Years represent the original run; IMDb includes the later revival."
   },
   {
     "id": "tt0353115",
@@ -4092,11 +3793,7 @@ module.exports = [
       "kids-wb",
       "saturday-morning",
       "kids-animation",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -4112,12 +3809,7 @@ module.exports = [
       "action",
       "cult-animation",
       "saturday-morning",
-      "forgotten-obscure",
-      "90s",
-      "90s-classics",
-      "late-90s",
-      "90s-kids",
-      "90s-action"
+      "forgotten-obscure"
     ],
     "enabled": true,
     "featuredRank": 76
@@ -4131,15 +3823,10 @@ module.exports = [
     "tags": [
       "nickelodeon",
       "preschool",
-      "preschool-nostalgia",
       "kids-animation",
       "comedy",
       "retro-syndication",
-      "syndicated-classics",
-      "90s",
-      "early-90s",
-      "90s-kids",
-      "90s-classics"
+      "syndicated-classics"
     ],
     "enabled": true,
     "featuredRank": 90
@@ -4154,10 +3841,7 @@ module.exports = [
       "cartoon-network",
       "kids-animation",
       "comedy",
-      "weird-cartoons",
-      "2000s",
-      "early-2000s",
-      "2000s-kids"
+      "weird-cartoons"
     ],
     "enabled": true,
     "featuredRank": 82
@@ -4172,15 +3856,51 @@ module.exports = [
       "nickelodeon",
       "nicktoons",
       "kids-animation",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75,
     "notes": "Years represent the main nostalgia-era run; IMDb includes later release activity under the same title record."
+  },
+  {
+    "id": "tt0184761",
+    "name": "My Little Pony",
+    "startYear": 1986,
+    "endYear": 1987,
+    "type": "series",
+    "tags": [
+      "syndicated-classics",
+      "retro-syndication",
+      "kids-animation"
+    ],
+    "enabled": true,
+    "featuredRank": 78
+  },
+  {
+    "id": "tt0108872",
+    "name": "My So-Called Life",
+    "startYear": 1994,
+    "endYear": 1995,
+    "type": "series",
+    "tags": [
+      "live-action-primetime"
+    ],
+    "enabled": true,
+    "featuredRank": 85
+  },
+  {
+    "id": "tt0273855",
+    "name": "My Wife and Kids",
+    "startYear": 2000,
+    "endYear": 2005,
+    "type": "series",
+    "tags": [
+      "live-action-primetime",
+      "kids-teen-sitcoms",
+      "comedy"
+    ],
+    "enabled": true,
+    "featuredRank": 88
   },
   {
     "id": "tt0409591",
@@ -4195,37 +3915,13 @@ module.exports = [
       "anime",
       "action",
       "action-anime",
-      "fantasy-anime",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids",
-      "2000s-anime"
+      "fantasy-anime"
     ],
     "enabled": true,
     "featuredRank": 90,
     "programmingBlocks": [
       "Toonami"
     ]
-  },
-  {
-    "id": "tt0465342",
-    "name": "Naturally, Sadie",
-    "startYear": 2005,
-    "endYear": 2007,
-    "type": "series",
-    "tags": [
-      "disney-channel",
-      "live-action-kids",
-      "kids-teen-sitcoms",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
-    ],
-    "enabled": true,
-    "featuredRank": 68
   },
   {
     "id": "tt0405576",
@@ -4237,36 +3933,10 @@ module.exports = [
       "nickelodeon",
       "live-action-kids",
       "kids-teen-sitcoms",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75
-  },
-  {
-    "id": "tt0163952",
-    "name": "Ned's Newt",
-    "startYear": 1997,
-    "endYear": 1999,
-    "type": "series",
-    "tags": [
-      "fox-kids",
-      "saturday-morning",
-      "kids-animation",
-      "comedy",
-      "weird-cartoons",
-      "forgotten-obscure",
-      "90s",
-      "90s-classics",
-      "late-90s",
-      "90s-kids",
-      "90s-comedy"
-    ],
-    "enabled": true,
-    "featuredRank": 63
   },
   {
     "id": "tt0112159",
@@ -4276,11 +3946,7 @@ module.exports = [
     "type": "series",
     "tags": [
       "anime",
-      "cult-animation",
-      "90s",
-      "mid-90s",
-      "90s-classics",
-      "90s-anime"
+      "cult-animation"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -4295,15 +3961,7 @@ module.exports = [
       "kids-animation",
       "comedy",
       "weird-cartoons",
-      "syndicated-classics",
-      "90s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "syndicated-classics"
     ],
     "enabled": true,
     "featuredRank": 84
@@ -4321,16 +3979,7 @@ module.exports = [
       "anime",
       "action",
       "action-anime",
-      "fantasy-anime",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-anime",
-      "2000s-anime",
-      "90s-action"
+      "fantasy-anime"
     ],
     "enabled": true,
     "featuredRank": 90,
@@ -4346,15 +3995,25 @@ module.exports = [
     "type": "series",
     "tags": [
       "nickelodeon",
-      "preschool",
-      "preschool-nostalgia",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "preschool"
     ],
     "enabled": true,
     "featuredRank": 75
+  },
+  {
+    "id": "tt0277514",
+    "name": "Out of the Box",
+    "startYear": 1998,
+    "endYear": 2004,
+    "type": "series",
+    "tags": [
+      "disney-channel",
+      "playhouse-disney",
+      "preschool",
+      "live-action-kids"
+    ],
+    "enabled": true,
+    "featuredRank": 72
   },
   {
     "id": "tt0266171",
@@ -4368,40 +4027,13 @@ module.exports = [
       "after-school",
       "anime",
       "action",
-      "action-anime",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-anime",
-      "2000s-anime",
-      "90s-action"
+      "action-anime"
     ],
     "enabled": true,
     "featuredRank": 75,
     "programmingBlocks": [
       "Toonami"
     ]
-  },
-  {
-    "id": "tt0306371",
-    "name": "Ozzy & Drix",
-    "startYear": 2002,
-    "endYear": 2004,
-    "type": "series",
-    "tags": [
-      "kids-wb",
-      "saturday-morning",
-      "kids-animation",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
-    ],
-    "enabled": true,
-    "featuredRank": 75
   },
   {
     "id": "tt0433722",
@@ -4413,11 +4045,7 @@ module.exports = [
       "cartoon-network",
       "adult-swim",
       "anime",
-      "weird-cartoons",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-anime"
+      "weird-cartoons"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -4434,14 +4062,7 @@ module.exports = [
     "tags": [
       "disney-channel",
       "playhouse-disney",
-      "preschool",
-      "preschool-nostalgia",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids"
+      "preschool"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -4450,27 +4071,18 @@ module.exports = [
     ]
   },
   {
-    "id": "tt0389668",
-    "name": "Peep and the Big Wide World",
-    "startYear": 2004,
-    "endYear": 2011,
+    "id": "tt0090500",
+    "name": "Pee-wee's Playhouse",
+    "startYear": 1986,
+    "endYear": 1991,
     "type": "series",
     "tags": [
-      "pbs",
-      "pbs-kids",
-      "educational",
-      "educational-nostalgia",
-      "preschool",
-      "preschool-nostalgia",
-      "kids-animation",
-      "science-nature",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "live-action-kids",
+      "saturday-morning",
+      "weird-cartoons"
     ],
     "enabled": true,
-    "featuredRank": 78
+    "featuredRank": 88
   },
   {
     "id": "tt0128890",
@@ -4485,38 +4097,13 @@ module.exports = [
       "saturday-morning",
       "forgotten-obscure",
       "kids-animation",
-      "comedy",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 60,
     "programmingBlocks": [
       "One Saturday Morning"
     ]
-  },
-  {
-    "id": "tt0465849",
-    "name": "Perfect Hair Forever",
-    "startYear": 2004,
-    "endYear": 2014,
-    "type": "series",
-    "tags": [
-      "adult-swim",
-      "adult-animation",
-      "weird-cartoons",
-      "cult-animation",
-      "comedy",
-      "2000s",
-      "early-2000s"
-    ],
-    "enabled": true,
-    "featuredRank": 72
   },
   {
     "id": "tt0340281",
@@ -4528,11 +4115,7 @@ module.exports = [
       "disney-channel",
       "live-action-kids",
       "kids-teen-sitcoms",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -4547,20 +4130,10 @@ module.exports = [
       "pbs",
       "pbs-kids",
       "educational",
-      "educational-nostalgia",
       "preschool",
-      "preschool-nostalgia",
       "kids-animation",
       "syndicated-classics",
-      "retro-syndication",
-      "90s",
-      "90s-classics",
-      "early-90s",
-      "90s-kids",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "retro-syndication"
     ],
     "enabled": true,
     "featuredRank": 82
@@ -4576,34 +4149,10 @@ module.exports = [
       "saturday-morning",
       "after-school",
       "kids-animation",
-      "comedy",
-      "90s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 90
-  },
-  {
-    "id": "tt0170996",
-    "name": "Pinky, Elmyra & the Brain",
-    "startYear": 1998,
-    "endYear": 1999,
-    "type": "series",
-    "tags": [
-      "kids-wb",
-      "saturday-morning",
-      "forgotten-obscure",
-      "kids-animation",
-      "90s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids"
-    ],
-    "enabled": true,
-    "featuredRank": 60
   },
   {
     "id": "tt0168366",
@@ -4618,15 +4167,7 @@ module.exports = [
       "saturday-morning",
       "after-school",
       "anime",
-      "kids-animation",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-anime",
-      "2000s-anime"
+      "kids-animation"
     ],
     "enabled": true,
     "featuredRank": 100,
@@ -4646,18 +4187,26 @@ module.exports = [
       "cartoon-network",
       "kids-animation",
       "action",
-      "action-anime",
-      "90s",
-      "late-90s",
-      "90s-kids",
-      "90s-anime",
-      "2000s",
-      "early-2000s",
-      "2000s-kids",
-      "2000s-anime"
+      "action-anime"
     ],
     "enabled": true,
     "featuredRank": 82
+  },
+  {
+    "id": "tt0115319",
+    "name": "Power Rangers Zeo",
+    "startYear": 1996,
+    "endYear": 1997,
+    "type": "series",
+    "tags": [
+      "fox-kids",
+      "saturday-morning",
+      "live-action-kids",
+      "action"
+    ],
+    "enabled": true,
+    "featuredRank": 82,
+    "franchise": "Power Rangers"
   },
   {
     "id": "tt0136658",
@@ -4670,15 +4219,24 @@ module.exports = [
       "kids-animation",
       "disney-afternoon",
       "toon-disney",
-      "comedy",
-      "90s",
-      "90s-classics",
-      "mid-90s",
-      "90s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 78
+  },
+  {
+    "id": "tt0096686",
+    "name": "Ranma ½",
+    "startYear": 1989,
+    "endYear": 1990,
+    "type": "series",
+    "tags": [
+      "anime",
+      "comedy",
+      "action-anime"
+    ],
+    "enabled": true,
+    "featuredRank": 85
   },
   {
     "id": "tt0414763",
@@ -4689,12 +4247,7 @@ module.exports = [
     "tags": [
       "anime",
       "action-anime",
-      "fantasy-anime",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids",
-      "2000s-anime"
+      "fantasy-anime"
     ],
     "enabled": true,
     "featuredRank": 76
@@ -4708,15 +4261,25 @@ module.exports = [
     "tags": [
       "pbs",
       "pbs-kids",
-      "educational",
-      "educational-nostalgia",
-      "90s",
-      "2000s",
-      "90s-kids",
-      "2000s-kids"
+      "educational"
     ],
     "enabled": true,
     "featuredRank": 75
+  },
+  {
+    "id": "tt0108903",
+    "name": "ReBoot",
+    "startYear": 1994,
+    "endYear": 2001,
+    "type": "series",
+    "tags": [
+      "saturday-morning",
+      "kids-animation",
+      "action",
+      "cult-animation"
+    ],
+    "enabled": true,
+    "featuredRank": 88
   },
   {
     "id": "tt0126170",
@@ -4730,14 +4293,7 @@ module.exports = [
       "one-saturday-morning",
       "saturday-morning",
       "kids-animation",
-      "comedy",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 100,
@@ -4756,12 +4312,7 @@ module.exports = [
       "kids-animation",
       "saturday-morning",
       "action",
-      "forgotten-obscure",
-      "90s",
-      "90s-classics",
-      "mid-90s",
-      "90s-kids",
-      "90s-action"
+      "forgotten-obscure"
     ],
     "enabled": true,
     "featuredRank": 72
@@ -4775,10 +4326,7 @@ module.exports = [
     "tags": [
       "adult-swim",
       "adult-animation",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -4796,10 +4344,7 @@ module.exports = [
       "cartoon-network",
       "kids-animation",
       "action",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 78
@@ -4829,14 +4374,7 @@ module.exports = [
       "nickelodeon",
       "nicktoons",
       "kids-animation",
-      "comedy",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 90
@@ -4853,12 +4391,7 @@ module.exports = [
       "weird-cartoons",
       "kids-animation",
       "comedy",
-      "cult-animation",
-      "90s",
-      "early-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-comedy"
+      "cult-animation"
     ],
     "enabled": true,
     "featuredRank": 100
@@ -4872,14 +4405,7 @@ module.exports = [
     "tags": [
       "disney-channel",
       "playhouse-disney",
-      "preschool",
-      "preschool-nostalgia",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids"
+      "preschool"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -4897,13 +4423,7 @@ module.exports = [
       "anime",
       "action-anime",
       "fantasy-anime",
-      "toonami",
-      "90s",
-      "90s-classics",
-      "early-90s",
-      "90s-kids",
-      "90s-anime",
-      "90s-action"
+      "toonami"
     ],
     "enabled": true,
     "featuredRank": 86
@@ -4918,14 +4438,7 @@ module.exports = [
       "nickelodeon",
       "nicktoons",
       "kids-animation",
-      "comedy",
-      "90s",
-      "2000s",
-      "early-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 100
@@ -4943,42 +4456,12 @@ module.exports = [
       "anime",
       "action",
       "action-anime",
-      "fantasy-anime",
-      "90s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-anime",
-      "90s-action"
+      "fantasy-anime"
     ],
     "enabled": true,
     "featuredRank": 75,
     "programmingBlocks": [
       "Toonami"
-    ]
-  },
-  {
-    "id": "tt0307427",
-    "name": "s-CRY-ed",
-    "startYear": 2001,
-    "endYear": 2001,
-    "type": "series",
-    "tags": [
-      "cartoon-network",
-      "adult-swim",
-      "anime",
-      "action",
-      "action-anime",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids",
-      "2000s-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 75,
-    "programmingBlocks": [
-      "Adult Swim"
     ]
   },
   {
@@ -4992,15 +4475,7 @@ module.exports = [
       "kids-teen-sitcoms",
       "comedy",
       "after-school",
-      "syndicated-classics",
-      "90s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "syndicated-classics"
     ],
     "enabled": true,
     "featuredRank": 95,
@@ -5018,13 +4493,7 @@ module.exports = [
     "tags": [
       "toon-disney",
       "one-saturday-morning",
-      "saturday-morning",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids"
+      "saturday-morning"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -5045,19 +4514,28 @@ module.exports = [
       "anime",
       "action",
       "action-anime",
-      "fantasy-anime",
-      "90s",
-      "early-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-anime",
-      "90s-action"
+      "fantasy-anime"
     ],
     "enabled": true,
     "featuredRank": 100,
     "programmingBlocks": [
       "Toonami"
     ]
+  },
+  {
+    "id": "tt0101190",
+    "name": "Salute Your Shorts",
+    "startYear": 1991,
+    "endYear": 1992,
+    "type": "series",
+    "tags": [
+      "nickelodeon",
+      "live-action-kids",
+      "kids-teen-sitcoms",
+      "comedy"
+    ],
+    "enabled": true,
+    "featuredRank": 85
   },
   {
     "id": "tt0423731",
@@ -5070,11 +4548,7 @@ module.exports = [
       "adult-swim",
       "anime",
       "action",
-      "action-anime",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-anime"
+      "action-anime"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -5095,11 +4569,7 @@ module.exports = [
       "kids-animation",
       "action",
       "comedy",
-      "cult-animation",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "cult-animation"
     ],
     "enabled": true,
     "featuredRank": 100,
@@ -5117,16 +4587,43 @@ module.exports = [
       "anime",
       "action-anime",
       "comedy",
-      "weird-cartoons",
-      "90s",
-      "90s-classics",
-      "early-90s",
-      "90s-kids",
-      "90s-anime",
-      "90s-action"
+      "weird-cartoons"
     ],
     "enabled": true,
     "featuredRank": 80
+  },
+  {
+    "id": "tt0096694",
+    "name": "Saved by the Bell",
+    "startYear": 1989,
+    "endYear": 1992,
+    "type": "series",
+    "tags": [
+      "live-action-primetime",
+      "kids-teen-sitcoms",
+      "comedy",
+      "live-action-kids",
+      "saturday-morning",
+      "syndicated-classics"
+    ],
+    "enabled": true,
+    "featuredRank": 100
+  },
+  {
+    "id": "tt0106123",
+    "name": "Saved by the Bell: The New Class",
+    "startYear": 1993,
+    "endYear": 2000,
+    "type": "series",
+    "tags": [
+      "live-action-primetime",
+      "kids-teen-sitcoms",
+      "comedy",
+      "live-action-kids",
+      "saturday-morning"
+    ],
+    "enabled": true,
+    "featuredRank": 75
   },
   {
     "id": "tt0063950",
@@ -5143,6 +4640,22 @@ module.exports = [
     "featuredRank": 75
   },
   {
+    "id": "tt0278877",
+    "name": "Sealab 2021",
+    "startYear": 2000,
+    "endYear": 2005,
+    "type": "series",
+    "tags": [
+      "cartoon-network",
+      "adult-swim",
+      "adult-animation",
+      "comedy",
+      "cult-animation"
+    ],
+    "enabled": true,
+    "featuredRank": 85
+  },
+  {
     "id": "tt0063951",
     "name": "Sesame Street",
     "startYear": 1969,
@@ -5152,13 +4665,7 @@ module.exports = [
       "pbs",
       "pbs-kids",
       "preschool",
-      "educational",
-      "educational-nostalgia",
-      "preschool-nostalgia",
-      "90s",
-      "2000s",
-      "90s-kids",
-      "2000s-kids"
+      "educational"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -5173,12 +4680,7 @@ module.exports = [
       "anime",
       "action",
       "action-anime",
-      "fantasy-anime",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids",
-      "2000s-anime"
+      "fantasy-anime"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -5210,15 +4712,26 @@ module.exports = [
       "weird-cartoons",
       "forgotten-obscure",
       "kids-animation",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 60,
     "notes": "Years represent the original Cartoon Network run."
+  },
+  {
+    "id": "tt0098910",
+    "name": "Shining Time Station",
+    "startYear": 1989,
+    "endYear": 1993,
+    "type": "series",
+    "tags": [
+      "pbs",
+      "pbs-kids",
+      "preschool",
+      "live-action-kids"
+    ],
+    "enabled": true,
+    "featuredRank": 80
   },
   {
     "id": "tt0203268",
@@ -5233,16 +4746,27 @@ module.exports = [
       "superhero-animation",
       "kids-animation",
       "action",
-      "marvel",
-      "90s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-action"
+      "marvel"
     ],
     "enabled": true,
     "featuredRank": 75,
     "franchise": "Marvel"
+  },
+  {
+    "id": "tt0090520",
+    "name": "Silverhawks",
+    "startYear": 1986,
+    "endYear": 1986,
+    "type": "series",
+    "tags": [
+      "syndicated-classics",
+      "retro-syndication",
+      "kids-animation",
+      "action",
+      "forgotten-obscure"
+    ],
+    "enabled": true,
+    "featuredRank": 70
   },
   {
     "id": "tt0108927",
@@ -5254,15 +4778,68 @@ module.exports = [
       "disney-channel",
       "live-action-kids",
       "kids-teen-sitcoms",
-      "comedy",
-      "90s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 90
+  },
+  {
+    "id": "tt0279600",
+    "name": "Smallville",
+    "startYear": 2001,
+    "endYear": 2011,
+    "type": "series",
+    "tags": [
+      "live-action-primetime",
+      "action",
+      "dc"
+    ],
+    "enabled": true,
+    "featuredRank": 92
+  },
+  {
+    "id": "tt0118466",
+    "name": "Smart Guy",
+    "startYear": 1997,
+    "endYear": 1999,
+    "type": "series",
+    "tags": [
+      "live-action-primetime",
+      "kids-teen-sitcoms",
+      "comedy",
+      "disney-channel"
+    ],
+    "enabled": true,
+    "featuredRank": 80
+  },
+  {
+    "id": "tt0086802",
+    "name": "Snorks",
+    "startYear": 1984,
+    "endYear": 1988,
+    "type": "series",
+    "tags": [
+      "syndicated-classics",
+      "retro-syndication",
+      "kids-animation",
+      "saturday-morning",
+      "forgotten-obscure"
+    ],
+    "enabled": true,
+    "featuredRank": 72
+  },
+  {
+    "id": "tt0169247",
+    "name": "So Weird",
+    "startYear": 1999,
+    "endYear": 2001,
+    "type": "series",
+    "tags": [
+      "disney-channel",
+      "live-action-kids"
+    ],
+    "enabled": true,
+    "featuredRank": 85
   },
   {
     "id": "tt0106140",
@@ -5275,12 +4852,7 @@ module.exports = [
       "syndicated-classics",
       "kids-animation",
       "action",
-      "retro-syndication",
-      "90s",
-      "early-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-action"
+      "retro-syndication"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -5295,12 +4867,7 @@ module.exports = [
     "tags": [
       "anime",
       "action",
-      "action-anime",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids",
-      "2000s-anime"
+      "action-anime"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -5314,33 +4881,10 @@ module.exports = [
     "type": "series",
     "tags": [
       "adult-animation",
-      "comedy",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 100
-  },
-  {
-    "id": "tt0115366",
-    "name": "Space Cases",
-    "startYear": 1996,
-    "endYear": 1997,
-    "type": "series",
-    "tags": [
-      "nickelodeon",
-      "live-action-kids",
-      "forgotten-obscure",
-      "90s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids"
-    ],
-    "enabled": true,
-    "featuredRank": 60
   },
   {
     "id": "tt0108937",
@@ -5353,39 +4897,13 @@ module.exports = [
       "adult-animation",
       "weird-cartoons",
       "comedy",
-      "cult-animation",
-      "90s",
-      "2000s",
-      "early-90s",
-      "90s-classics",
-      "90s-comedy"
+      "cult-animation"
     ],
     "enabled": true,
     "featuredRank": 90,
     "programmingBlocks": [
       "Adult Swim"
     ]
-  },
-  {
-    "id": "tt0118343",
-    "name": "Space Goofs",
-    "startYear": 1997,
-    "endYear": 2006,
-    "type": "series",
-    "tags": [
-      "kids-animation",
-      "comedy",
-      "weird-cartoons",
-      "forgotten-obscure",
-      "90s",
-      "late-90s",
-      "90s-kids",
-      "2000s",
-      "early-2000s",
-      "2000s-kids"
-    ],
-    "enabled": true,
-    "featuredRank": 76
   },
   {
     "id": "tt0118475",
@@ -5397,11 +4915,7 @@ module.exports = [
       "adult-animation",
       "cult-animation",
       "superhero-animation",
-      "action",
-      "90s",
-      "90s-classics",
-      "late-90s",
-      "90s-action"
+      "action"
     ],
     "enabled": true,
     "featuredRank": 92
@@ -5422,32 +4936,6 @@ module.exports = [
     "featuredRank": 95
   },
   {
-    "id": "tt0207120",
-    "name": "Spider-Man Unlimited",
-    "startYear": 1999,
-    "endYear": 2001,
-    "type": "series",
-    "tags": [
-      "fox-kids",
-      "saturday-morning",
-      "after-school",
-      "superhero-animation",
-      "kids-animation",
-      "action",
-      "marvel",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-action"
-    ],
-    "enabled": true,
-    "featuredRank": 75,
-    "franchise": "Marvel"
-  },
-  {
     "id": "tt0112175",
     "name": "Spider-Man: The Animated Series",
     "startYear": 1994,
@@ -5460,16 +4948,27 @@ module.exports = [
       "superhero-animation",
       "kids-animation",
       "action",
-      "marvel",
-      "90s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-action"
+      "marvel"
     ],
     "enabled": true,
     "featuredRank": 90,
     "franchise": "Marvel"
+  },
+  {
+    "id": "tt0290983",
+    "name": "Spider-Man: The New Animated Series",
+    "startYear": 2003,
+    "endYear": 2003,
+    "type": "series",
+    "tags": [
+      "adult-animation",
+      "superhero-animation",
+      "marvel",
+      "action"
+    ],
+    "enabled": true,
+    "featuredRank": 72,
+    "franchise": "Spider-Man"
   },
   {
     "id": "tt0206512",
@@ -5481,14 +4980,7 @@ module.exports = [
       "nickelodeon",
       "nicktoons",
       "kids-animation",
-      "comedy",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 100
@@ -5504,12 +4996,26 @@ module.exports = [
       "adult-animation",
       "weird-cartoons",
       "cult-animation",
-      "comedy",
-      "2000s",
-      "early-2000s"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 84
+  },
+  {
+    "id": "tt0078692",
+    "name": "Star Blazers",
+    "startYear": 1979,
+    "endYear": 1984,
+    "type": "series",
+    "tags": [
+      "syndicated-classics",
+      "retro-syndication",
+      "kids-animation",
+      "anime",
+      "action"
+    ],
+    "enabled": true,
+    "featuredRank": 72
   },
   {
     "id": "tt0361243",
@@ -5520,11 +5026,7 @@ module.exports = [
     "tags": [
       "cartoon-network",
       "kids-animation",
-      "action",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "action"
     ],
     "enabled": true,
     "featuredRank": 95
@@ -5541,56 +5043,26 @@ module.exports = [
       "superhero-animation",
       "kids-animation",
       "action",
-      "dc",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "dc"
     ],
     "enabled": true,
     "featuredRank": 90,
     "franchise": "DC"
   },
   {
-    "id": "tt0275153",
-    "name": "Stickin' Around",
-    "startYear": 1996,
+    "id": "tt0101205",
+    "name": "Step by Step",
+    "startYear": 1991,
     "endYear": 1998,
     "type": "series",
     "tags": [
-      "kids-animation",
+      "live-action-primetime",
+      "kids-teen-sitcoms",
       "comedy",
-      "forgotten-obscure",
-      "90s",
-      "mid-90s",
-      "90s-kids"
+      "syndicated-classics"
     ],
     "enabled": true,
-    "featuredRank": 78
-  },
-  {
-    "id": "tt0219458",
-    "name": "Street Fighter: The Animated Series",
-    "displayName": "Street Fighter",
-    "startYear": 1995,
-    "endYear": 1997,
-    "type": "series",
-    "tags": [
-      "kids-animation",
-      "action",
-      "cult-animation",
-      "saturday-morning",
-      "90s",
-      "90s-classics",
-      "mid-90s",
-      "90s-kids",
-      "90s-action"
-    ],
-    "enabled": true,
-    "featuredRank": 72,
-    "alternateTitles": [
-      "Street Fighter"
-    ]
+    "featuredRank": 88
   },
   {
     "id": "tt0103559",
@@ -5602,12 +5074,7 @@ module.exports = [
       "kids-animation",
       "action",
       "cult-animation",
-      "saturday-morning",
-      "90s",
-      "90s-classics",
-      "mid-90s",
-      "90s-kids",
-      "90s-action"
+      "saturday-morning"
     ],
     "enabled": true,
     "featuredRank": 84
@@ -5623,10 +5090,7 @@ module.exports = [
       "toon-disney",
       "kids-animation",
       "action",
-      "superhero-animation",
-      "2000s",
-      "early-2000s",
-      "2000s-kids"
+      "superhero-animation"
     ],
     "enabled": true,
     "featuredRank": 82,
@@ -5647,14 +5111,7 @@ module.exports = [
       "superhero-animation",
       "kids-animation",
       "action",
-      "dc",
-      "90s",
-      "2000s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-action"
+      "dc"
     ],
     "enabled": true,
     "featuredRank": 90,
@@ -5671,12 +5128,7 @@ module.exports = [
       "superhero-animation",
       "forgotten-obscure",
       "kids-animation",
-      "action",
-      "90s",
-      "early-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-action"
+      "action"
     ],
     "enabled": true,
     "featuredRank": 60
@@ -5695,12 +5147,7 @@ module.exports = [
       "syndicated-classics",
       "kids-animation",
       "comedy",
-      "retro-syndication",
-      "90s",
-      "early-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-comedy"
+      "retro-syndication"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -5719,11 +5166,7 @@ module.exports = [
       "saturday-morning",
       "after-school",
       "kids-animation",
-      "comedy",
-      "90s",
-      "early-90s",
-      "90s-classics",
-      "90s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 88
@@ -5743,11 +5186,7 @@ module.exports = [
       "superhero-animation",
       "kids-animation",
       "action",
-      "dc",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "dc"
     ],
     "enabled": true,
     "featuredRank": 90,
@@ -5768,10 +5207,7 @@ module.exports = [
       "syndicated-classics",
       "kids-animation",
       "action",
-      "retro-syndication",
-      "90s",
-      "90s-kids",
-      "90s-action"
+      "retro-syndication"
     ],
     "enabled": true,
     "featuredRank": 100,
@@ -5785,15 +5221,56 @@ module.exports = [
     "type": "series",
     "tags": [
       "cartoon-network",
-      "action",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "action"
     ],
     "enabled": true,
     "featuredRank": 75,
     "franchise": "Teenage Mutant Ninja Turtles"
+  },
+  {
+    "id": "tt0142055",
+    "name": "Teletubbies",
+    "startYear": 1997,
+    "endYear": 2002,
+    "type": "series",
+    "tags": [
+      "pbs",
+      "pbs-kids",
+      "preschool"
+    ],
+    "enabled": true,
+    "featuredRank": 92
+  },
+  {
+    "id": "tt0105559",
+    "name": "Tenchi Muyo!",
+    "startYear": 1992,
+    "endYear": 1995,
+    "type": "series",
+    "tags": [
+      "anime",
+      "toonami",
+      "cartoon-network",
+      "comedy"
+    ],
+    "enabled": true,
+    "featuredRank": 85,
+    "franchise": "Tenchi Muyo!",
+    "notes": "Years represent the original OVA run; IMDb includes later releases under the same title record."
+  },
+  {
+    "id": "tt0165598",
+    "name": "That '70s Show",
+    "startYear": 1998,
+    "endYear": 2006,
+    "type": "series",
+    "tags": [
+      "live-action-primetime",
+      "kids-teen-sitcoms",
+      "comedy"
+    ],
+    "enabled": true,
+    "featuredRank": 95
   },
   {
     "id": "tt0300865",
@@ -5805,11 +5282,7 @@ module.exports = [
       "disney-channel",
       "live-action-kids",
       "kids-teen-sitcoms",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 100
@@ -5824,40 +5297,24 @@ module.exports = [
       "nickelodeon",
       "nicktoons",
       "kids-animation",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75
   },
   {
-    "id": "tt0314975",
-    "name": "The Adventures of Paddington Bear",
-    "startYear": 1997,
-    "endYear": 2000,
+    "id": "tt0105933",
+    "name": "The Adventures of Pete & Pete",
+    "startYear": 1992,
+    "endYear": 1996,
     "type": "series",
     "tags": [
-      "pbs",
-      "pbs-kids",
-      "educational",
-      "educational-nostalgia",
-      "preschool",
-      "preschool-nostalgia",
-      "kids-animation",
-      "90s",
-      "90s-classics",
-      "late-90s",
-      "90s-kids",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "nickelodeon",
+      "live-action-kids",
+      "comedy"
     ],
     "enabled": true,
-    "featuredRank": 74
+    "featuredRank": 90
   },
   {
     "id": "tt0217910",
@@ -5869,14 +5326,7 @@ module.exports = [
       "nickelodeon",
       "live-action-kids",
       "kids-teen-sitcoms",
-      "comedy",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -5891,14 +5341,7 @@ module.exports = [
       "nickelodeon",
       "nicktoons",
       "kids-animation",
-      "comedy",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -5912,13 +5355,8 @@ module.exports = [
     "tags": [
       "nickelodeon",
       "preschool",
-      "preschool-nostalgia",
       "kids-animation",
-      "educational",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "educational"
     ],
     "enabled": true,
     "featuredRank": 86
@@ -5936,37 +5374,25 @@ module.exports = [
       "superhero-animation",
       "kids-animation",
       "action",
-      "dc",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "dc"
     ],
     "enabled": true,
     "featuredRank": 75,
     "franchise": "Batman"
   },
   {
-    "id": "tt34475386",
-    "name": "The Berenstain Bears",
-    "startYear": 2003,
-    "endYear": 2004,
+    "id": "tt0285341",
+    "name": "The Bernie Mac Show",
+    "startYear": 2001,
+    "endYear": 2006,
     "type": "series",
     "tags": [
-      "pbs",
-      "pbs-kids",
-      "educational",
-      "educational-nostalgia",
-      "preschool",
-      "preschool-nostalgia",
-      "kids-animation",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "live-action-primetime",
+      "kids-teen-sitcoms",
+      "comedy"
     ],
     "enabled": true,
-    "featuredRank": 76
+    "featuredRank": 85
   },
   {
     "id": "tt0136634",
@@ -5978,18 +5404,8 @@ module.exports = [
       "pbs",
       "pbs-kids",
       "educational",
-      "educational-nostalgia",
       "preschool",
-      "preschool-nostalgia",
-      "live-action-kids",
-      "90s",
-      "90s-classics",
-      "early-90s",
-      "90s-kids",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "live-action-kids"
     ],
     "enabled": true,
     "featuredRank": 82
@@ -6008,16 +5424,7 @@ module.exports = [
       "anime",
       "action",
       "cult-animation",
-      "action-anime",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-anime",
-      "2000s-anime",
-      "90s-action"
+      "action-anime"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -6025,6 +5432,21 @@ module.exports = [
       "Toonami",
       "Adult Swim"
     ]
+  },
+  {
+    "id": "tt0274240",
+    "name": "The Book of Pooh",
+    "startYear": 2001,
+    "endYear": 2004,
+    "type": "series",
+    "tags": [
+      "disney-channel",
+      "playhouse-disney",
+      "preschool"
+    ],
+    "enabled": true,
+    "featuredRank": 75,
+    "franchise": "Winnie the Pooh"
   },
   {
     "id": "tt0373732",
@@ -6035,10 +5457,7 @@ module.exports = [
     "tags": [
       "adult-swim",
       "adult-animation",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -6056,10 +5475,7 @@ module.exports = [
       "adult-swim",
       "adult-animation",
       "weird-cartoons",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -6076,13 +5492,8 @@ module.exports = [
     "tags": [
       "nickelodeon",
       "preschool",
-      "preschool-nostalgia",
       "kids-animation",
-      "educational",
-      "90s",
-      "90s-classics",
-      "early-90s",
-      "90s-kids"
+      "educational"
     ],
     "enabled": true,
     "featuredRank": 78
@@ -6098,10 +5509,7 @@ module.exports = [
       "toon-disney",
       "kids-animation",
       "comedy",
-      "weird-cartoons",
-      "2000s",
-      "early-2000s",
-      "2000s-kids"
+      "weird-cartoons"
     ],
     "enabled": true,
     "featuredRank": 80,
@@ -6109,6 +5517,21 @@ module.exports = [
       "Disney Channel",
       "Toon Disney"
     ]
+  },
+  {
+    "id": "tt0284713",
+    "name": "The Care Bears Family",
+    "startYear": 1986,
+    "endYear": 1988,
+    "type": "series",
+    "tags": [
+      "syndicated-classics",
+      "retro-syndication",
+      "kids-animation",
+      "preschool"
+    ],
+    "enabled": true,
+    "featuredRank": 82
   },
   {
     "id": "tt0299278",
@@ -6120,9 +5543,6 @@ module.exports = [
       "kids-animation",
       "comedy",
       "weird-cartoons",
-      "2000s",
-      "early-2000s",
-      "2000s-kids",
       "cartoon-network",
       "fox-kids",
       "saturday-morning"
@@ -6139,12 +5559,7 @@ module.exports = [
     "tags": [
       "adult-animation",
       "comedy",
-      "cult-animation",
-      "90s",
-      "2000s",
-      "mid-90s",
-      "90s-classics",
-      "90s-comedy"
+      "cult-animation"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -6159,9 +5574,7 @@ module.exports = [
       "disney-channel",
       "toon-disney",
       "kids-animation",
-      "comedy",
-      "2000s",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 88,
@@ -6180,14 +5593,24 @@ module.exports = [
       "nickelodeon",
       "nicktoons",
       "kids-animation",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 90
+  },
+  {
+    "id": "tt0174388",
+    "name": "The Famous Jett Jackson",
+    "startYear": 1998,
+    "endYear": 2001,
+    "type": "series",
+    "tags": [
+      "disney-channel",
+      "live-action-kids",
+      "action"
+    ],
+    "enabled": true,
+    "featuredRank": 82
   },
   {
     "id": "tt0053502",
@@ -6214,12 +5637,7 @@ module.exports = [
       "kids-teen-sitcoms",
       "comedy",
       "syndicated-classics",
-      "retro-syndication",
-      "90s-comedy",
-      "90s",
-      "early-90s",
-      "90s-classics",
-      "90s-kids"
+      "retro-syndication"
     ],
     "enabled": true,
     "featuredRank": 100,
@@ -6238,33 +5656,10 @@ module.exports = [
       "after-school",
       "weird-cartoons",
       "kids-animation",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 90
-  },
-  {
-    "id": "tt0108799",
-    "name": "The Head",
-    "startYear": 1994,
-    "endYear": 1996,
-    "type": "series",
-    "tags": [
-      "adult-animation",
-      "cult-animation",
-      "weird-cartoons",
-      "comedy",
-      "90s",
-      "90s-classics",
-      "mid-90s",
-      "90s-comedy"
-    ],
-    "enabled": true,
-    "featuredRank": 74
   },
   {
     "id": "tt0115215",
@@ -6278,12 +5673,7 @@ module.exports = [
       "cult-animation",
       "superhero-animation",
       "marvel",
-      "saturday-morning",
-      "90s",
-      "90s-classics",
-      "mid-90s",
-      "90s-kids",
-      "90s-action"
+      "saturday-morning"
     ],
     "enabled": true,
     "featuredRank": 86
@@ -6313,11 +5703,7 @@ module.exports = [
       "toon-disney",
       "kids-animation",
       "action",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -6332,14 +5718,25 @@ module.exports = [
       "cartoon-network",
       "after-school",
       "kids-animation",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75
+  },
+  {
+    "id": "tt0103477",
+    "name": "The Little Mermaid",
+    "startYear": 1992,
+    "endYear": 1994,
+    "type": "series",
+    "tags": [
+      "disney-channel",
+      "toon-disney",
+      "saturday-morning",
+      "kids-animation"
+    ],
+    "enabled": true,
+    "featuredRank": 80
   },
   {
     "id": "tt0108847",
@@ -6351,15 +5748,25 @@ module.exports = [
       "pbs",
       "pbs-kids",
       "educational",
-      "science-nature",
-      "educational-nostalgia",
-      "90s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids"
+      "science-nature"
     ],
     "enabled": true,
     "featuredRank": 100
+  },
+  {
+    "id": "tt1178180",
+    "name": "The Marvelous Misadventures of Flapjack",
+    "startYear": 2008,
+    "endYear": 2010,
+    "type": "series",
+    "tags": [
+      "cartoon-network",
+      "kids-animation",
+      "comedy",
+      "weird-cartoons"
+    ],
+    "enabled": true,
+    "featuredRank": 75
   },
   {
     "id": "tt0112064",
@@ -6371,11 +5778,7 @@ module.exports = [
       "fox-kids",
       "saturday-morning",
       "after-school",
-      "kids-animation",
-      "90s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids"
+      "kids-animation"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -6390,36 +5793,10 @@ module.exports = [
       "adult-animation",
       "cult-animation",
       "superhero-animation",
-      "weird-cartoons",
-      "90s",
-      "90s-classics",
-      "mid-90s"
+      "weird-cartoons"
     ],
     "enabled": true,
     "featuredRank": 88
-  },
-  {
-    "id": "tt0281471",
-    "name": "The Mummy",
-    "displayName": "The Mummy: The Animated Series",
-    "startYear": 2001,
-    "endYear": 2003,
-    "type": "series",
-    "tags": [
-      "kids-wb",
-      "kids-animation",
-      "saturday-morning",
-      "action",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
-    ],
-    "enabled": true,
-    "featuredRank": 72,
-    "alternateTitles": [
-      "The Mummy: The Animated Series"
-    ]
   },
   {
     "id": "tt0165052",
@@ -6433,10 +5810,7 @@ module.exports = [
       "syndicated-classics",
       "kids-animation",
       "comedy",
-      "retro-syndication",
-      "90s",
-      "90s-kids",
-      "90s-comedy"
+      "retro-syndication"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -6453,38 +5827,10 @@ module.exports = [
       "saturday-morning",
       "superhero-animation",
       "dc",
-      "action",
-      "90s",
-      "90s-classics",
-      "late-90s",
-      "90s-kids",
-      "90s-action"
+      "action"
     ],
     "enabled": true,
     "featuredRank": 94
-  },
-  {
-    "id": "tt0219446",
-    "name": "The Oblongs",
-    "startYear": 2001,
-    "endYear": 2002,
-    "type": "series",
-    "tags": [
-      "adult-swim",
-      "adult-animation",
-      "weird-cartoons",
-      "forgotten-obscure",
-      "comedy",
-      "cult-animation",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics"
-    ],
-    "enabled": true,
-    "featuredRank": 60,
-    "programmingBlocks": [
-      "Adult Swim"
-    ]
   },
   {
     "id": "tt0101169",
@@ -6497,12 +5843,7 @@ module.exports = [
       "action",
       "cult-animation",
       "fantasy-anime",
-      "saturday-morning",
-      "90s",
-      "90s-classics",
-      "early-90s",
-      "90s-kids",
-      "90s-action"
+      "saturday-morning"
     ],
     "enabled": true,
     "featuredRank": 86
@@ -6516,14 +5857,7 @@ module.exports = [
     "tags": [
       "adult-animation",
       "cult-animation",
-      "comedy",
-      "90s",
-      "90s-classics",
-      "late-90s",
-      "90s-comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 80
@@ -6538,14 +5872,7 @@ module.exports = [
       "cartoon-network",
       "after-school",
       "kids-animation",
-      "comedy",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 100
@@ -6560,14 +5887,39 @@ module.exports = [
       "disney-channel",
       "toon-disney",
       "kids-animation",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75
+  },
+  {
+    "id": "tt0131183",
+    "name": "The Raccoons",
+    "startYear": 1985,
+    "endYear": 1992,
+    "type": "series",
+    "tags": [
+      "syndicated-classics",
+      "retro-syndication",
+      "kids-animation",
+      "forgotten-obscure"
+    ],
+    "enabled": true,
+    "featuredRank": 72
+  },
+  {
+    "id": "tt0115226",
+    "name": "The Real Adventures of Jonny Quest",
+    "startYear": 1996,
+    "endYear": 1997,
+    "type": "series",
+    "tags": [
+      "cartoon-network",
+      "kids-animation",
+      "action"
+    ],
+    "enabled": true,
+    "featuredRank": 78
   },
   {
     "id": "tt0090506",
@@ -6580,10 +5932,7 @@ module.exports = [
       "syndicated-classics",
       "kids-animation",
       "action",
-      "retro-syndication",
-      "90s",
-      "90s-kids",
-      "90s-action"
+      "retro-syndication"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -6601,12 +5950,7 @@ module.exports = [
       "weird-cartoons",
       "kids-animation",
       "comedy",
-      "cult-animation",
-      "90s",
-      "early-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-comedy"
+      "cult-animation"
     ],
     "enabled": true,
     "featuredRank": 100,
@@ -6624,9 +5968,7 @@ module.exports = [
       "disney-channel",
       "toon-disney",
       "kids-animation",
-      "comedy",
-      "2000s",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 82,
@@ -6634,27 +5976,6 @@ module.exports = [
       "Disney Channel",
       "Toon Disney"
     ]
-  },
-  {
-    "id": "tt0236923",
-    "name": "The Savage Dragon",
-    "startYear": 1995,
-    "endYear": 1996,
-    "type": "series",
-    "tags": [
-      "kids-animation",
-      "action",
-      "cult-animation",
-      "superhero-animation",
-      "saturday-morning",
-      "90s",
-      "90s-classics",
-      "mid-90s",
-      "90s-kids",
-      "90s-action"
-    ],
-    "enabled": true,
-    "featuredRank": 68
   },
   {
     "id": "tt0108921",
@@ -6665,11 +5986,7 @@ module.exports = [
     "tags": [
       "nickelodeon",
       "snick",
-      "live-action-kids",
-      "90s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids"
+      "live-action-kids"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -6685,13 +6002,57 @@ module.exports = [
     "type": "series",
     "tags": [
       "adult-animation",
-      "comedy",
-      "90s",
-      "2000s",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 100
+  },
+  {
+    "id": "tt0112166",
+    "name": "The Slayers",
+    "startYear": 1995,
+    "endYear": 2009,
+    "type": "series",
+    "tags": [
+      "anime",
+      "fantasy-anime",
+      "comedy"
+    ],
+    "enabled": true,
+    "featuredRank": 78
+  },
+  {
+    "id": "tt0081933",
+    "name": "The Smurfs",
+    "startYear": 1981,
+    "endYear": 1989,
+    "type": "series",
+    "tags": [
+      "syndicated-classics",
+      "retro-syndication",
+      "kids-animation",
+      "saturday-morning"
+    ],
+    "enabled": true,
+    "featuredRank": 92
+  },
+  {
+    "id": "tt0976192",
+    "name": "The Spectacular Spider-Man",
+    "startYear": 2008,
+    "endYear": 2009,
+    "type": "series",
+    "tags": [
+      "kids-wb",
+      "saturday-morning",
+      "kids-animation",
+      "superhero-animation",
+      "marvel",
+      "action"
+    ],
+    "enabled": true,
+    "featuredRank": 88,
+    "franchise": "Spider-Man"
   },
   {
     "id": "tt0426371",
@@ -6703,11 +6064,7 @@ module.exports = [
       "disney-channel",
       "live-action-kids",
       "kids-teen-sitcoms",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -6724,15 +6081,27 @@ module.exports = [
       "after-school",
       "superhero-animation",
       "kids-animation",
-      "action",
-      "90s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-action"
+      "action"
     ],
     "enabled": true,
     "featuredRank": 75
+  },
+  {
+    "id": "tt0086817",
+    "name": "Transformers",
+    "startYear": 1984,
+    "endYear": 1987,
+    "type": "series",
+    "tags": [
+      "syndicated-classics",
+      "retro-syndication",
+      "kids-animation",
+      "action"
+    ],
+    "enabled": true,
+    "featuredRank": 95,
+    "franchise": "Transformers",
+    "displayName": "The Transformers"
   },
   {
     "id": "tt0417373",
@@ -6744,10 +6113,7 @@ module.exports = [
       "adult-swim",
       "adult-animation",
       "comedy",
-      "cult-animation",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics"
+      "cult-animation"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -6767,11 +6133,7 @@ module.exports = [
       "one-saturday-morning",
       "saturday-morning",
       "kids-animation",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -6789,14 +6151,7 @@ module.exports = [
       "nickelodeon",
       "nicktoons",
       "kids-animation",
-      "comedy",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 90
@@ -6810,10 +6165,7 @@ module.exports = [
     "tags": [
       "nickelodeon",
       "preschool",
-      "preschool-nostalgia",
-      "educational",
-      "2000s",
-      "2000s-kids"
+      "educational"
     ],
     "enabled": true,
     "featuredRank": 88,
@@ -6833,12 +6185,7 @@ module.exports = [
       "kids-teen-sitcoms",
       "comedy",
       "syndicated-classics",
-      "retro-syndication",
-      "90s",
-      "early-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-comedy"
+      "retro-syndication"
     ],
     "enabled": true,
     "featuredRank": 95,
@@ -6856,12 +6203,9 @@ module.exports = [
     "tags": [
       "nickelodeon",
       "preschool",
-      "preschool-nostalgia",
       "kids-animation",
       "retro-syndication",
-      "syndicated-classics",
-      "90s",
-      "90s-kids"
+      "syndicated-classics"
     ],
     "enabled": true,
     "featuredRank": 82,
@@ -6880,16 +6224,27 @@ module.exports = [
       "nicktoons",
       "kids-animation",
       "action",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 80,
     "originalNetworks": [
       "Nickelodeon"
     ]
+  },
+  {
+    "id": "tt0255768",
+    "name": "The Yogi Bear Show",
+    "startYear": 1961,
+    "endYear": 1962,
+    "type": "series",
+    "tags": [
+      "syndicated-classics",
+      "retro-syndication",
+      "kids-animation"
+    ],
+    "enabled": true,
+    "featuredRank": 72
   },
   {
     "id": "tt0260662",
@@ -6902,11 +6257,7 @@ module.exports = [
       "saturday-morning",
       "forgotten-obscure",
       "kids-animation",
-      "dc",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "dc"
     ],
     "enabled": true,
     "featuredRank": 60,
@@ -6922,20 +6273,10 @@ module.exports = [
       "pbs",
       "pbs-kids",
       "educational",
-      "educational-nostalgia",
       "preschool",
-      "preschool-nostalgia",
       "kids-animation",
       "syndicated-classics",
-      "retro-syndication",
-      "90s",
-      "90s-classics",
-      "early-90s",
-      "90s-kids",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "retro-syndication"
     ],
     "enabled": true,
     "featuredRank": 94
@@ -6957,6 +6298,21 @@ module.exports = [
     "featuredRank": 75
   },
   {
+    "id": "tt0291672",
+    "name": "Time Squad",
+    "startYear": 2001,
+    "endYear": 2003,
+    "type": "series",
+    "tags": [
+      "cartoon-network",
+      "kids-animation",
+      "comedy",
+      "forgotten-obscure"
+    ],
+    "enabled": true,
+    "featuredRank": 80
+  },
+  {
     "id": "tt0112197",
     "name": "Timon & Pumbaa",
     "startYear": 1995,
@@ -6967,12 +6323,7 @@ module.exports = [
       "kids-animation",
       "disney-afternoon",
       "toon-disney",
-      "comedy",
-      "90s",
-      "90s-classics",
-      "mid-90s",
-      "90s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 88
@@ -6985,12 +6336,7 @@ module.exports = [
     "type": "series",
     "tags": [
       "after-school",
-      "comedy",
-      "90s",
-      "early-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-comedy"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 90
@@ -7006,16 +6352,27 @@ module.exports = [
       "fox-kids",
       "saturday-morning",
       "kids-animation",
-      "comedy",
-      "90s",
-      "early-90s",
-      "90s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 84,
     "alternateTitles": [
       "Tom & Jerry Kids"
     ]
+  },
+  {
+    "id": "tt0780438",
+    "name": "Tom and Jerry Tales",
+    "startYear": 2006,
+    "endYear": 2009,
+    "type": "series",
+    "tags": [
+      "kids-wb",
+      "kids-animation",
+      "comedy"
+    ],
+    "enabled": true,
+    "featuredRank": 72
   },
   {
     "id": "tt0425720",
@@ -7028,9 +6385,7 @@ module.exports = [
       "adult-animation",
       "weird-cartoons",
       "cult-animation",
-      "comedy",
-      "2000s",
-      "early-2000s"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 82
@@ -7045,11 +6400,7 @@ module.exports = [
       "kids-animation",
       "action",
       "comedy",
-      "after-school",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "after-school"
     ],
     "enabled": true,
     "featuredRank": 90
@@ -7065,12 +6416,7 @@ module.exports = [
       "anime",
       "action",
       "cult-animation",
-      "action-anime",
-      "90s",
-      "late-90s",
-      "90s-classics",
-      "90s-anime",
-      "90s-action"
+      "action-anime"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -7089,10 +6435,7 @@ module.exports = [
       "adult-swim",
       "action",
       "action-anime",
-      "fantasy-anime",
-      "2000s",
-      "early-2000s",
-      "2000s-anime"
+      "fantasy-anime"
     ],
     "enabled": true,
     "featuredRank": 80
@@ -7107,32 +6450,39 @@ module.exports = [
       "anime",
       "forgotten-obscure",
       "action",
-      "action-anime",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids",
-      "2000s-anime"
+      "action-anime"
     ],
     "enabled": true,
     "featuredRank": 60
   },
   {
-    "id": "tt0292861",
-    "name": "Undergrads",
-    "startYear": 2001,
-    "endYear": 2001,
+    "id": "tt0112206",
+    "name": "Unhappily Ever After",
+    "startYear": 1995,
+    "endYear": 1999,
     "type": "series",
     "tags": [
-      "adult-animation",
-      "forgotten-obscure",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics"
+      "live-action-primetime",
+      "kids-teen-sitcoms",
+      "comedy"
     ],
     "enabled": true,
-    "featuredRank": 60
+    "featuredRank": 72
+  },
+  {
+    "id": "tt0108978",
+    "name": "V.R. Troopers",
+    "startYear": 1994,
+    "endYear": 1996,
+    "type": "series",
+    "tags": [
+      "syndicated-classics",
+      "after-school",
+      "live-action-kids",
+      "action"
+    ],
+    "enabled": true,
+    "featuredRank": 75
   },
   {
     "id": "tt0086824",
@@ -7164,14 +6514,40 @@ module.exports = [
       "kids-animation",
       "toon-disney",
       "action",
-      "fantasy-anime",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "fantasy-anime"
     ],
     "enabled": true,
     "featuredRank": 78
+  },
+  {
+    "id": "tt0122365",
+    "name": "Wacky Races",
+    "startYear": 1968,
+    "endYear": 1969,
+    "type": "series",
+    "tags": [
+      "syndicated-classics",
+      "retro-syndication",
+      "kids-animation"
+    ],
+    "enabled": true,
+    "featuredRank": 78
+  },
+  {
+    "id": "tt0306274",
+    "name": "What's New, Scooby-Doo?",
+    "startYear": 2002,
+    "endYear": 2006,
+    "type": "series",
+    "tags": [
+      "kids-wb",
+      "saturday-morning",
+      "kids-animation",
+      "comedy"
+    ],
+    "enabled": true,
+    "featuredRank": 85,
+    "franchise": "Scooby-Doo"
   },
   {
     "id": "tt0312255",
@@ -7185,34 +6561,10 @@ module.exports = [
       "weird-cartoons",
       "forgotten-obscure",
       "kids-animation",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 60
-  },
-  {
-    "id": "tt0106172",
-    "name": "Where in the World Is Carmen Sandiego?",
-    "startYear": 1991,
-    "endYear": 1996,
-    "type": "series",
-    "tags": [
-      "pbs",
-      "pbs-kids",
-      "educational",
-      "educational-nostalgia",
-      "live-action-kids",
-      "90s",
-      "90s-classics",
-      "early-90s",
-      "90s-kids"
-    ],
-    "enabled": true,
-    "featuredRank": 88
   },
   {
     "id": "tt0421482",
@@ -7224,11 +6576,7 @@ module.exports = [
       "fox-kids",
       "saturday-morning",
       "kids-animation",
-      "fantasy-anime",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "fantasy-anime"
     ],
     "enabled": true,
     "featuredRank": 82
@@ -7243,12 +6591,7 @@ module.exports = [
       "pbs",
       "pbs-kids",
       "educational",
-      "live-action-kids",
-      "educational-nostalgia",
-      "90s",
-      "mid-90s",
-      "90s-classics",
-      "90s-kids"
+      "live-action-kids"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -7263,11 +6606,7 @@ module.exports = [
       "anime",
       "action-anime",
       "fantasy-anime",
-      "adult-swim",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-anime"
+      "adult-swim"
     ],
     "enabled": true,
     "featuredRank": 78
@@ -7283,11 +6622,7 @@ module.exports = [
       "adult-swim",
       "anime",
       "action",
-      "action-anime",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-anime"
+      "action-anime"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -7308,11 +6643,7 @@ module.exports = [
       "superhero-animation",
       "kids-animation",
       "action",
-      "marvel",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "marvel"
     ],
     "enabled": true,
     "featuredRank": 90,
@@ -7332,12 +6663,7 @@ module.exports = [
       "superhero-animation",
       "kids-animation",
       "action",
-      "marvel",
-      "90s",
-      "early-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-action"
+      "marvel"
     ],
     "enabled": true,
     "featuredRank": 100,
@@ -7345,6 +6671,20 @@ module.exports = [
       "X-Men: The Animated Series"
     ],
     "franchise": "Marvel"
+  },
+  {
+    "id": "tt0112230",
+    "name": "Xena: Warrior Princess",
+    "startYear": 1995,
+    "endYear": 2001,
+    "type": "series",
+    "tags": [
+      "live-action-primetime",
+      "syndicated-classics",
+      "action"
+    ],
+    "enabled": true,
+    "featuredRank": 88
   },
   {
     "id": "tt0386993",
@@ -7356,11 +6696,7 @@ module.exports = [
       "kids-wb",
       "saturday-morning",
       "kids-animation",
-      "action",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "action"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -7375,10 +6711,7 @@ module.exports = [
       "fox-kids",
       "live-action-kids",
       "action",
-      "saturday-morning",
-      "90s",
-      "late-90s",
-      "90s-kids"
+      "saturday-morning"
     ],
     "enabled": true,
     "featuredRank": 78
@@ -7396,13 +6729,7 @@ module.exports = [
       "anime",
       "action",
       "action-anime",
-      "fantasy-anime",
-      "90s",
-      "early-90s",
-      "90s-classics",
-      "90s-kids",
-      "90s-anime",
-      "90s-action"
+      "fantasy-anime"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -7422,12 +6749,7 @@ module.exports = [
       "saturday-morning",
       "after-school",
       "anime",
-      "kids-animation",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids",
-      "2000s-anime"
+      "kids-animation"
     ],
     "enabled": true,
     "featuredRank": 90,
@@ -7444,12 +6766,7 @@ module.exports = [
     "tags": [
       "anime",
       "action-anime",
-      "fantasy-anime",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids",
-      "2000s-anime"
+      "fantasy-anime"
     ],
     "enabled": true,
     "featuredRank": 84
@@ -7464,12 +6781,7 @@ module.exports = [
       "anime",
       "action-anime",
       "fantasy-anime",
-      "toonami",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids",
-      "2000s-anime"
+      "toonami"
     ],
     "enabled": true,
     "featuredRank": 84
@@ -7484,14 +6796,7 @@ module.exports = [
       "pbs",
       "pbs-kids",
       "educational",
-      "science-nature",
-      "educational-nostalgia",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids"
+      "science-nature"
     ],
     "enabled": true,
     "featuredRank": 100
@@ -7506,11 +6811,7 @@ module.exports = [
       "nickelodeon",
       "live-action-kids",
       "kids-teen-sitcoms",
-      "comedy",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids"
+      "comedy"
     ],
     "enabled": true,
     "featuredRank": 75
@@ -7528,16 +6829,7 @@ module.exports = [
       "after-school",
       "anime",
       "action",
-      "action-anime",
-      "90s",
-      "2000s",
-      "late-90s",
-      "90s-classics",
-      "90s-kids",
-      "2000s-kids",
-      "90s-anime",
-      "2000s-anime",
-      "90s-action"
+      "action-anime"
     ],
     "enabled": true,
     "featuredRank": 75,
@@ -7558,17 +6850,26 @@ module.exports = [
     "tags": [
       "anime",
       "action-anime",
-      "toonami",
-      "2000s",
-      "early-2000s",
-      "early-2000s-classics",
-      "2000s-kids",
-      "2000s-anime"
+      "toonami"
     ],
     "enabled": true,
     "featuredRank": 82,
     "alternateTitles": [
       "Zoids: New Century Zero"
     ]
+  },
+  {
+    "id": "tt0111873",
+    "name": "Æon Flux",
+    "startYear": 1991,
+    "endYear": 1995,
+    "type": "series",
+    "tags": [
+      "adult-animation",
+      "cult-animation",
+      "weird-cartoons"
+    ],
+    "enabled": true,
+    "featuredRank": 78
   }
 ];

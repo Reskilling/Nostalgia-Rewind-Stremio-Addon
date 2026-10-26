@@ -5,7 +5,7 @@
   "main": "addon.js",
   "scripts": {
     "start": "node addon.js",
-    "validate": "node scripts/validate-shows.js"
+    "validate": "node scripts/validate.js"
   },
   "keywords": [
     "stremio",
