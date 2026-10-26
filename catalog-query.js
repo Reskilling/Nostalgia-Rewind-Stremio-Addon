@@ -3,6 +3,21 @@
 // Decides which items a catalog shows and in what order. Shared by the addon
 // and the validator so both always agree on catalog contents.
 
+const { catalogs, LEGACY_CATALOGS } = require('./catalogs');
+const shows = require('./shows');
+const movies = require('./movies');
+
+const datasetsByType = {
+  series: shows,
+  movie: movies,
+};
+
+const enabledCatalogsByKey = new Map(
+  catalogs
+    .filter((catalog) => catalog.enabled === true)
+    .map((catalog) => [`${catalog.type}:${catalog.id}`, catalog])
+);
+
 const alphabeticalCollator = new Intl.Collator('en-US', {
   sensitivity: 'base',
   numeric: true,
@@ -90,8 +105,8 @@ function findFilter(catalog, filterName) {
 
 // Returns the catalog's items in display order, narrowed to the named filter
 // when one is given. An unknown filter name matches nothing.
-function selectCatalogItems(dataset, catalog, filterName) {
-  const items = dataset.filter((item) => matchesCatalog(item, catalog));
+function selectCatalogItems(catalog, filterName) {
+  const items = datasetsByType[catalog.type].filter((item) => matchesCatalog(item, catalog));
 
   if (!filterName) {
     return items.sort(compareFeatured);
@@ -105,7 +120,23 @@ function selectCatalogItems(dataset, catalog, filterName) {
   return items.filter((item) => matchesFilter(item, filter)).sort(compareFeatured);
 }
 
+// Answers a Stremio catalog request: the items for an enabled catalog (or a
+// legacy catalog ID mapped onto one), narrowed by the requested filter.
+// Unknown catalogs return an empty list.
+function findCatalogItems(type, id, filterName) {
+  const key = `${type}:${id}`;
+  const legacy = LEGACY_CATALOGS[key];
+
+  if (legacy) {
+    return selectCatalogItems(enabledCatalogsByKey.get(`${type}:${legacy.id}`), legacy.filter);
+  }
+
+  const catalog = enabledCatalogsByKey.get(key);
+  return catalog ? selectCatalogItems(catalog, filterName) : [];
+}
+
 module.exports = {
+  findCatalogItems,
   itemDisplayName,
   selectCatalogItems,
 };

@@ -27,10 +27,10 @@ const enabledCatalogs = catalogs
 
 module.exports = {
   id: 'community.nostalgiarewind.catalogs',
-  version: '1.2.0',
+  version: '1.3.0',
   name: 'Nostalgia Rewind',
   description:
-    'A definitive nostalgia channel: the cartoons, kids TV, sitcoms and movies a generation grew up with, best-loved first.',
+    'A definitive nostalgia channel: the cartoons, kids TV, sitcoms and movies a generation grew up with, best-loved first. Browse by decade or channel in Discover.',
   logo: 'https://2f680d7c8e22-nostalgia-rewind.baby-beamup.club/public/Nostalgia-Rewind.png',
   resources: [
     {

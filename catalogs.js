@@ -83,7 +83,6 @@ const SERIES_FILTERS = [
   { name: 'Disney', tags: DISNEY_TV_TAGS },
   { name: "Fox Kids & Kids' WB", tags: ['fox-kids', 'kids-wb'] },
   { name: 'Superheroes', tags: ['superhero-animation'] },
-  { name: 'Retro Reruns', tags: ['retro-syndication', 'syndicated-classics'] },
   { name: 'PBS & Preschool', tags: ['pbs', 'pbs-kids', 'preschool', 'educational', 'science-nature'] },
   { name: 'Live Action & Sitcoms', tags: ['live-action-kids', 'kids-teen-sitcoms', 'live-action-primetime'] },
   { name: 'Adult Swim & Adult Animation', tags: ['adult-animation', 'adult-swim'] },
@@ -97,7 +96,6 @@ const MOVIE_FILTERS = [
   { name: 'TV Movies & DCOMs', tags: ['disney-channel-movies', 'nickelodeon-movies', 'cartoon-network-movies'] },
   { name: 'Superheroes', tags: ['superhero-movies'] },
   { name: 'Teen', tags: ['teen-movies'] },
-  { name: 'Comedy', tags: ['comedy-movies'] },
   { name: 'Spooky', tags: ['spooky-movies'] },
 ];
 
@@ -111,21 +109,21 @@ const catalogs = [
   },
   {
     id: 'nostalgia-rewind-nickelodeon',
-    name: 'Nickelodeon',
+    name: 'Nickelodeon Rewind',
     type: 'series',
     tags: NICKELODEON_TAGS,
     enabled: true,
   },
   {
     id: 'nostalgia-rewind-cartoon-network',
-    name: 'Cartoon Network',
+    name: 'Cartoon Network Rewind',
     type: 'series',
     tags: CARTOON_NETWORK_TAGS,
     enabled: true,
   },
   {
     id: 'nostalgia-rewind-disney-tv',
-    name: 'Disney TV',
+    name: 'Disney Rewind',
     type: 'series',
     tags: DISNEY_TV_TAGS,
     enabled: true,
@@ -139,8 +137,25 @@ const catalogs = [
   },
 ];
 
+// Catalog IDs from v1.0.x. Installs made before v1.1.0 keep requesting them
+// until the addon is reinstalled, so each one serves the closest current
+// catalog and filter instead of an empty row. The old Anime row has no
+// equivalent and stays empty. Delete this map once old installs are gone.
+const LEGACY_CATALOGS = {
+  'series:nostalgia-rewind-saturday-after-school': { id: 'nostalgia-rewind-tv', filter: "Fox Kids & Kids' WB" },
+  'series:nostalgia-rewind-pbs-preschool': { id: 'nostalgia-rewind-tv', filter: 'PBS & Preschool' },
+  'series:nostalgia-rewind-live-action-sitcoms': { id: 'nostalgia-rewind-tv', filter: 'Live Action & Sitcoms' },
+  'series:nostalgia-rewind-adult-animation': { id: 'nostalgia-rewind-tv', filter: 'Adult Swim & Adult Animation' },
+  'series:nostalgia-rewind-forgotten-obscure': { id: 'nostalgia-rewind-tv', filter: 'Hidden Gems' },
+  'movie:nostalgia-rewind-kids-family-movies': { id: 'nostalgia-rewind-movies', filter: 'Animated' },
+  'movie:nostalgia-rewind-tv-movies-specials': { id: 'nostalgia-rewind-movies', filter: 'TV Movies & DCOMs' },
+  'movie:nostalgia-rewind-anime-superhero-movies': { id: 'nostalgia-rewind-movies', filter: 'Superheroes' },
+  'movie:nostalgia-rewind-teen-comedy-adventure': { id: 'nostalgia-rewind-movies', filter: 'Teen' },
+};
+
 module.exports = {
   catalogs,
   KNOWN_TAGS,
+  LEGACY_CATALOGS,
   MEDIA_TYPES,
 };

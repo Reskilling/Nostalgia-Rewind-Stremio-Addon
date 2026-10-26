@@ -1,6 +1,4 @@
-'use strict';
-
-module.exports = [
+[
   {
     "id": "tt0103596",
     "name": "3 Ninjas",
@@ -6215,4 +6213,4 @@ module.exports = [
     "enabled": true,
     "featuredRank": 82
   }
-];
+]

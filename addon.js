@@ -2,8 +2,7 @@
 
 const { addonBuilder, serveHTTP } = require('stremio-addon-sdk');
 const manifest = require('./manifest');
-const { catalogs } = require('./catalogs');
-const { itemDisplayName, selectCatalogItems } = require('./catalog-query');
+const { findCatalogItems, itemDisplayName } = require('./catalog-query');
 const shows = require('./shows');
 const movies = require('./movies');
 const PORT = Number.parseInt(process.env.PORT || '7001', 10);
@@ -13,17 +12,6 @@ const CATALOG_CACHE_MAX_AGE_SECONDS = 6 * 60 * 60;
 const RPDB_API_KEY = 't0-free-rpdb-blocks';
 const RPDB_POSTER_BASE = `https://api.ratingposterdb.com/${RPDB_API_KEY}/imdb/poster-default`;
 const builder = new addonBuilder(manifest);
-
-const datasetsByType = new Map([
-  ['series', shows],
-  ['movie', movies],
-]);
-
-const enabledCatalogsByKey = new Map(
-  catalogs
-    .filter((catalog) => catalog.enabled === true)
-    .map((catalog) => [`${catalog.type}:${catalog.id}`, catalog])
-);
 
 function parseSkip(extra) {
   const raw = extra && extra.skip;
@@ -64,14 +52,7 @@ function toMetaPreview(item) {
 }
 
 builder.defineCatalogHandler(async ({ type, id, extra }) => {
-  const catalog = enabledCatalogsByKey.get(`${type}:${id}`);
-  const dataset = datasetsByType.get(type);
-
-  if (!catalog || !dataset) {
-    return { metas: [] };
-  }
-
-  const orderedItems = selectCatalogItems(dataset, catalog, extra && extra.genre);
+  const orderedItems = findCatalogItems(type, id, extra && extra.genre);
   const skip = parseSkip(extra);
   const page = orderedItems.slice(skip, skip + CATALOG_PAGE_SIZE);
 

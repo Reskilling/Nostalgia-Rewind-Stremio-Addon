@@ -3,13 +3,12 @@
 const path = require('path');
 const shows = require(path.join(__dirname, '..', 'shows'));
 const movies = require(path.join(__dirname, '..', 'movies'));
-const { catalogs, KNOWN_TAGS, MEDIA_TYPES } = require(path.join(__dirname, '..', 'catalogs'));
+const { catalogs, KNOWN_TAGS, LEGACY_CATALOGS, MEDIA_TYPES } = require(path.join(__dirname, '..', 'catalogs'));
 const { selectCatalogItems } = require(path.join(__dirname, '..', 'catalog-query'));
 const manifest = require(path.join(__dirname, '..', 'manifest'));
 
 const errors = [];
 const knownTags = new Set(KNOWN_TAGS);
-const datasetsByType = { series: shows, movie: movies };
 
 function normalizeTitle(value) {
   return String(value || '')
@@ -128,23 +127,32 @@ function validateCatalog(catalog) {
     return;
   }
 
-  const dataset = datasetsByType[catalog.type];
-  if (selectCatalogItems(dataset, catalog).length === 0) {
+  if (selectCatalogItems(catalog).length === 0) {
     errors.push(`${catalog.id} is enabled but matches zero records.`);
   }
   for (const filter of catalog.filters || []) {
-    if (selectCatalogItems(dataset, catalog, filter.name).length === 0) {
+    if (selectCatalogItems(catalog, filter.name).length === 0) {
       errors.push(`${catalog.id} filter "${filter.name}" matches zero records.`);
     }
   }
 }
 
+function validateLegacyCatalog(legacyKey, target) {
+  const type = legacyKey.split(':')[0];
+  const catalog = catalogs.find((item) => item.type === type && item.id === target.id);
+
+  if (!catalog || catalog.enabled !== true) {
+    errors.push(`Legacy catalog ${legacyKey} points to missing or disabled catalog: ${target.id}`);
+  } else if (!(catalog.filters || []).some((filter) => filter.name === target.filter)) {
+    errors.push(`Legacy catalog ${legacyKey} points to missing filter: ${target.filter}`);
+  }
+}
+
 function catalogSummary(catalog) {
-  const dataset = datasetsByType[catalog.type];
-  const lines = [`${catalog.name}: ${selectCatalogItems(dataset, catalog).length}`];
+  const lines = [`${catalog.name}: ${selectCatalogItems(catalog).length}`];
 
   for (const filter of catalog.filters || []) {
-    lines.push(`  ${filter.name}: ${selectCatalogItems(dataset, catalog, filter.name).length}`);
+    lines.push(`  ${filter.name}: ${selectCatalogItems(catalog, filter.name).length}`);
   }
 
   return lines;
@@ -163,6 +171,10 @@ for (const catalog of catalogs) {
   catalogKeys.add(key);
 
   validateCatalog(catalog);
+}
+
+for (const [legacyKey, target] of Object.entries(LEGACY_CATALOGS)) {
+  validateLegacyCatalog(legacyKey, target);
 }
 
 if (manifest.id !== 'community.nostalgiarewind.catalogs') {
