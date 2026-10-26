@@ -239,22 +239,8 @@ module.exports = [
       "comedy-movies"
     ],
     "enabled": true,
-    "featuredRank": 80,
+    "featuredRank": 88,
     "franchise": "Air Bud"
-  },
-  {
-    "id": "tt0094625",
-    "name": "Akira",
-    "startYear": 1988,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "animated-movies",
-      "retro-syndication"
-    ],
-    "enabled": true,
-    "featuredRank": 98
   },
   {
     "id": "tt0103639",
@@ -385,7 +371,7 @@ module.exports = [
       "fantasy-adventure-movies"
     ],
     "enabled": true,
-    "featuredRank": 80
+    "featuredRank": 88
   },
   {
     "id": "tt0120587",
@@ -534,7 +520,7 @@ module.exports = [
       "comedy-movies"
     ],
     "enabled": true,
-    "featuredRank": 80
+    "featuredRank": 85
   },
   {
     "id": "tt0088763",
@@ -593,7 +579,7 @@ module.exports = [
       "fantasy-adventure-movies"
     ],
     "enabled": true,
-    "featuredRank": 80
+    "featuredRank": 88
   },
   {
     "id": "tt0447854",
@@ -651,7 +637,7 @@ module.exports = [
       "comedy-movies"
     ],
     "enabled": true,
-    "featuredRank": 75,
+    "featuredRank": 82,
     "franchise": "Batman"
   },
   {
@@ -1148,7 +1134,7 @@ module.exports = [
       "comedy-movies"
     ],
     "enabled": true,
-    "featuredRank": 80
+    "featuredRank": 85
   },
   {
     "id": "tt0118829",
@@ -1376,22 +1362,6 @@ module.exports = [
     "featuredRank": 95
   },
   {
-    "id": "tt0275277",
-    "name": "Cowboy Bebop: The Movie",
-    "startYear": 2001,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "animated-movies",
-      "anime-movies",
-      "anime",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 90,
-    "franchise": "Cowboy Bebop"
-  },
-  {
     "id": "tt0275022",
     "name": "Crossroads",
     "startYear": 2002,
@@ -1467,23 +1437,6 @@ module.exports = [
     ],
     "enabled": true,
     "featuredRank": 90
-  },
-  {
-    "id": "tt0259974",
-    "name": "Digimon: The Movie",
-    "startYear": 2000,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "family-movies",
-      "animated-movies",
-      "anime-movies",
-      "anime",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 90,
-    "franchise": "Digimon"
   },
   {
     "id": "tt0130623",
@@ -1592,227 +1545,6 @@ module.exports = [
     "franchise": "Dr. Dolittle"
   },
   {
-    "id": "tt0142234",
-    "name": "Dragon Ball Z: Bio-Broly",
-    "startYear": 1994,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "anime",
-      "animated-movies",
-      "fantasy-adventure-movies",
-      "action-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 76,
-    "franchise": "Dragon Ball Z"
-  },
-  {
-    "id": "tt0142238",
-    "name": "Dragon Ball Z: Bojack Unbound",
-    "startYear": 1993,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "anime",
-      "animated-movies",
-      "fantasy-adventure-movies",
-      "action-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 86,
-    "franchise": "Dragon Ball Z"
-  },
-  {
-    "id": "tt0142239",
-    "name": "Dragon Ball Z: Broly - Second Coming",
-    "startYear": 1994,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "anime",
-      "animated-movies",
-      "fantasy-adventure-movies",
-      "action-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 88,
-    "franchise": "Dragon Ball Z"
-  },
-  {
-    "id": "tt0142242",
-    "name": "Dragon Ball Z: Broly - The Legendary Super Saiyan",
-    "startYear": 1993,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "anime",
-      "animated-movies",
-      "fantasy-adventure-movies",
-      "action-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 96,
-    "franchise": "Dragon Ball Z"
-  },
-  {
-    "id": "tt1125254",
-    "name": "Dragon Ball Z: Cooler's Revenge",
-    "startYear": 1991,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "anime",
-      "animated-movies",
-      "fantasy-adventure-movies",
-      "action-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 88,
-    "franchise": "Dragon Ball Z"
-  },
-  {
-    "id": "tt0142235",
-    "name": "Dragon Ball Z: Dead Zone",
-    "startYear": 1989,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "anime",
-      "animated-movies",
-      "fantasy-adventure-movies",
-      "action-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 82,
-    "franchise": "Dragon Ball Z"
-  },
-  {
-    "id": "tt0142236",
-    "name": "Dragon Ball Z: Fusion Reborn",
-    "startYear": 1995,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "anime",
-      "animated-movies",
-      "fantasy-adventure-movies",
-      "action-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 94,
-    "franchise": "Dragon Ball Z"
-  },
-  {
-    "id": "tt0142244",
-    "name": "Dragon Ball Z: Lord Slug",
-    "startYear": 1991,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "anime",
-      "animated-movies",
-      "fantasy-adventure-movies",
-      "action-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 82,
-    "franchise": "Dragon Ball Z"
-  },
-  {
-    "id": "tt0142241",
-    "name": "Dragon Ball Z: Super Android 13!",
-    "startYear": 1992,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "anime",
-      "animated-movies",
-      "fantasy-adventure-movies",
-      "action-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 86,
-    "franchise": "Dragon Ball Z"
-  },
-  {
-    "id": "tt0142237",
-    "name": "Dragon Ball Z: The Return of Cooler",
-    "startYear": 1992,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "anime",
-      "animated-movies",
-      "fantasy-adventure-movies",
-      "action-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 86,
-    "franchise": "Dragon Ball Z"
-  },
-  {
-    "id": "tt0142233",
-    "name": "Dragon Ball Z: The Tree of Might",
-    "startYear": 1990,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "anime",
-      "animated-movies",
-      "fantasy-adventure-movies",
-      "action-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 84,
-    "franchise": "Dragon Ball Z"
-  },
-  {
-    "id": "tt0142240",
-    "name": "Dragon Ball Z: The World's Strongest",
-    "startYear": 1990,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "anime",
-      "animated-movies",
-      "fantasy-adventure-movies",
-      "action-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 82,
-    "franchise": "Dragon Ball Z"
-  },
-  {
-    "id": "tt0142243",
-    "name": "Dragon Ball Z: Wrath of the Dragon",
-    "startYear": 1995,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "anime",
-      "animated-movies",
-      "fantasy-adventure-movies",
-      "action-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 90,
-    "franchise": "Dragon Ball Z"
-  },
-  {
     "id": "tt0492878",
     "name": "Drake & Josh Go Hollywood",
     "startYear": 2006,
@@ -1839,7 +1571,7 @@ module.exports = [
       "comedy-movies"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 80
   },
   {
     "id": "tt0101775",
@@ -1864,7 +1596,7 @@ module.exports = [
       "teen-movies"
     ],
     "enabled": true,
-    "featuredRank": 80
+    "featuredRank": 85
   },
   {
     "id": "tt0099472",
@@ -2029,22 +1761,6 @@ module.exports = [
     "featuredRank": 78
   },
   {
-    "id": "tt0270933",
-    "name": "Escaflowne: The Movie",
-    "startYear": 2000,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "anime",
-      "animated-movies",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 84,
-    "franchise": "Escaflowne"
-  },
-  {
     "id": "tt0120910",
     "name": "Fantasia 2000",
     "startYear": 1999,
@@ -2102,7 +1818,7 @@ module.exports = [
       "fantasy-adventure-movies"
     ],
     "enabled": true,
-    "featuredRank": 80
+    "featuredRank": 85
   },
   {
     "id": "tt0091042",
@@ -2175,7 +1891,7 @@ module.exports = [
       "fantasy-adventure-movies"
     ],
     "enabled": true,
-    "featuredRank": 80
+    "featuredRank": 85
   },
   {
     "id": "tt0116329",
@@ -2289,19 +2005,6 @@ module.exports = [
     "featuredRank": 72
   },
   {
-    "id": "tt0113568",
-    "name": "Ghost in the Shell",
-    "startYear": 1995,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "animated-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 98
-  },
-  {
     "id": "tt0087332",
     "name": "Ghostbusters",
     "startYear": 1984,
@@ -2341,7 +2044,7 @@ module.exports = [
       "fantasy-adventure-movies"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 82
   },
   {
     "id": "tt0399104",
@@ -2411,7 +2114,7 @@ module.exports = [
       "spooky-movies"
     ],
     "enabled": true,
-    "featuredRank": 80,
+    "featuredRank": 85,
     "franchise": "Gremlins"
   },
   {
@@ -2544,7 +2247,7 @@ module.exports = [
       "comedy-movies"
     ],
     "enabled": true,
-    "featuredRank": 80
+    "featuredRank": 85
   },
   {
     "id": "tt0295297",
@@ -2855,7 +2558,7 @@ module.exports = [
       "fantasy-adventure-movies"
     ],
     "enabled": true,
-    "featuredRank": 75,
+    "featuredRank": 85,
     "franchise": "Honey, I Shrunk the Kids"
   },
   {
@@ -2901,21 +2604,6 @@ module.exports = [
     ],
     "enabled": true,
     "featuredRank": 95
-  },
-  {
-    "id": "tt0347149",
-    "name": "Howl's Moving Castle",
-    "startYear": 2004,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "animated-movies",
-      "family-movies",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 98
   },
   {
     "id": "tt0286716",
@@ -2987,72 +2675,8 @@ module.exports = [
       "comedy-movies"
     ],
     "enabled": true,
-    "featuredRank": 80,
+    "featuredRank": 85,
     "franchise": "Inspector Gadget"
-  },
-  {
-    "id": "tt0366621",
-    "name": "InuYasha the Movie 2: The Castle Beyond the Looking Glass",
-    "startYear": 2002,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "anime",
-      "animated-movies",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 84,
-    "franchise": "InuYasha"
-  },
-  {
-    "id": "tt0396659",
-    "name": "InuYasha the Movie 3: Swords of an Honorable Ruler",
-    "startYear": 2003,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "anime",
-      "animated-movies",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 84,
-    "franchise": "InuYasha"
-  },
-  {
-    "id": "tt0473658",
-    "name": "InuYasha the Movie 4: Fire on the Mystic Island",
-    "startYear": 2004,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "anime",
-      "animated-movies",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 82,
-    "franchise": "InuYasha"
-  },
-  {
-    "id": "tt0322645",
-    "name": "InuYasha the Movie: Affections Touching Across Time",
-    "startYear": 2001,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "anime",
-      "animated-movies",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 84,
-    "franchise": "InuYasha"
   },
   {
     "id": "tt0116683",
@@ -3262,22 +2886,6 @@ module.exports = [
     ],
     "enabled": true,
     "featuredRank": 70
-  },
-  {
-    "id": "tt0097814",
-    "name": "Kiki's Delivery Service",
-    "startYear": 1989,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "animated-movies",
-      "family-movies",
-      "fantasy-adventure-movies",
-      "retro-syndication"
-    ],
-    "enabled": true,
-    "featuredRank": 98
   },
   {
     "id": "tt0446724",
@@ -3570,21 +3178,6 @@ module.exports = [
     "featuredRank": 92
   },
   {
-    "id": "tt0293416",
-    "name": "Metropolis",
-    "startYear": 2001,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "anime",
-      "animated-movies",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 88
-  },
-  {
     "id": "tt0120751",
     "name": "Mighty Joe Young",
     "startYear": 1998,
@@ -3612,19 +3205,6 @@ module.exports = [
     "enabled": true,
     "featuredRank": 90,
     "franchise": "Power Rangers"
-  },
-  {
-    "id": "tt0291350",
-    "name": "Millennium Actress",
-    "startYear": 2001,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "animated-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 90
   },
   {
     "id": "tt0218440",
@@ -3826,23 +3406,7 @@ module.exports = [
       "teen-movies"
     ],
     "enabled": true,
-    "featuredRank": 80
-  },
-  {
-    "id": "tt0096283",
-    "name": "My Neighbor Totoro",
-    "startYear": 1988,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "animated-movies",
-      "family-movies",
-      "fantasy-adventure-movies",
-      "retro-syndication"
-    ],
-    "enabled": true,
-    "featuredRank": 100
+    "featuredRank": 88
   },
   {
     "id": "tt0132347",
@@ -3900,22 +3464,6 @@ module.exports = [
     "featuredRank": 90
   },
   {
-    "id": "tt0476680",
-    "name": "Naruto the Movie: Ninja Clash in the Land of Snow",
-    "startYear": 2004,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "anime",
-      "animated-movies",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 90,
-    "franchise": "Naruto"
-  },
-  {
     "id": "tt0368891",
     "name": "National Treasure",
     "startYear": 2004,
@@ -3957,19 +3505,6 @@ module.exports = [
     "enabled": true,
     "featuredRank": 100,
     "franchise": "Night at the Museum"
-  },
-  {
-    "id": "tt0107692",
-    "name": "Ninja Scroll",
-    "startYear": 1993,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "animated-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 92
   },
   {
     "id": "tt0114011",
@@ -4041,35 +3576,6 @@ module.exports = [
     "featuredRank": 90
   },
   {
-    "id": "tt0851578",
-    "name": "Paprika",
-    "startYear": 2006,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "anime",
-      "animated-movies",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 96
-  },
-  {
-    "id": "tt0156887",
-    "name": "Perfect Blue",
-    "startYear": 1997,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "animated-movies",
-      "spooky-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 94
-  },
-  {
     "id": "tt0316396",
     "name": "Peter Pan",
     "startYear": 2003,
@@ -4096,7 +3602,7 @@ module.exports = [
       "comedy-movies"
     ],
     "enabled": true,
-    "featuredRank": 78
+    "featuredRank": 85
   },
   {
     "id": "tt0323642",
@@ -4193,140 +3699,6 @@ module.exports = [
     "featuredRank": 74
   },
   {
-    "id": "tt0235679",
-    "name": "Pokémon 3 the Movie: Spell of the Unown",
-    "startYear": 2000,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "family-movies",
-      "animated-movies",
-      "anime-movies",
-      "anime",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 85,
-    "franchise": "Pokémon"
-  },
-  {
-    "id": "tt0287635",
-    "name": "Pokemon 4Ever: Celebi - Voice of the Forest",
-    "displayName": "Pokémon 4Ever",
-    "startYear": 2001,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "animated-movies",
-      "family-movies",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 84,
-    "alternateTitles": [
-      "Pokémon 4Ever"
-    ]
-  },
-  {
-    "id": "tt0347791",
-    "name": "Pokémon Heroes",
-    "startYear": 2002,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "animated-movies",
-      "family-movies",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 84
-  },
-  {
-    "id": "tt0210234",
-    "name": "Pokémon the Movie 2000",
-    "startYear": 1999,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "family-movies",
-      "animated-movies",
-      "anime-movies",
-      "anime",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 90,
-    "franchise": "Pokémon"
-  },
-  {
-    "id": "tt0435286",
-    "name": "Pokémon the Movie: Destiny Deoxys",
-    "displayName": "Pokémon: Destiny Deoxys",
-    "startYear": 2004,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "animated-movies",
-      "family-movies",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 82,
-    "alternateTitles": [
-      "Pokémon: Destiny Deoxys"
-    ]
-  },
-  {
-    "id": "tt0420076",
-    "name": "Pokémon: Jirachi - Wish Maker",
-    "startYear": 2003,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "animated-movies",
-      "family-movies",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 82
-  },
-  {
-    "id": "tt0875609",
-    "name": "Pokémon: Lucario and the Mystery of Mew",
-    "startYear": 2005,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "animated-movies",
-      "family-movies",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 86
-  },
-  {
-    "id": "tt0190641",
-    "name": "Pokémon: The First Movie - Mewtwo Strikes Back",
-    "startYear": 1998,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "family-movies",
-      "animated-movies",
-      "anime-movies",
-      "anime",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 100,
-    "franchise": "Pokémon"
-  },
-  {
     "id": "tt0119918",
     "name": "Pooh's Grand Adventure: The Search for Christopher Robin",
     "startYear": 1997,
@@ -4338,7 +3710,7 @@ module.exports = [
       "disney-movies"
     ],
     "enabled": true,
-    "featuredRank": 80,
+    "featuredRank": 85,
     "franchise": "Winnie the Pooh"
   },
   {
@@ -4357,36 +3729,6 @@ module.exports = [
     "enabled": true,
     "featuredRank": 82,
     "franchise": "Winnie the Pooh"
-  },
-  {
-    "id": "tt0104652",
-    "name": "Porco Rosso",
-    "startYear": 1992,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "anime",
-      "animated-movies",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 94
-  },
-  {
-    "id": "tt0119698",
-    "name": "Princess Mononoke",
-    "startYear": 1997,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "animated-movies",
-      "anime-movies",
-      "anime",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 95
   },
   {
     "id": "tt0100419",
@@ -4560,7 +3902,7 @@ module.exports = [
       "comedy-movies"
     ],
     "enabled": true,
-    "featuredRank": 80
+    "featuredRank": 88
   },
   {
     "id": "tt0108002",
@@ -4715,7 +4057,7 @@ module.exports = [
       "comedy-movies"
     ],
     "enabled": true,
-    "featuredRank": 80
+    "featuredRank": 85
   },
   {
     "id": "tt0126029",
@@ -4994,22 +4336,6 @@ module.exports = [
     "featuredRank": 85
   },
   {
-    "id": "tt0245429",
-    "name": "Spirited Away",
-    "startYear": 2001,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "family-movies",
-      "animated-movies",
-      "anime-movies",
-      "anime",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 100
-  },
-  {
     "id": "tt0227538",
     "name": "Spy Kids",
     "startYear": 2001,
@@ -5098,21 +4424,6 @@ module.exports = [
     "franchise": "Star Wars"
   },
   {
-    "id": "tt0348121",
-    "name": "Steamboy",
-    "startYear": 2004,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "anime",
-      "animated-movies",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 86
-  },
-  {
     "id": "tt0348124",
     "name": "Stitch! The Movie",
     "startYear": 2003,
@@ -5181,7 +4492,7 @@ module.exports = [
       "fantasy-adventure-movies"
     ],
     "enabled": true,
-    "featuredRank": 75,
+    "featuredRank": 82,
     "franchise": "Super Mario"
   },
   {
@@ -5302,7 +4613,7 @@ module.exports = [
       "fantasy-adventure-movies"
     ],
     "enabled": true,
-    "featuredRank": 80,
+    "featuredRank": 88,
     "franchise": "Teenage Mutant Ninja Turtles"
   },
   {
@@ -5318,24 +4629,8 @@ module.exports = [
       "fantasy-adventure-movies"
     ],
     "enabled": true,
-    "featuredRank": 65,
+    "featuredRank": 75,
     "franchise": "Teenage Mutant Ninja Turtles"
-  },
-  {
-    "id": "tt0117876",
-    "name": "Tenchi the Movie: Tenchi Muyo in Love",
-    "startYear": 1996,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "anime",
-      "animated-movies",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 84,
-    "franchise": "Tenchi Muyo!"
   },
   {
     "id": "tt0101272",
@@ -5419,7 +4714,7 @@ module.exports = [
       "comedy-movies"
     ],
     "enabled": true,
-    "featuredRank": 95,
+    "featuredRank": 88,
     "franchise": "The Cheetah Girls"
   },
   {
@@ -5492,7 +4787,7 @@ module.exports = [
       "fantasy-adventure-movies"
     ],
     "enabled": true,
-    "featuredRank": 80
+    "featuredRank": 85
   },
   {
     "id": "tt0120917",
@@ -5509,22 +4804,6 @@ module.exports = [
     ],
     "enabled": true,
     "featuredRank": 100
-  },
-  {
-    "id": "tt0169858",
-    "name": "The End of Evangelion",
-    "startYear": 1997,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "anime",
-      "animated-movies",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 98,
-    "franchise": "Neon Genesis Evangelion"
   },
   {
     "id": "tt0327698",
@@ -5614,7 +4893,7 @@ module.exports = [
       "fantasy-adventure-movies"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 82
   },
   {
     "id": "tt0129167",
@@ -5698,7 +4977,7 @@ module.exports = [
       "animated-movies"
     ],
     "enabled": true,
-    "featuredRank": 75,
+    "featuredRank": 80,
     "franchise": "The Land Before Time"
   },
   {
@@ -5882,7 +5161,7 @@ module.exports = [
       "fantasy-adventure-movies"
     ],
     "enabled": true,
-    "featuredRank": 96
+    "featuredRank": 85
   },
   {
     "id": "tt0274636",
@@ -6095,7 +5374,7 @@ module.exports = [
       "fantasy-adventure-movies"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 85
   },
   {
     "id": "tt0120783",
@@ -6265,7 +5544,7 @@ module.exports = [
       "fantasy-adventure-movies"
     ],
     "enabled": true,
-    "featuredRank": 80
+    "featuredRank": 82
   },
   {
     "id": "tt0134067",
@@ -6428,7 +5707,7 @@ module.exports = [
       "disney-movies"
     ],
     "enabled": true,
-    "featuredRank": 80,
+    "featuredRank": 82,
     "franchise": "Winnie the Pooh"
   },
   {
@@ -6487,7 +5766,7 @@ module.exports = [
       "spooky-movies"
     ],
     "enabled": true,
-    "featuredRank": 80
+    "featuredRank": 88
   },
   {
     "id": "tt0098663",
@@ -6555,20 +5834,6 @@ module.exports = [
     "enabled": true,
     "featuredRank": 90,
     "franchise": "Teenage Mutant Ninja Turtles"
-  },
-  {
-    "id": "tt0388473",
-    "name": "Tokyo Godfathers",
-    "startYear": 2003,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "animated-movies",
-      "comedy-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 90
   },
   {
     "id": "tt0105616",
@@ -6719,7 +5984,7 @@ module.exports = [
       "spooky-movies"
     ],
     "enabled": true,
-    "featuredRank": 65,
+    "featuredRank": 80,
     "notes": "Disney Channel Original Movie."
   },
   {
@@ -6735,22 +6000,6 @@ module.exports = [
     "featuredRank": 72
   },
   {
-    "id": "tt0216651",
-    "name": "Vampire Hunter D: Bloodlust",
-    "startYear": 2000,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "anime",
-      "animated-movies",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 92,
-    "franchise": "Vampire Hunter D"
-  },
-  {
     "id": "tt0139699",
     "name": "Varsity Blues",
     "startYear": 1999,
@@ -6760,7 +6009,7 @@ module.exports = [
       "teen-movies"
     ],
     "enabled": true,
-    "featuredRank": 80
+    "featuredRank": 85
   },
   {
     "id": "tt0312004",
@@ -6835,21 +6084,6 @@ module.exports = [
     ],
     "enabled": true,
     "featuredRank": 86
-  },
-  {
-    "id": "tt0113824",
-    "name": "Whisper of the Heart",
-    "startYear": 1995,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "anime",
-      "animated-movies",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 94
   },
   {
     "id": "tt0096438",
@@ -6933,26 +6167,6 @@ module.exports = [
     "enabled": true,
     "featuredRank": 95,
     "franchise": "X-Men"
-  },
-  {
-    "id": "tt0403703",
-    "name": "Yu-Gi-Oh!: The Movie",
-    "displayName": "Yu-Gi-Oh! The Movie: Pyramid of Light",
-    "startYear": 2004,
-    "endYear": null,
-    "type": "movie",
-    "tags": [
-      "anime-movies",
-      "anime",
-      "animated-movies",
-      "fantasy-adventure-movies"
-    ],
-    "enabled": true,
-    "featuredRank": 86,
-    "alternateTitles": [
-      "Yu-Gi-Oh! The Movie: Pyramid of Light"
-    ],
-    "franchise": "Yu-Gi-Oh!"
   },
   {
     "id": "tt0406375",

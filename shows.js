@@ -13,7 +13,23 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 60
+    "featuredRank": 70
+  },
+  {
+    "id": "tt0190169",
+    "name": "3-2-1 Contact",
+    "startYear": 1980,
+    "endYear": 1992,
+    "type": "series",
+    "tags": [
+      "pbs",
+      "pbs-kids",
+      "educational",
+      "science-nature",
+      "live-action-kids"
+    ],
+    "enabled": true,
+    "featuredRank": 78
   },
   {
     "id": "tt0115082",
@@ -121,7 +137,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 75,
+    "featuredRank": 82,
     "programmingBlocks": [
       "Disney Afternoon"
     ]
@@ -154,7 +170,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 85
   },
   {
     "id": "tt0111875",
@@ -187,7 +203,7 @@ module.exports = [
       "retro-syndication"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 85
   },
   {
     "id": "tt0397306",
@@ -217,7 +233,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 85
   },
   {
     "id": "tt0224455",
@@ -262,7 +278,7 @@ module.exports = [
       "live-action-kids"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 80
   },
   {
     "id": "tt0297494",
@@ -327,22 +343,8 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 75,
+    "featuredRank": 85,
     "notes": "Years represent the original production-era run; IMDb lists later episode release activity under the same title record."
-  },
-  {
-    "id": "tt0387719",
-    "name": "Astro Boy",
-    "startYear": 2003,
-    "endYear": 2004,
-    "type": "series",
-    "tags": [
-      "anime",
-      "action-anime",
-      "toonami"
-    ],
-    "enabled": true,
-    "featuredRank": 80
   },
   {
     "id": "tt0417299",
@@ -358,20 +360,6 @@ module.exports = [
     ],
     "enabled": true,
     "featuredRank": 90
-  },
-  {
-    "id": "tt0339955",
-    "name": "Azumanga Daioh: The Animation",
-    "startYear": 2002,
-    "endYear": 2002,
-    "type": "series",
-    "tags": [
-      "anime",
-      "comedy"
-    ],
-    "enabled": true,
-    "featuredRank": 75,
-    "displayName": "Azumanga Daioh"
   },
   {
     "id": "tt0156200",
@@ -458,22 +446,6 @@ module.exports = [
     "franchise": "Batman"
   },
   {
-    "id": "tt0076983",
-    "name": "Battle of the Planets",
-    "startYear": 1978,
-    "endYear": 1980,
-    "type": "series",
-    "tags": [
-      "syndicated-classics",
-      "retro-syndication",
-      "kids-animation",
-      "anime",
-      "action"
-    ],
-    "enabled": true,
-    "featuredRank": 72
-  },
-  {
     "id": "tt0106367",
     "name": "Beakman's World",
     "startYear": 1992,
@@ -499,7 +471,7 @@ module.exports = [
       "preschool"
     ],
     "enabled": true,
-    "featuredRank": 75,
+    "featuredRank": 90,
     "programmingBlocks": [
       "Playhouse Disney"
     ]
@@ -531,7 +503,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 92
   },
   {
     "id": "tt0096543",
@@ -564,20 +536,6 @@ module.exports = [
     "featuredRank": 96
   },
   {
-    "id": "tt0318871",
-    "name": "Berserk",
-    "startYear": 1997,
-    "endYear": 1998,
-    "type": "series",
-    "tags": [
-      "anime",
-      "action-anime",
-      "cult-animation"
-    ],
-    "enabled": true,
-    "featuredRank": 82
-  },
-  {
     "id": "tt0242192",
     "name": "Between the Lions",
     "startYear": 1999,
@@ -589,21 +547,7 @@ module.exports = [
       "educational"
     ],
     "enabled": true,
-    "featuredRank": 75
-  },
-  {
-    "id": "tt0328733",
-    "name": "Beyblade",
-    "startYear": 2001,
-    "endYear": 2005,
-    "type": "series",
-    "tags": [
-      "anime",
-      "action",
-      "action-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 85
   },
   {
     "id": "tt0115674",
@@ -646,59 +590,14 @@ module.exports = [
     "endYear": 1998,
     "type": "series",
     "tags": [
+      "pbs",
+      "pbs-kids",
       "educational",
       "science-nature",
       "live-action-kids"
     ],
     "enabled": true,
     "featuredRank": 90
-  },
-  {
-    "id": "tt0434665",
-    "name": "Bleach",
-    "startYear": 2004,
-    "endYear": 2012,
-    "type": "series",
-    "tags": [
-      "anime",
-      "adult-swim",
-      "action",
-      "action-anime",
-      "fantasy-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 98
-  },
-  {
-    "id": "tt0482855",
-    "name": "Blood+",
-    "startYear": 2005,
-    "endYear": 2006,
-    "type": "series",
-    "tags": [
-      "anime",
-      "adult-swim",
-      "action",
-      "action-anime",
-      "fantasy-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 84
-  },
-  {
-    "id": "tt0387724",
-    "name": "Blue Gender",
-    "startYear": 1999,
-    "endYear": 2000,
-    "type": "series",
-    "tags": [
-      "anime",
-      "adult-swim",
-      "action",
-      "action-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 82
   },
   {
     "id": "tt0163929",
@@ -743,23 +642,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 75
-  },
-  {
-    "id": "tt0450373",
-    "name": "Bobobo-bo Bo-bobo",
-    "startYear": 2003,
-    "endYear": 2005,
-    "type": "series",
-    "tags": [
-      "anime",
-      "action-anime",
-      "weird-cartoons",
-      "comedy",
-      "toonami"
-    ],
-    "enabled": true,
-    "featuredRank": 76
+    "featuredRank": 82
   },
   {
     "id": "tt0213334",
@@ -778,7 +661,7 @@ module.exports = [
       "retro-syndication"
     ],
     "enabled": true,
-    "featuredRank": 75,
+    "featuredRank": 80,
     "programmingBlocks": [
       "Disney Afternoon"
     ]
@@ -871,7 +754,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 75,
+    "featuredRank": 82,
     "programmingBlocks": [
       "One Saturday Morning"
     ]
@@ -903,7 +786,7 @@ module.exports = [
       "preschool"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 85
   },
   {
     "id": "tt0103380",
@@ -934,7 +817,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 82
   },
   {
     "id": "tt0098763",
@@ -951,43 +834,7 @@ module.exports = [
       "retro-syndication"
     ],
     "enabled": true,
-    "featuredRank": 75
-  },
-  {
-    "id": "tt0221735",
-    "name": "Cardcaptor Sakura",
-    "displayName": "Cardcaptors",
-    "startYear": 1998,
-    "endYear": 2000,
-    "type": "series",
-    "tags": [
-      "kids-wb",
-      "saturday-morning",
-      "anime",
-      "kids-animation",
-      "fantasy-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 75,
-    "alternateTitles": [
-      "Cardcaptors"
-    ]
-  },
-  {
-    "id": "tt0131179",
-    "name": "Detective Conan",
-    "displayName": "Case Closed",
-    "startYear": 1996,
-    "endYear": null,
-    "type": "series",
-    "tags": [
-      "anime"
-    ],
-    "enabled": true,
-    "featuredRank": 75,
-    "alternateTitles": [
-      "Case Closed"
-    ]
+    "featuredRank": 92
   },
   {
     "id": "tt0154061",
@@ -1034,7 +881,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 80
   },
   {
     "id": "tt0235916",
@@ -1050,7 +897,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 60
+    "featuredRank": 80
   },
   {
     "id": "tt0158552",
@@ -1081,7 +928,7 @@ module.exports = [
       "retro-syndication"
     ],
     "enabled": true,
-    "featuredRank": 75,
+    "featuredRank": 92,
     "programmingBlocks": [
       "Disney Afternoon"
     ]
@@ -1176,7 +1023,7 @@ module.exports = [
       "cult-animation"
     ],
     "enabled": true,
-    "featuredRank": 60
+    "featuredRank": 80
   },
   {
     "id": "tt0417311",
@@ -1242,24 +1089,19 @@ module.exports = [
     "featuredRank": 90
   },
   {
-    "id": "tt0213338",
-    "name": "Cowboy Bebop",
-    "startYear": 1998,
-    "endYear": 1999,
+    "id": "tt0449545",
+    "name": "Curious George",
+    "startYear": 2006,
+    "endYear": 2022,
     "type": "series",
     "tags": [
-      "cartoon-network",
-      "adult-swim",
-      "anime",
-      "action",
-      "cult-animation",
-      "action-anime"
+      "pbs",
+      "pbs-kids",
+      "preschool",
+      "kids-animation"
     ],
     "enabled": true,
-    "featuredRank": 100,
-    "programmingBlocks": [
-      "Adult Swim"
-    ]
+    "featuredRank": 92
   },
   {
     "id": "tt0309141",
@@ -1274,25 +1116,7 @@ module.exports = [
       "science-nature"
     ],
     "enabled": true,
-    "featuredRank": 75
-  },
-  {
-    "id": "tt0372650",
-    "name": "Cyborg 009: The Cyborg Soldier",
-    "displayName": "Cyborg 009",
-    "startYear": 2001,
-    "endYear": 2002,
-    "type": "series",
-    "tags": [
-      "anime",
-      "action-anime",
-      "toonami"
-    ],
-    "enabled": true,
-    "featuredRank": 76,
-    "alternateTitles": [
-      "Cyborg 009"
-    ]
+    "featuredRank": 85
   },
   {
     "id": "tt0366005",
@@ -1307,7 +1131,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 95
   },
   {
     "id": "tt0118298",
@@ -1373,22 +1197,6 @@ module.exports = [
     "featuredRank": 90
   },
   {
-    "id": "tt0877057",
-    "name": "Death Note",
-    "startYear": 2006,
-    "endYear": 2007,
-    "type": "series",
-    "tags": [
-      "anime",
-      "adult-swim",
-      "action",
-      "fantasy-anime",
-      "cult-animation"
-    ],
-    "enabled": true,
-    "featuredRank": 100
-  },
-  {
     "id": "tt0115157",
     "name": "Dexter's Laboratory",
     "startYear": 1996,
@@ -1404,25 +1212,6 @@ module.exports = [
     "featuredRank": 100
   },
   {
-    "id": "tt0210418",
-    "name": "Digimon: Digital Monsters",
-    "startYear": 1999,
-    "endYear": 2003,
-    "type": "series",
-    "tags": [
-      "fox-kids",
-      "saturday-morning",
-      "after-school",
-      "anime",
-      "kids-animation",
-      "action",
-      "action-anime",
-      "fantasy-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 90
-  },
-  {
     "id": "tt0118984",
     "name": "Dilbert",
     "startYear": 1999,
@@ -1435,6 +1224,23 @@ module.exports = [
     ],
     "enabled": true,
     "featuredRank": 70
+  },
+  {
+    "id": "tt1460205",
+    "name": "Dinosaur Train",
+    "startYear": 2009,
+    "endYear": 2023,
+    "type": "series",
+    "tags": [
+      "pbs",
+      "pbs-kids",
+      "preschool",
+      "educational",
+      "science-nature",
+      "kids-animation"
+    ],
+    "enabled": true,
+    "featuredRank": 85
   },
   {
     "id": "tt0101081",
@@ -1468,7 +1274,7 @@ module.exports = [
       "retro-syndication"
     ],
     "enabled": true,
-    "featuredRank": 75,
+    "featuredRank": 88,
     "programmingBlocks": [
       "Disney Afternoon"
     ]
@@ -1500,7 +1306,7 @@ module.exports = [
       "preschool"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 92
   },
   {
     "id": "tt0101084",
@@ -1531,72 +1337,6 @@ module.exports = [
     "featuredRank": 75
   },
   {
-    "id": "tt0088509",
-    "name": "Dragon Ball",
-    "startYear": 1986,
-    "endYear": 1989,
-    "type": "series",
-    "tags": [
-      "cartoon-network",
-      "toonami",
-      "after-school",
-      "anime",
-      "action",
-      "action-anime",
-      "fantasy-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 75,
-    "programmingBlocks": [
-      "Toonami"
-    ],
-    "franchise": "Dragon Ball"
-  },
-  {
-    "id": "tt0139774",
-    "name": "Dragon Ball GT",
-    "startYear": 1996,
-    "endYear": 2003,
-    "type": "series",
-    "tags": [
-      "cartoon-network",
-      "toonami",
-      "after-school",
-      "anime",
-      "action",
-      "action-anime",
-      "fantasy-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 75,
-    "programmingBlocks": [
-      "Toonami"
-    ],
-    "franchise": "Dragon Ball"
-  },
-  {
-    "id": "tt0214341",
-    "name": "Dragon Ball Z",
-    "startYear": 1996,
-    "endYear": 2003,
-    "type": "series",
-    "tags": [
-      "cartoon-network",
-      "toonami",
-      "after-school",
-      "anime",
-      "action",
-      "action-anime",
-      "fantasy-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 100,
-    "programmingBlocks": [
-      "Toonami"
-    ],
-    "franchise": "Dragon Ball"
-  },
-  {
     "id": "tt0243061",
     "name": "Dragon Tales",
     "startYear": 1999,
@@ -1623,7 +1363,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 95
   },
   {
     "id": "tt0386180",
@@ -1708,20 +1448,6 @@ module.exports = [
     ]
   },
   {
-    "id": "tt0404597",
-    "name": "Duel Masters",
-    "startYear": 2002,
-    "endYear": 2006,
-    "type": "series",
-    "tags": [
-      "anime",
-      "action-anime",
-      "fantasy-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 76
-  },
-  {
     "id": "tt0085011",
     "name": "Dungeons & Dragons",
     "startYear": 1983,
@@ -1752,7 +1478,7 @@ module.exports = [
       "kids-animation"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 82
   },
   {
     "id": "tt0184111",
@@ -1783,7 +1509,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 80
   },
   {
     "id": "tt0101088",
@@ -1819,40 +1545,6 @@ module.exports = [
     ]
   },
   {
-    "id": "tt0138919",
-    "name": "The Vision of Escaflowne",
-    "displayName": "Escaflowne",
-    "startYear": 1996,
-    "endYear": 1996,
-    "type": "series",
-    "tags": [
-      "anime",
-      "action-anime",
-      "fantasy-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 88,
-    "alternateTitles": [
-      "Escaflowne"
-    ]
-  },
-  {
-    "id": "tt0765491",
-    "name": "Eureka Seven",
-    "startYear": 2005,
-    "endYear": 2006,
-    "type": "series",
-    "tags": [
-      "anime",
-      "adult-swim",
-      "action",
-      "action-anime",
-      "fantasy-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 90
-  },
-  {
     "id": "tt0206511",
     "name": "Even Stevens",
     "startYear": 2000,
@@ -1865,7 +1557,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 90
   },
   {
     "id": "tt0460637",
@@ -1926,7 +1618,7 @@ module.exports = [
       "kids-animation"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 80
   },
   {
     "id": "tt0182576",
@@ -1977,7 +1669,7 @@ module.exports = [
       "marvel"
     ],
     "enabled": true,
-    "featuredRank": 75,
+    "featuredRank": 80,
     "franchise": "Marvel"
   },
   {
@@ -1994,26 +1686,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 60
-  },
-  {
-    "id": "tt0279077",
-    "name": "FLCL",
-    "startYear": 2000,
-    "endYear": 2001,
-    "type": "series",
-    "tags": [
-      "cartoon-network",
-      "adult-swim",
-      "anime",
-      "weird-cartoons",
-      "cult-animation"
-    ],
-    "enabled": true,
-    "featuredRank": 75,
-    "programmingBlocks": [
-      "Adult Swim"
-    ]
+    "featuredRank": 72
   },
   {
     "id": "tt0419326",
@@ -2056,7 +1729,7 @@ module.exports = [
       "preschool"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 85
   },
   {
     "id": "tt0111970",
@@ -2073,7 +1746,7 @@ module.exports = [
       "cult-animation"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 85
   },
   {
     "id": "tt0193676",
@@ -2104,19 +1777,6 @@ module.exports = [
     "featuredRank": 82
   },
   {
-    "id": "tt0328738",
-    "name": "Fruits Basket",
-    "startYear": 2001,
-    "endYear": 2001,
-    "type": "series",
-    "tags": [
-      "anime",
-      "fantasy-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 82
-  },
-  {
     "id": "tt0092359",
     "name": "Full House",
     "startYear": 1987,
@@ -2134,39 +1794,6 @@ module.exports = [
     "originalNetworks": [
       "ABC"
     ]
-  },
-  {
-    "id": "tt0421357",
-    "name": "Fullmetal Alchemist",
-    "startYear": 2003,
-    "endYear": 2004,
-    "type": "series",
-    "tags": [
-      "cartoon-network",
-      "adult-swim",
-      "anime",
-      "action",
-      "action-anime",
-      "fantasy-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 90,
-    "programmingBlocks": [
-      "Adult Swim"
-    ]
-  },
-  {
-    "id": "tt0111973",
-    "name": "Fushigi Yûgi: The Mysterious Play",
-    "startYear": 1995,
-    "endYear": 2002,
-    "type": "series",
-    "tags": [
-      "anime",
-      "fantasy-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 78
   },
   {
     "id": "tt0149460",
@@ -2212,7 +1839,7 @@ module.exports = [
       "retro-syndication"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 90
   },
   {
     "id": "tt0108783",
@@ -2234,25 +1861,6 @@ module.exports = [
     "featuredRank": 90,
     "programmingBlocks": [
       "Disney Afternoon"
-    ]
-  },
-  {
-    "id": "tt0346314",
-    "name": "Ghost in the Shell: Stand Alone Complex",
-    "startYear": 2002,
-    "endYear": 2005,
-    "type": "series",
-    "tags": [
-      "cartoon-network",
-      "adult-swim",
-      "anime",
-      "action",
-      "action-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 75,
-    "programmingBlocks": [
-      "Adult Swim"
     ]
   },
   {
@@ -2310,7 +1918,7 @@ module.exports = [
       "kids-animation"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 80
   },
   {
     "id": "tt0103428",
@@ -2329,7 +1937,7 @@ module.exports = [
       "retro-syndication"
     ],
     "enabled": true,
-    "featuredRank": 75,
+    "featuredRank": 90,
     "programmingBlocks": [
       "Disney Afternoon"
     ]
@@ -2348,35 +1956,6 @@ module.exports = [
     ],
     "enabled": true,
     "featuredRank": 90
-  },
-  {
-    "id": "tt0315008",
-    "name": "Great Teacher Onizuka",
-    "startYear": 1999,
-    "endYear": 2000,
-    "type": "series",
-    "tags": [
-      "anime",
-      "comedy"
-    ],
-    "enabled": true,
-    "featuredRank": 82
-  },
-  {
-    "id": "tt0305033",
-    "name": "Grimm's Fairy Tale Classics",
-    "startYear": 1987,
-    "endYear": 1989,
-    "type": "series",
-    "tags": [
-      "nickelodeon",
-      "preschool",
-      "kids-animation",
-      "anime",
-      "retro-syndication"
-    ],
-    "enabled": true,
-    "featuredRank": 74
   },
   {
     "id": "tt0088527",
@@ -2404,71 +1983,7 @@ module.exports = [
       "preschool"
     ],
     "enabled": true,
-    "featuredRank": 75
-  },
-  {
-    "id": "tt0374407",
-    "name": "Mobile Suit Gundam SEED",
-    "displayName": "Gundam SEED",
-    "startYear": 2002,
-    "endYear": 2003,
-    "type": "series",
-    "tags": [
-      "anime",
-      "action-anime",
-      "toonami"
-    ],
-    "enabled": true,
-    "featuredRank": 82,
-    "alternateTitles": [
-      "Gundam SEED"
-    ]
-  },
-  {
-    "id": "tt0435961",
-    "name": "Gungrave",
-    "startYear": 2003,
-    "endYear": 2004,
-    "type": "series",
-    "tags": [
-      "anime",
-      "action",
-      "action-anime",
-      "cult-animation"
-    ],
-    "enabled": true,
-    "featuredRank": 84
-  },
-  {
-    "id": "tt0361140",
-    "name": ".hack//SIGN",
-    "startYear": 2002,
-    "endYear": 2003,
-    "type": "series",
-    "tags": [
-      "anime",
-      "fantasy-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 75
-  },
-  {
-    "id": "tt0318895",
-    "name": "Hamtaro",
-    "startYear": 2000,
-    "endYear": 2006,
-    "type": "series",
-    "tags": [
-      "cartoon-network",
-      "toonami",
-      "after-school",
-      "anime"
-    ],
-    "enabled": true,
-    "featuredRank": 75,
-    "programmingBlocks": [
-      "Toonami"
-    ]
+    "featuredRank": 80
   },
   {
     "id": "tt0111994",
@@ -2527,7 +2042,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 75,
+    "featuredRank": 85,
     "programmingBlocks": [
       "Adult Swim"
     ]
@@ -2545,22 +2060,7 @@ module.exports = [
       "retro-syndication"
     ],
     "enabled": true,
-    "featuredRank": 75
-  },
-  {
-    "id": "tt0325547",
-    "name": "Hellsing",
-    "startYear": 2001,
-    "endYear": 2002,
-    "type": "series",
-    "tags": [
-      "anime",
-      "adult-swim",
-      "action-anime",
-      "cult-animation"
-    ],
-    "enabled": true,
-    "featuredRank": 82
+    "featuredRank": 92
   },
   {
     "id": "tt0138967",
@@ -2577,7 +2077,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 75,
+    "featuredRank": 80,
     "programmingBlocks": [
       "One Saturday Morning"
     ]
@@ -2642,19 +2142,6 @@ module.exports = [
     "featuredRank": 82
   },
   {
-    "id": "tt0426711",
-    "name": "Hikaru no Go",
-    "startYear": 2001,
-    "endYear": 2003,
-    "type": "series",
-    "tags": [
-      "anime",
-      "cult-animation"
-    ],
-    "enabled": true,
-    "featuredRank": 86
-  },
-  {
     "id": "tt0175738",
     "name": "Histeria!",
     "startYear": 1998,
@@ -2667,7 +2154,7 @@ module.exports = [
       "kids-animation"
     ],
     "enabled": true,
-    "featuredRank": 60
+    "featuredRank": 72
   },
   {
     "id": "tt0101120",
@@ -2719,7 +2206,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 82
   },
   {
     "id": "tt0218769",
@@ -2753,38 +2240,6 @@ module.exports = [
     "featuredRank": 92
   },
   {
-    "id": "tt0487183",
-    "name": "IGPX: Immortal Grand Prix",
-    "displayName": "IGPX",
-    "startYear": 2005,
-    "endYear": 2006,
-    "type": "series",
-    "tags": [
-      "anime",
-      "action-anime",
-      "toonami"
-    ],
-    "enabled": true,
-    "featuredRank": 82,
-    "alternateTitles": [
-      "IGPX"
-    ]
-  },
-  {
-    "id": "tt0385426",
-    "name": "Initial D: First Stage",
-    "startYear": 1998,
-    "endYear": 1998,
-    "type": "series",
-    "tags": [
-      "anime",
-      "action-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 80,
-    "displayName": "Initial D"
-  },
-  {
     "id": "tt0085033",
     "name": "Inspector Gadget",
     "startYear": 1983,
@@ -2797,27 +2252,7 @@ module.exports = [
       "retro-syndication"
     ],
     "enabled": true,
-    "featuredRank": 75
-  },
-  {
-    "id": "tt0290223",
-    "name": "Inuyasha",
-    "startYear": 2000,
-    "endYear": 2004,
-    "type": "series",
-    "tags": [
-      "cartoon-network",
-      "adult-swim",
-      "anime",
-      "action",
-      "action-anime",
-      "fantasy-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 90,
-    "programmingBlocks": [
-      "Adult Swim"
-    ]
+    "featuredRank": 92
   },
   {
     "id": "tt0235923",
@@ -2868,7 +2303,21 @@ module.exports = [
       "action"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 92
+  },
+  {
+    "id": "tt0362350",
+    "name": "Jay Jay the Jet Plane",
+    "startYear": 1999,
+    "endYear": 2005,
+    "type": "series",
+    "tags": [
+      "pbs",
+      "pbs-kids",
+      "preschool"
+    ],
+    "enabled": true,
+    "featuredRank": 80
   },
   {
     "id": "tt0118360",
@@ -2961,7 +2410,7 @@ module.exports = [
       "dc"
     ],
     "enabled": true,
-    "featuredRank": 75,
+    "featuredRank": 92,
     "franchise": "DC"
   },
   {
@@ -2980,7 +2429,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 60,
+    "featuredRank": 80,
     "programmingBlocks": [
       "SNICK"
     ]
@@ -3048,38 +2497,6 @@ module.exports = [
     "featuredRank": 76
   },
   {
-    "id": "tt0338621",
-    "name": "Kirby: Right Back at Ya!",
-    "startYear": 2001,
-    "endYear": 2003,
-    "type": "series",
-    "tags": [
-      "anime"
-    ],
-    "enabled": true,
-    "featuredRank": 75
-  },
-  {
-    "id": "tt0161952",
-    "name": "Saint Seiya",
-    "displayName": "Knights of the Zodiac",
-    "startYear": 1986,
-    "endYear": 1989,
-    "type": "series",
-    "tags": [
-      "anime",
-      "action-anime",
-      "fantasy-anime",
-      "syndicated-classics",
-      "retro-syndication"
-    ],
-    "enabled": true,
-    "featuredRank": 82,
-    "alternateTitles": [
-      "Knights of the Zodiac"
-    ]
-  },
-  {
     "id": "tt0159885",
     "name": "Kratts' Creatures",
     "startYear": 1996,
@@ -3123,22 +2540,6 @@ module.exports = [
     ],
     "enabled": true,
     "featuredRank": 80
-  },
-  {
-    "id": "tt0390733",
-    "name": "Last Exile",
-    "startYear": 2003,
-    "endYear": 2003,
-    "type": "series",
-    "tags": [
-      "anime",
-      "action",
-      "action-anime",
-      "fantasy-anime",
-      "cult-animation"
-    ],
-    "enabled": true,
-    "featuredRank": 86
   },
   {
     "id": "tt0396991",
@@ -3216,7 +2617,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 82
   },
   {
     "id": "tt0101134",
@@ -3243,7 +2644,7 @@ module.exports = [
       "preschool"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 85
   },
   {
     "id": "tt0229141",
@@ -3342,59 +2743,9 @@ module.exports = [
       "kids-animation"
     ],
     "enabled": true,
-    "featuredRank": 100,
+    "featuredRank": 92,
     "franchise": "Looney Tunes",
     "displayName": "Looney Tunes: The Bugs Bunny & Tweety Show"
-  },
-  {
-    "id": "tt0159175",
-    "name": "Lupin the Third Part 1",
-    "displayName": "Lupin the 3rd",
-    "startYear": 1971,
-    "endYear": 1972,
-    "type": "series",
-    "tags": [
-      "anime",
-      "action-anime",
-      "comedy",
-      "syndicated-classics",
-      "retro-syndication",
-      "adult-swim"
-    ],
-    "enabled": true,
-    "featuredRank": 86,
-    "alternateTitles": [
-      "Lupin the 3rd"
-    ]
-  },
-  {
-    "id": "tt0112057",
-    "name": "Magic Knight Rayearth",
-    "startYear": 1994,
-    "endYear": 1995,
-    "type": "series",
-    "tags": [
-      "anime",
-      "fantasy-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 75
-  },
-  {
-    "id": "tt0303503",
-    "name": "Magical DoReMi",
-    "startYear": 1999,
-    "endYear": 2004,
-    "type": "series",
-    "tags": [
-      "fox-kids",
-      "saturday-morning",
-      "kids-animation",
-      "anime",
-      "fantasy-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 72
   },
   {
     "id": "tt0212671",
@@ -3412,6 +2763,22 @@ module.exports = [
     "originalNetworks": [
       "Fox"
     ]
+  },
+  {
+    "id": "tt1043776",
+    "name": "Martha Speaks",
+    "startYear": 2008,
+    "endYear": 2016,
+    "type": "series",
+    "tags": [
+      "pbs",
+      "pbs-kids",
+      "preschool",
+      "educational",
+      "kids-animation"
+    ],
+    "enabled": true,
+    "featuredRank": 82
   },
   {
     "id": "tt0374419",
@@ -3438,32 +2805,6 @@ module.exports = [
       "preschool"
     ],
     "enabled": true,
-    "featuredRank": 75
-  },
-  {
-    "id": "tt0293731",
-    "name": "Medabots",
-    "startYear": 1999,
-    "endYear": 2004,
-    "type": "series",
-    "tags": [
-      "anime",
-      "forgotten-obscure"
-    ],
-    "enabled": true,
-    "featuredRank": 60
-  },
-  {
-    "id": "tt0367369",
-    "name": "MegaMan: NT Warrior",
-    "startYear": 2002,
-    "endYear": 2005,
-    "type": "series",
-    "tags": [
-      "anime",
-      "action-anime"
-    ],
-    "enabled": true,
     "featuredRank": 80
   },
   {
@@ -3474,7 +2815,6 @@ module.exports = [
     "type": "series",
     "tags": [
       "cartoon-network",
-      "toonami",
       "after-school",
       "forgotten-obscure",
       "kids-animation",
@@ -3483,7 +2823,7 @@ module.exports = [
       "cult-animation"
     ],
     "enabled": true,
-    "featuredRank": 60,
+    "featuredRank": 75,
     "programmingBlocks": [
       "Toonami"
     ]
@@ -3501,7 +2841,7 @@ module.exports = [
       "kids-animation"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 80
   },
   {
     "id": "tt0839188",
@@ -3602,7 +2942,7 @@ module.exports = [
       "cult-animation"
     ],
     "enabled": true,
-    "featuredRank": 60
+    "featuredRank": 75
   },
   {
     "id": "tt0062588",
@@ -3617,96 +2957,7 @@ module.exports = [
       "educational"
     ],
     "enabled": true,
-    "featuredRank": 75
-  },
-  {
-    "id": "tt0159182",
-    "name": "Mobile Fighter G Gundam",
-    "startYear": 1994,
-    "endYear": 1995,
-    "type": "series",
-    "tags": [
-      "cartoon-network",
-      "toonami",
-      "after-school",
-      "anime",
-      "action",
-      "action-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 75,
-    "programmingBlocks": [
-      "Toonami"
-    ]
-  },
-  {
-    "id": "tt0159172",
-    "name": "Mobile Suit Gundam",
-    "startYear": 1979,
-    "endYear": 1980,
-    "type": "series",
-    "tags": [
-      "anime",
-      "action-anime",
-      "syndicated-classics",
-      "retro-syndication",
-      "toonami"
-    ],
-    "enabled": true,
-    "featuredRank": 92
-  },
-  {
-    "id": "tt0097661",
-    "name": "Mobile Suit Gundam 0080: War in the Pocket",
-    "startYear": 1989,
-    "endYear": 1989,
-    "type": "series",
-    "tags": [
-      "anime",
-      "toonami",
-      "cartoon-network",
-      "action",
-      "action-anime",
-      "retro-syndication"
-    ],
-    "enabled": true,
-    "featuredRank": 82
-  },
-  {
-    "id": "tt0159567",
-    "name": "Mobile Suit Gundam 0083: Stardust Memory",
-    "startYear": 1991,
-    "endYear": 1992,
-    "type": "series",
-    "tags": [
-      "anime",
-      "adult-swim",
-      "cartoon-network",
-      "action",
-      "action-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 82
-  },
-  {
-    "id": "tt0159193",
-    "name": "Mobile Suit Gundam Wing",
-    "startYear": 1995,
-    "endYear": 1996,
-    "type": "series",
-    "tags": [
-      "cartoon-network",
-      "toonami",
-      "after-school",
-      "anime",
-      "action",
-      "action-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 75,
-    "programmingBlocks": [
-      "Toonami"
-    ]
+    "featuredRank": 95
   },
   {
     "id": "tt0115275",
@@ -3721,20 +2972,6 @@ module.exports = [
     ],
     "enabled": true,
     "featuredRank": 85
-  },
-  {
-    "id": "tt0218775",
-    "name": "Monster Rancher",
-    "startYear": 1999,
-    "endYear": 2001,
-    "type": "series",
-    "tags": [
-      "anime",
-      "forgotten-obscure",
-      "fantasy-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 60
   },
   {
     "id": "tt0476922",
@@ -3796,7 +3033,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 80
   },
   {
     "id": "tt0125633",
@@ -3859,7 +3096,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 75,
+    "featuredRank": 85,
     "notes": "Years represent the main nostalgia-era run; IMDb includes later release activity under the same title record."
   },
   {
@@ -3903,27 +3140,6 @@ module.exports = [
     "featuredRank": 88
   },
   {
-    "id": "tt0409591",
-    "name": "Naruto",
-    "startYear": 2002,
-    "endYear": 2007,
-    "type": "series",
-    "tags": [
-      "cartoon-network",
-      "toonami",
-      "after-school",
-      "anime",
-      "action",
-      "action-anime",
-      "fantasy-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 90,
-    "programmingBlocks": [
-      "Toonami"
-    ]
-  },
-  {
     "id": "tt0405576",
     "name": "Ned's Declassified School Survival Guide",
     "startYear": 2004,
@@ -3936,20 +3152,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 75
-  },
-  {
-    "id": "tt0112159",
-    "name": "Neon Genesis Evangelion",
-    "startYear": 1995,
-    "endYear": 1996,
-    "type": "series",
-    "tags": [
-      "anime",
-      "cult-animation"
-    ],
-    "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 88
   },
   {
     "id": "tt0213363",
@@ -3965,27 +3168,6 @@ module.exports = [
     ],
     "enabled": true,
     "featuredRank": 84
-  },
-  {
-    "id": "tt0388629",
-    "name": "One Piece",
-    "startYear": 1999,
-    "endYear": null,
-    "type": "series",
-    "tags": [
-      "cartoon-network",
-      "toonami",
-      "after-school",
-      "anime",
-      "action",
-      "action-anime",
-      "fantasy-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 90,
-    "programmingBlocks": [
-      "Toonami"
-    ]
   },
   {
     "id": "tt0293734",
@@ -4014,44 +3196,6 @@ module.exports = [
     ],
     "enabled": true,
     "featuredRank": 72
-  },
-  {
-    "id": "tt0266171",
-    "name": "Outlaw Star",
-    "startYear": 1998,
-    "endYear": 2001,
-    "type": "series",
-    "tags": [
-      "cartoon-network",
-      "toonami",
-      "after-school",
-      "anime",
-      "action",
-      "action-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 75,
-    "programmingBlocks": [
-      "Toonami"
-    ]
-  },
-  {
-    "id": "tt0433722",
-    "name": "Paranoia Agent",
-    "startYear": 2004,
-    "endYear": 2005,
-    "type": "series",
-    "tags": [
-      "cartoon-network",
-      "adult-swim",
-      "anime",
-      "weird-cartoons"
-    ],
-    "enabled": true,
-    "featuredRank": 75,
-    "programmingBlocks": [
-      "Adult Swim"
-    ]
   },
   {
     "id": "tt0191715",
@@ -4100,7 +3244,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 60,
+    "featuredRank": 78,
     "programmingBlocks": [
       "One Saturday Morning"
     ]
@@ -4118,7 +3262,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 85
   },
   {
     "id": "tt0100366",
@@ -4155,44 +3299,6 @@ module.exports = [
     "featuredRank": 90
   },
   {
-    "id": "tt0168366",
-    "name": "Pokémon",
-    "startYear": 1997,
-    "endYear": 2023,
-    "type": "series",
-    "tags": [
-      "cartoon-network",
-      "kids-wb",
-      "toonami",
-      "saturday-morning",
-      "after-school",
-      "anime",
-      "kids-animation"
-    ],
-    "enabled": true,
-    "featuredRank": 100,
-    "programmingBlocks": [
-      "Toonami"
-    ],
-    "franchise": "Pokémon"
-  },
-  {
-    "id": "tt1294022",
-    "name": "Pokémon Chronicles",
-    "startYear": 1998,
-    "endYear": 2004,
-    "type": "series",
-    "tags": [
-      "anime",
-      "cartoon-network",
-      "kids-animation",
-      "action",
-      "action-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 82
-  },
-  {
     "id": "tt0115319",
     "name": "Power Rangers Zeo",
     "startYear": 1996,
@@ -4222,35 +3328,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 78
-  },
-  {
-    "id": "tt0096686",
-    "name": "Ranma ½",
-    "startYear": 1989,
-    "endYear": 1990,
-    "type": "series",
-    "tags": [
-      "anime",
-      "comedy",
-      "action-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 85
-  },
-  {
-    "id": "tt0414763",
-    "name": "Rave Master",
-    "startYear": 2001,
-    "endYear": 2002,
-    "type": "series",
-    "tags": [
-      "anime",
-      "action-anime",
-      "fantasy-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 76
+    "featuredRank": 80
   },
   {
     "id": "tt0085075",
@@ -4264,7 +3342,7 @@ module.exports = [
       "educational"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 95
   },
   {
     "id": "tt0108903",
@@ -4329,7 +3407,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 75,
+    "featuredRank": 88,
     "programmingBlocks": [
       "Adult Swim"
     ]
@@ -4348,21 +3426,6 @@ module.exports = [
     ],
     "enabled": true,
     "featuredRank": 78
-  },
-  {
-    "id": "tt0088595",
-    "name": "Robotech",
-    "startYear": 1985,
-    "endYear": 1985,
-    "type": "series",
-    "tags": [
-      "anime",
-      "action-anime",
-      "syndicated-classics",
-      "retro-syndication"
-    ],
-    "enabled": true,
-    "featuredRank": 92
   },
   {
     "id": "tt0244926",
@@ -4408,25 +3471,10 @@ module.exports = [
       "preschool"
     ],
     "enabled": true,
-    "featuredRank": 75,
+    "featuredRank": 82,
     "programmingBlocks": [
       "Playhouse Disney"
     ]
-  },
-  {
-    "id": "tt0159933",
-    "name": "Ronin Warriors",
-    "startYear": 1988,
-    "endYear": 1995,
-    "type": "series",
-    "tags": [
-      "anime",
-      "action-anime",
-      "fantasy-anime",
-      "toonami"
-    ],
-    "enabled": true,
-    "featuredRank": 86
   },
   {
     "id": "tt0101188",
@@ -4442,27 +3490,6 @@ module.exports = [
     ],
     "enabled": true,
     "featuredRank": 100
-  },
-  {
-    "id": "tt0182629",
-    "name": "Rurouni Kenshin",
-    "startYear": 1996,
-    "endYear": 1998,
-    "type": "series",
-    "tags": [
-      "cartoon-network",
-      "toonami",
-      "after-school",
-      "anime",
-      "action",
-      "action-anime",
-      "fantasy-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 75,
-    "programmingBlocks": [
-      "Toonami"
-    ]
   },
   {
     "id": "tt0115341",
@@ -4502,27 +3529,6 @@ module.exports = [
     ]
   },
   {
-    "id": "tt0103369",
-    "name": "Sailor Moon",
-    "startYear": 1992,
-    "endYear": 1997,
-    "type": "series",
-    "tags": [
-      "cartoon-network",
-      "toonami",
-      "after-school",
-      "anime",
-      "action",
-      "action-anime",
-      "fantasy-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 100,
-    "programmingBlocks": [
-      "Toonami"
-    ]
-  },
-  {
     "id": "tt0101190",
     "name": "Salute Your Shorts",
     "startYear": 1991,
@@ -4538,25 +3544,6 @@ module.exports = [
     "featuredRank": 85
   },
   {
-    "id": "tt0423731",
-    "name": "Samurai Champloo",
-    "startYear": 2004,
-    "endYear": 2005,
-    "type": "series",
-    "tags": [
-      "cartoon-network",
-      "adult-swim",
-      "anime",
-      "action",
-      "action-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 75,
-    "programmingBlocks": [
-      "Adult Swim"
-    ]
-  },
-  {
     "id": "tt0278238",
     "name": "Samurai Jack",
     "startYear": 2001,
@@ -4564,7 +3551,6 @@ module.exports = [
     "type": "series",
     "tags": [
       "cartoon-network",
-      "toonami",
       "after-school",
       "kids-animation",
       "action",
@@ -4576,21 +3562,6 @@ module.exports = [
     "programmingBlocks": [
       "Toonami"
     ]
-  },
-  {
-    "id": "tt0122834",
-    "name": "Samurai Pizza Cats",
-    "startYear": 1990,
-    "endYear": 1991,
-    "type": "series",
-    "tags": [
-      "anime",
-      "action-anime",
-      "comedy",
-      "weird-cartoons"
-    ],
-    "enabled": true,
-    "featuredRank": 80
   },
   {
     "id": "tt0096694",
@@ -4637,7 +3608,7 @@ module.exports = [
       "retro-syndication"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 98
   },
   {
     "id": "tt0278877",
@@ -4668,22 +3639,7 @@ module.exports = [
       "educational"
     ],
     "enabled": true,
-    "featuredRank": 75
-  },
-  {
-    "id": "tt0367409",
-    "name": "Shaman King",
-    "startYear": 2001,
-    "endYear": 2005,
-    "type": "series",
-    "tags": [
-      "anime",
-      "action",
-      "action-anime",
-      "fantasy-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 95
   },
   {
     "id": "tt0126171",
@@ -4698,7 +3654,7 @@ module.exports = [
       "retro-syndication"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 85
   },
   {
     "id": "tt0260653",
@@ -4732,6 +3688,22 @@ module.exports = [
     ],
     "enabled": true,
     "featuredRank": 80
+  },
+  {
+    "id": "tt1236429",
+    "name": "Sid the Science Kid",
+    "startYear": 2008,
+    "endYear": 2021,
+    "type": "series",
+    "tags": [
+      "pbs",
+      "pbs-kids",
+      "preschool",
+      "educational",
+      "science-nature"
+    ],
+    "enabled": true,
+    "featuredRank": 82
   },
   {
     "id": "tt0203268",
@@ -4855,22 +3827,7 @@ module.exports = [
       "retro-syndication"
     ],
     "enabled": true,
-    "featuredRank": 75,
-    "franchise": "Sonic the Hedgehog"
-  },
-  {
-    "id": "tt0367413",
-    "name": "Sonic X",
-    "startYear": 2003,
-    "endYear": 2006,
-    "type": "series",
-    "tags": [
-      "anime",
-      "action",
-      "action-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 75,
+    "featuredRank": 82,
     "franchise": "Sonic the Hedgehog"
   },
   {
@@ -4919,21 +3876,6 @@ module.exports = [
     ],
     "enabled": true,
     "featuredRank": 92
-  },
-  {
-    "id": "tt0061300",
-    "name": "Speed Racer",
-    "startYear": 1967,
-    "endYear": 1968,
-    "type": "series",
-    "tags": [
-      "anime",
-      "action-anime",
-      "syndicated-classics",
-      "retro-syndication"
-    ],
-    "enabled": true,
-    "featuredRank": 95
   },
   {
     "id": "tt0112175",
@@ -4986,6 +3928,21 @@ module.exports = [
     "featuredRank": 100
   },
   {
+    "id": "tt0191731",
+    "name": "Square One Television",
+    "startYear": 1987,
+    "endYear": 1992,
+    "type": "series",
+    "tags": [
+      "pbs",
+      "pbs-kids",
+      "educational",
+      "live-action-kids"
+    ],
+    "enabled": true,
+    "featuredRank": 80
+  },
+  {
     "id": "tt0457146",
     "name": "Squidbillies",
     "startYear": 2005,
@@ -5002,22 +3959,6 @@ module.exports = [
     "featuredRank": 84
   },
   {
-    "id": "tt0078692",
-    "name": "Star Blazers",
-    "startYear": 1979,
-    "endYear": 1984,
-    "type": "series",
-    "tags": [
-      "syndicated-classics",
-      "retro-syndication",
-      "kids-animation",
-      "anime",
-      "action"
-    ],
-    "enabled": true,
-    "featuredRank": 72
-  },
-  {
     "id": "tt0361243",
     "name": "Star Wars: Clone Wars",
     "startYear": 2003,
@@ -5029,7 +3970,7 @@ module.exports = [
       "action"
     ],
     "enabled": true,
-    "featuredRank": 95
+    "featuredRank": 88
   },
   {
     "id": "tt0247729",
@@ -5100,6 +4041,22 @@ module.exports = [
     ]
   },
   {
+    "id": "tt1105469",
+    "name": "Super Why!",
+    "startYear": 2007,
+    "endYear": 2016,
+    "type": "series",
+    "tags": [
+      "pbs",
+      "pbs-kids",
+      "preschool",
+      "educational",
+      "kids-animation"
+    ],
+    "enabled": true,
+    "featuredRank": 85
+  },
+  {
     "id": "tt0115378",
     "name": "Superman: The Animated Series",
     "startYear": 1996,
@@ -5131,7 +4088,7 @@ module.exports = [
       "action"
     ],
     "enabled": true,
-    "featuredRank": 60
+    "featuredRank": 85
   },
   {
     "id": "tt0098924",
@@ -5150,7 +4107,7 @@ module.exports = [
       "retro-syndication"
     ],
     "enabled": true,
-    "featuredRank": 75,
+    "featuredRank": 90,
     "programmingBlocks": [
       "Disney Afternoon"
     ]
@@ -5180,7 +4137,6 @@ module.exports = [
     "tags": [
       "cartoon-network",
       "kids-wb",
-      "toonami",
       "saturday-morning",
       "after-school",
       "superhero-animation",
@@ -5224,7 +4180,7 @@ module.exports = [
       "action"
     ],
     "enabled": true,
-    "featuredRank": 75,
+    "featuredRank": 88,
     "franchise": "Teenage Mutant Ninja Turtles"
   },
   {
@@ -5240,23 +4196,6 @@ module.exports = [
     ],
     "enabled": true,
     "featuredRank": 92
-  },
-  {
-    "id": "tt0105559",
-    "name": "Tenchi Muyo!",
-    "startYear": 1992,
-    "endYear": 1995,
-    "type": "series",
-    "tags": [
-      "anime",
-      "toonami",
-      "cartoon-network",
-      "comedy"
-    ],
-    "enabled": true,
-    "featuredRank": 85,
-    "franchise": "Tenchi Muyo!",
-    "notes": "Years represent the original OVA run; IMDb includes later releases under the same title record."
   },
   {
     "id": "tt0165598",
@@ -5300,7 +4239,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 92
   },
   {
     "id": "tt0105933",
@@ -5329,7 +4268,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 85
   },
   {
     "id": "tt0131664",
@@ -5344,7 +4283,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 90
   },
   {
     "id": "tt0439349",
@@ -5377,7 +4316,7 @@ module.exports = [
       "dc"
     ],
     "enabled": true,
-    "featuredRank": 75,
+    "featuredRank": 85,
     "franchise": "Batman"
   },
   {
@@ -5411,29 +4350,6 @@ module.exports = [
     "featuredRank": 82
   },
   {
-    "id": "tt0280240",
-    "name": "The Big O",
-    "startYear": 1999,
-    "endYear": 2003,
-    "type": "series",
-    "tags": [
-      "cartoon-network",
-      "toonami",
-      "adult-swim",
-      "after-school",
-      "anime",
-      "action",
-      "cult-animation",
-      "action-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 75,
-    "programmingBlocks": [
-      "Toonami",
-      "Adult Swim"
-    ]
-  },
-  {
     "id": "tt0274240",
     "name": "The Book of Pooh",
     "startYear": 2001,
@@ -5460,7 +4376,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 75,
+    "featuredRank": 92,
     "programmingBlocks": [
       "Adult Swim"
     ]
@@ -5624,7 +4540,7 @@ module.exports = [
       "retro-syndication"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 95
   },
   {
     "id": "tt0098800",
@@ -5690,7 +4606,7 @@ module.exports = [
       "retro-syndication"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 90
   },
   {
     "id": "tt0283754",
@@ -5766,7 +4682,7 @@ module.exports = [
       "weird-cartoons"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 82
   },
   {
     "id": "tt0112064",
@@ -5842,7 +4758,6 @@ module.exports = [
       "kids-animation",
       "action",
       "cult-animation",
-      "fantasy-anime",
       "saturday-morning"
     ],
     "enabled": true,
@@ -5890,7 +4805,22 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 92
+  },
+  {
+    "id": "tt0179042",
+    "name": "The Puzzle Place",
+    "startYear": 1994,
+    "endYear": 1998,
+    "type": "series",
+    "tags": [
+      "pbs",
+      "pbs-kids",
+      "preschool",
+      "educational"
+    ],
+    "enabled": true,
+    "featuredRank": 80
   },
   {
     "id": "tt0131183",
@@ -5935,7 +4865,7 @@ module.exports = [
       "retro-syndication"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 88
   },
   {
     "id": "tt0101178",
@@ -5989,7 +4919,7 @@ module.exports = [
       "live-action-kids"
     ],
     "enabled": true,
-    "featuredRank": 75,
+    "featuredRank": 88,
     "programmingBlocks": [
       "SNICK"
     ]
@@ -6006,20 +4936,6 @@ module.exports = [
     ],
     "enabled": true,
     "featuredRank": 100
-  },
-  {
-    "id": "tt0112166",
-    "name": "The Slayers",
-    "startYear": 1995,
-    "endYear": 2009,
-    "type": "series",
-    "tags": [
-      "anime",
-      "fantasy-anime",
-      "comedy"
-    ],
-    "enabled": true,
-    "featuredRank": 78
   },
   {
     "id": "tt0081933",
@@ -6067,7 +4983,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 95
   },
   {
     "id": "tt0112196",
@@ -6084,7 +5000,7 @@ module.exports = [
       "action"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 88
   },
   {
     "id": "tt0086817",
@@ -6116,7 +5032,7 @@ module.exports = [
       "cult-animation"
     ],
     "enabled": true,
-    "featuredRank": 75,
+    "featuredRank": 85,
     "programmingBlocks": [
       "Adult Swim"
     ]
@@ -6136,7 +5052,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 75,
+    "featuredRank": 82,
     "programmingBlocks": [
       "One Saturday Morning"
     ]
@@ -6295,7 +5211,7 @@ module.exports = [
       "retro-syndication"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 92
   },
   {
     "id": "tt0291672",
@@ -6406,56 +5322,6 @@ module.exports = [
     "featuredRank": 90
   },
   {
-    "id": "tt0251439",
-    "name": "Trigun",
-    "startYear": 1998,
-    "endYear": 1998,
-    "type": "series",
-    "tags": [
-      "adult-swim",
-      "anime",
-      "action",
-      "cult-animation",
-      "action-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 75,
-    "programmingBlocks": [
-      "Adult Swim"
-    ]
-  },
-  {
-    "id": "tt0791163",
-    "name": "Trinity Blood",
-    "startYear": 2005,
-    "endYear": 2005,
-    "type": "series",
-    "tags": [
-      "anime",
-      "adult-swim",
-      "action",
-      "action-anime",
-      "fantasy-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 80
-  },
-  {
-    "id": "tt0341985",
-    "name": "Ultimate Muscle: The Kinnikuman Legacy",
-    "startYear": 2002,
-    "endYear": 2004,
-    "type": "series",
-    "tags": [
-      "anime",
-      "forgotten-obscure",
-      "action",
-      "action-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 60
-  },
-  {
     "id": "tt0112206",
     "name": "Unhappily Ever After",
     "startYear": 1995,
@@ -6485,25 +5351,6 @@ module.exports = [
     "featuredRank": 75
   },
   {
-    "id": "tt0086824",
-    "name": "Voltron: Defender of the Universe",
-    "displayName": "Voltron",
-    "startYear": 1984,
-    "endYear": 1985,
-    "type": "series",
-    "tags": [
-      "anime",
-      "action-anime",
-      "syndicated-classics",
-      "retro-syndication"
-    ],
-    "enabled": true,
-    "featuredRank": 94,
-    "alternateTitles": [
-      "Voltron"
-    ]
-  },
-  {
     "id": "tt0383718",
     "name": "W.I.T.C.H.",
     "startYear": 2004,
@@ -6513,8 +5360,7 @@ module.exports = [
       "disney-channel",
       "kids-animation",
       "toon-disney",
-      "action",
-      "fantasy-anime"
+      "action"
     ],
     "enabled": true,
     "featuredRank": 78
@@ -6575,8 +5421,7 @@ module.exports = [
     "tags": [
       "fox-kids",
       "saturday-morning",
-      "kids-animation",
-      "fantasy-anime"
+      "kids-animation"
     ],
     "enabled": true,
     "featuredRank": 82
@@ -6594,41 +5439,23 @@ module.exports = [
       "live-action-kids"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 90
   },
   {
-    "id": "tt0402716",
-    "name": "Witch Hunter Robin",
-    "startYear": 2002,
-    "endYear": 2003,
+    "id": "tt1128052",
+    "name": "WordGirl",
+    "startYear": 2007,
+    "endYear": 2015,
     "type": "series",
     "tags": [
-      "anime",
-      "action-anime",
-      "fantasy-anime",
-      "adult-swim"
+      "pbs",
+      "pbs-kids",
+      "educational",
+      "kids-animation",
+      "comedy"
     ],
     "enabled": true,
-    "featuredRank": 78
-  },
-  {
-    "id": "tt0367439",
-    "name": "Wolf's Rain",
-    "startYear": 2003,
-    "endYear": 2004,
-    "type": "series",
-    "tags": [
-      "cartoon-network",
-      "adult-swim",
-      "anime",
-      "action",
-      "action-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 75,
-    "programmingBlocks": [
-      "Adult Swim"
-    ]
+    "featuredRank": 88
   },
   {
     "id": "tt0247827",
@@ -6699,7 +5526,7 @@ module.exports = [
       "action"
     ],
     "enabled": true,
-    "featuredRank": 75
+    "featuredRank": 88
   },
   {
     "id": "tt0169516",
@@ -6717,76 +5544,6 @@ module.exports = [
     "featuredRank": 78
   },
   {
-    "id": "tt0185133",
-    "name": "Yu Yu Hakusho",
-    "startYear": 1992,
-    "endYear": 1995,
-    "type": "series",
-    "tags": [
-      "cartoon-network",
-      "toonami",
-      "after-school",
-      "anime",
-      "action",
-      "action-anime",
-      "fantasy-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 75,
-    "programmingBlocks": [
-      "Toonami"
-    ]
-  },
-  {
-    "id": "tt0247902",
-    "name": "Yu-Gi-Oh! Duel Monsters",
-    "displayName": "Yu-Gi-Oh!",
-    "startYear": 2000,
-    "endYear": 2004,
-    "type": "series",
-    "tags": [
-      "kids-wb",
-      "saturday-morning",
-      "after-school",
-      "anime",
-      "kids-animation"
-    ],
-    "enabled": true,
-    "featuredRank": 90,
-    "alternateTitles": [
-      "Yu-Gi-Oh!"
-    ]
-  },
-  {
-    "id": "tt0493334",
-    "name": "Yu-Gi-Oh! GX",
-    "startYear": 2004,
-    "endYear": 2008,
-    "type": "series",
-    "tags": [
-      "anime",
-      "action-anime",
-      "fantasy-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 84
-  },
-  {
-    "id": "tt0455295",
-    "name": "Zatch Bell!",
-    "startYear": 2003,
-    "endYear": 2006,
-    "type": "series",
-    "tags": [
-      "anime",
-      "action-anime",
-      "fantasy-anime",
-      "toonami"
-    ],
-    "enabled": true,
-    "featuredRank": 84
-  },
-  {
     "id": "tt0190211",
     "name": "Zoboomafoo",
     "startYear": 1999,
@@ -6799,7 +5556,7 @@ module.exports = [
       "science-nature"
     ],
     "enabled": true,
-    "featuredRank": 100
+    "featuredRank": 92
   },
   {
     "id": "tt0415463",
@@ -6814,49 +5571,7 @@ module.exports = [
       "comedy"
     ],
     "enabled": true,
-    "featuredRank": 75
-  },
-  {
-    "id": "tt0367443",
-    "name": "Zoids",
-    "displayName": "Zoids: Chaotic Century",
-    "startYear": 1999,
-    "endYear": 2003,
-    "type": "series",
-    "tags": [
-      "cartoon-network",
-      "toonami",
-      "after-school",
-      "anime",
-      "action",
-      "action-anime"
-    ],
-    "enabled": true,
-    "featuredRank": 75,
-    "alternateTitles": [
-      "Zoids: Chaotic Century"
-    ],
-    "programmingBlocks": [
-      "Toonami"
-    ]
-  },
-  {
-    "id": "tt0214354",
-    "name": "Zoids: New Century",
-    "displayName": "Zoids: New Century Zero",
-    "startYear": 2001,
-    "endYear": 2001,
-    "type": "series",
-    "tags": [
-      "anime",
-      "action-anime",
-      "toonami"
-    ],
-    "enabled": true,
-    "featuredRank": 82,
-    "alternateTitles": [
-      "Zoids: New Century Zero"
-    ]
+    "featuredRank": 88
   },
   {
     "id": "tt0111873",

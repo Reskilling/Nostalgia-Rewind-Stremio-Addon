@@ -14,13 +14,10 @@ const MEDIA_TYPES = ['series', 'movie'];
 
 const KNOWN_TAGS = [
   'action',
-  'action-anime',
   'adult-animation',
   'adult-swim',
   'after-school',
   'animated-movies',
-  'anime',
-  'anime-movies',
   'cartoon-network',
   'cartoon-network-movies',
   'comedy',
@@ -34,7 +31,6 @@ const KNOWN_TAGS = [
   'educational',
   'family-movies',
   'fantasy-adventure-movies',
-  'fantasy-anime',
   'forgotten-obscure',
   'fox-kids',
   'kids-animation',
@@ -61,7 +57,6 @@ const KNOWN_TAGS = [
   'syndicated-classics',
   'teen-movies',
   'toon-disney',
-  'toonami',
   'weird-cartoons',
 ];
 
@@ -87,8 +82,6 @@ const SERIES_FILTERS = [
   { name: 'Cartoon Network', tags: CARTOON_NETWORK_TAGS },
   { name: 'Disney', tags: DISNEY_TV_TAGS },
   { name: "Fox Kids & Kids' WB", tags: ['fox-kids', 'kids-wb'] },
-  { name: 'Toonami', tags: ['toonami'] },
-  { name: 'Anime', tags: ['anime'] },
   { name: 'Superheroes', tags: ['superhero-animation'] },
   { name: 'Retro Reruns', tags: ['retro-syndication', 'syndicated-classics'] },
   { name: 'PBS & Preschool', tags: ['pbs', 'pbs-kids', 'preschool', 'educational', 'science-nature'] },
@@ -102,7 +95,6 @@ const MOVIE_FILTERS = [
   { name: 'Animated', tags: ['animated-movies'] },
   { name: 'Disney', tags: ['disney-movies'] },
   { name: 'TV Movies & DCOMs', tags: ['disney-channel-movies', 'nickelodeon-movies', 'cartoon-network-movies'] },
-  { name: 'Anime', tags: ['anime-movies'] },
   { name: 'Superheroes', tags: ['superhero-movies'] },
   { name: 'Teen', tags: ['teen-movies'] },
   { name: 'Comedy', tags: ['comedy-movies'] },
