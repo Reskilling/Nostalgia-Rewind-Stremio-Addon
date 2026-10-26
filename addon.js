@@ -3,8 +3,6 @@
 const { addonBuilder, serveHTTP } = require('stremio-addon-sdk');
 const manifest = require('./manifest');
 const { findCatalogItems, itemDisplayName } = require('./catalog-query');
-const shows = require('./shows');
-const movies = require('./movies');
 const PORT = Number.parseInt(process.env.PORT || '7001', 10);
 const CATALOG_PAGE_SIZE = 100;
 // The data only changes on deploy, so clients can reuse catalog pages for a while.
@@ -67,9 +65,7 @@ if (!Number.isInteger(PORT) || PORT < 1 || PORT > 65535) {
 }
 
 console.log(
-  `Nostalgia Rewind v${manifest.version}: ` +
-    `${manifest.catalogs.length} catalogs, ${shows.length} shows, ` +
-    `${movies.length} movies on port ${PORT}`
+  `Nostalgia Rewind v${manifest.version}: ${manifest.catalogs.length} catalogs on port ${PORT}`
 );
 
 serveHTTP(builder.getInterface(), {

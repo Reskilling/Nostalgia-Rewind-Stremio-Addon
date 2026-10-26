@@ -155,7 +155,7 @@ The addon is hosted on BeamUp. The `beamup` command deploys your latest
 
 1. Run `npm run validate` and confirm that it passes.
 1. If you changed what users see, increase `version` in
-   [`manifest.js`](manifest.js).
+   [`package.json`](package.json). The manifest reads its version from there.
 1. Commit your changes and push them to GitHub:
 
    ```
@@ -166,7 +166,11 @@ The addon is hosted on BeamUp. The `beamup` command deploys your latest
 
    Replace `DESCRIPTION` with a summary of the change.
 
-1. Run `beamup`.
+1. Optional: To enter your SSH passphrase once per session instead of on
+   every deploy, run `ssh-add` and enter it there.
+1. In PowerShell, run `beamup`. Don't use Git Bash: it sets `HOME`, so
+   `beamup` can't find its saved settings in `%APPDATA%` and asks for the
+   host again.
    - If it asks whether to create a new commit because the commit history
      didn't change, enter `n`. This happens when a previous deploy failed
      after recording the commit as deployed.
@@ -185,7 +189,7 @@ Title lists update as soon as the deploy finishes. The manifest, which holds
 row names and filter options, is cached for up to 4 hours. After that:
 
 1. Open the manifest URL and confirm that `version` matches
-   [`manifest.js`](manifest.js).
+   [`package.json`](package.json).
 1. In Stremio, uninstall the addon and install it again from the manifest URL.
 
 To see build output from the server, run `beamup logs`.

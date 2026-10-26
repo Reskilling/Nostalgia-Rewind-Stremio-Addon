@@ -1,6 +1,7 @@
 'use strict';
 
 const { catalogs } = require('./catalogs');
+const { version } = require('./package.json');
 
 function catalogExtras(catalog) {
   const extras = [{ name: 'skip', isRequired: false }];
@@ -27,7 +28,7 @@ const enabledCatalogs = catalogs
 
 module.exports = {
   id: 'community.nostalgiarewind.catalogs',
-  version: '1.3.0',
+  version,
   name: 'Nostalgia Rewind',
   description:
     'A definitive nostalgia channel: the cartoons, kids TV, sitcoms and movies a generation grew up with, best-loved first. Browse by decade or channel in Discover.',
